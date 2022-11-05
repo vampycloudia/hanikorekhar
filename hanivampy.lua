@@ -1,3 +1,946 @@
 
-vampyhani = decodeFunction("c-rlK3t$^o*(HI3X7f(gEdnZK!76,?lq5}t*W[#,lAR:NUS!i3P_9R=lC0V6rn^RaMfsR+VXFug6#M]Y5X!@1ASj}Zq:hYSC=Gxn6^w1eh;Fio/$undJNrszb_*:/]v3n6=K$T?(iUPY(wb3=+=Zs8Go_;,ai6HKd2/b_qE%Hh;q,+^Dbtcb1Yj.d0;!u92fT_(WT}VPm(B;YsV/Rrq5*3=7x9v%nno%mFY#*E5vChqHJbMVm)+tR7rOK_BR{LuS]LQ1QaMR#/z!YbCxSqU+Gow/Ny,RiB_:#R?wQcv/c/n5ySIV{/zTJdMUp#RWOkp62)+%TJ1R-=f:V*bZzT}bs*+NDMUod+k:gsIi0C4uinu.5%1Bcm7gJ3BgqUXXCq$Qk@5vq8G/CU^V*7MYn#os*t{;KADauGwpA:I{^%/kO/o[03/tSe%%1BdJiYX;vC8n8tmFS]/UoFZ:Q(*;ACVxsyGx/{Zs^-X}L;X!78ZpJ;Pm5[Le[C_8P]+{[k+2N^Q%t@2Of(g9)N(4@@]eY4b-kEk??K;{lRqQ6s!,Z]l#!-x5K}OPQA^*WM$uJ]?+Yt{n%X0#n0%9%X7Wv/s_MwpMHy-8W--O(Tf^VzZxLO!DBmi_NK=0pDJFkbOf(hjqN?)((xtb9*aS$$lRqz{nf!UtRgdx*L;X!73u21NUlh_!^-Wq:K;16ej5PHnF}#IBi*ki+S#(Kz]75G}H1!oR#pK);G=Q-:T{PmNyC?=}-7cn;^8cf^/gbdZBT;FXl#!/H5K}OPQ%p1YPSJG}%3l+?q@YloDJFkiOf(iGqRWl*U80OMb)ff8?.AgZlfNOl7NdN)C=ieXEvA[KO*/@nZ.Gy=QT}:FBTaovOfmV{Vw%a^7F{.b]5sY5nz}0!G5I?Un#tc0UB^rTi!#!bE}c0}E2fz_E4q$Fd9NrVP3.v@Ox]D@nY;SQ9f$J0qKq[kub5*.ePWu*[ld4Iqns9Hq@Y!,V*A{5(E*-{;n$kXFUm,$[lqeeKOm-:^DA0sE6NXwGSbw8Vv5NRiD?Q3B*X1A]C)B.ntE7FG5HZO(E!W!+AkQ.6:kHUN5vGA9}09_eoS/ofb!#[j5PJQm{2q*G0o%yqRWHw6QYbX@?NyW?^=kk$xn*_6H$Ijl#!.M5;rh6u9#-;cSYApC[gRANK.RXDJFkUOf(g:qU(uae[xc5roJzxnEV4V(Ey{5uB9mdP=V9Teki7x^EV1p?-w3A=I:Gh%1BesiYX;PC#ISFoalN7%0Ciiq@Tc=DJK6_Of(h%qU(Uoe/I3AQ$G/=OnzQWGx;SZbqdNah%)aD3u21NFN$d/zbLx=1LcFFj5KvnOfmVVVw%Z66/zN^]DdbxH1#tv#pIuhX)s/%biE7ZmqZz9;LoG7/X=zsCjUZoi75Y4l#!-;DW.hGD;2RFUx{[$QGQvJk*}c2Q%wG}m{c@=Mb_QvUlC:bsaM1llYb,onfx2kbsEaAiZasFt5y2UZ)XkKWQ)-DZV3?I/d;#2BBy4EM^,={x#mi3C+JgGl7g[!sZ=FcbuLNE:aQu_DRZUHC6)!O;z2weN4Y+okS;vk:8_U@^_:b+ehqULT?*N1-x7,15,NlVI#.E}qdXN=+Q(9I8lH#-*(5B{G7yUf*Oeh{eNHTo:}XA9vF,XfOXa}-*3H!OjdzbmqA[(=?^ls21]=rYgdR1jCcIOLs5g.N0%JX*c!E,T7@KzPl!=jhFKQRkI!Mv0gd%b?HbJY{l{VOw5$2nm42J;:lU,lhL_CQOK[xcc3t+@Q0R!8VTx0Iwy==^mnYe$phOGyP][BjK4aQtCEDo:dJuNFdE$yC]m7c}X@Z!Qc_Ci(x(8;^LNV(Wv%Qv?pR.}23t=*FidgG1xKwRlr-U0kS!B}sO3n8n3r%T#eJuPOQ[8eYr0p9K1e6((To[D$orfL}y*{O=g/L/68n6E6k,F(j=o-?aF9d9r[W;ob{l=GE_GPNf2,gmyFJCpf6XJ_e1vMs}gClzqk;ZwF197:2-rImp)RY{CDi@bEr[OPnN]lk_.Qwiz/(y(_uI.osXT}iSx[5OqsOPD;QvQtg0@R;[#pj+6::xChQBHI{VN2kEEJJFv/LjihJ]/N0LRktPDwkK3=ET)Lyi[9Q?A^L5[)gsuRn2yGR+:WEr5:zh]Ga8h?[yGLPrsz[]y:sCs#MHQ(2t@XuO%t;#IyoASMki[INN6UkjMD13GNSrsK-Up0/*_^DVuDbR*/(VbPfiVwCZ[2klZV^HN.n%g9=SCEBDCJ+heszuw5lVfjCLm*X}PI}-d-46CSYJOMP-JIwJ5fSqjBIXjV!c2HwTw@23nIzZ)3-_x6qVtp)*2glbNMCKTC6dmgbx,(9rJXIsqfl1g#v6suNRjK00j,P0_^Zo5aZYcql;{I)xkB-M,ytUr):Zh(J;p?o[ac5Z?jcgGR6Kj+LKCL/d7bHAWi-LGN(M,CLdq.$yU}Po3Tbt]:rPqc/](98x0aEb(APhB8[,sEj6+(M3q-bYq+2Dq$Sw0uU1ojQ0(j!)m#tArubxk90,2fV6H9O0X@x3PfWOS}aYU4@IxqX#K^{*}Sro966^42bF+tfUz=Y8XZf{MQu_F(@^90z5%:t^I=B!BG=m6fW{2}NDT,uqZ1QK1dFg{pvybh-^l_lb$WZcy/on)r;9?.;K_O@r{c9G.Ly50-]eh;p-r@9qr0zvz(p5;9@psQvuRyl[j:!.--o(SI^p1{hj(9CUBm[1,c*I)Z:!Yn4L.w^)4fyd/fpa%9-nVulfP$OC#?bBQ)^VVY$L5=2shGN=;4BC2:w2Lw8kF[Z(M.uabO3a8bZNnWFxKXjzQJO1CanEshEt$L*db]b3/]jHNlz6k#KYx%2qWx77DBJDOx$9#6lAat)/0EiB]rV)dh{O)Mjwz5$IUZxdY=VG3p9TC1TsrWk6F^p%vSq]%%_}8iUYE:snPs*MZq(OW6kPOI@X35^S}Ocw(1v1YS[3jE_40)2^hb/pZ;0qGdD.3R,-Nrmj#xorD}5Xsa-wK,+)BR.[FXZR0Jgnheqmd7D/!%HU+ks}Vwn;Rc%01o)PW3#1.0e[i8BY.]LnYi?xVcX_T.nHq)]Ef$RfXb4=Rt9oHdR;AG6,GEk[VFilq4,X_=nuUOP9Q;A6].{:m7#$g+E?-sXpgq2[btR:8ZGK8mZ#x73Sx2eAXOLF)u5DQb_DyE?_Jo*%;}Csay@2.3firFIoQlwjfq_ygl(/(tX,[6Cb1QZALdl;o^/VHuxgMtRXpB}?;m684%O{9.C!zHNV@aXJGN:SXiURc%Wod=_Mz[/7DdpTI[HQ%$cR8)ALNVxS5hzn*Y8/+83^nsjgh(_CR_BLNKw1HQ)bO8CG{f^LMo8#8lh]5az-]o6LRChg3Mz-u.Z((ZcremrkY-vQZ-T#IO@J+_+{o(SMgh-;.}!d_VX=,*.xNfT9_P63CJVuJechd1Lp.Z#904Pb@bdLaI^fYZ13sQ(abXB1tDV3Z#z?eR/)c{Ku{}r(:jw9:7C8ovnTgC1FtS=4K=:GhtunYiTF-T{36NH@DP(?F9NY@2slqOSgJcCV@r%5};r@PF2HSn;*mR+AwEXI.?XzrQt%pf96HEXyOr+-F,5t/@:qNpY0OsGg;Ip@S2[,o%wBzjT?kK@M5!C}_HsOoKu,b-m]]6O*Xq.B4IHO@ojH}TFflc:Juopt]H[XJ!V}e}CGT!NUi7a[ZuQp4TYD73e[mU.rYE33;Bn9D?NNqw_Ya[yJ897LZ5R=eX#F2LEILRhXvx)Df.z*.$J*1bqCQi4BBR)5?HgTFwoNg0GWE+:nahgq;ZWBj3ZS2^@X+O{XO(sa6v1b#f+}IBKairVEo:u!*6Q_q6ku@5/cwDk)9-TZ,sLjSnYe]C5OLpmNg.]QZTwX8PLo{Yx3.BA.eehg,i4N)p-*aw(C8SJC:^.l+@y=JlPecCw]a@.s*Dzj.1G,U}59Cil^/PFfDg,]tLXyHBmcLiP^As/H9EAL7$nQ$7C6%+l%e,DZNqKw8Qb7_ALjJVW$I^=*@{F#Q!!?bEbF$UrK.E-OT{*MixUd[AHHORE+Wc-PA93nC[,!wWWnX4bEw$]^8Xp=s=w8xjjYk;(sNz{.(vwo3S9q{dRg-zmWd3L{e;R!Fnha@?Oqt10lX00$mC4kZOoPcBVKPUV%wm(ylgS*wGH+7Sx0:jJCi6}^5lv;9$@56uw3(:-GJPg9kTKe2*:k?TkFUvn%9QccPmj$!(H9#mntUEv[B6_o0-6e+x*QLiGM;IF?fko#ES]Dwx=Q*upnVj]mke?=L2fq4R{FH9LB3#,yMTDIX{+DC/ILMPV%X:6u*7U%t3keEkk1,9vp@[=:SVjpceFFu^Hb+Ds1:.Mvl=0sgZ0YJ[MZNA9q!uOgxeT@%meb]@Q_C!Ay4UTc?:YaR])(IqgD9e4ZX?{VCchTr0]D!^%$kc]z@$n;SdhfS$CGm5=#:6n#bYdLg:c!n#P8kSxtbUga{I_o]-Gw%$J7/nLMN^lLxzfH5xq%S{QO/9G%$$Ya3V{.p1CpJ3JvywvUaw1(%VeGn+BjdF[C(OBy_]vZt+B@9G}S5y)qjE5KQsdC_+,?.ODHhQEI;*W1_VPtmn)F=yw07*hZBdO?+C,uUMHZP{^AJX%;nRpsQtH.jBo%(@}^qwn=eS)w(77Zcd%*%O_t3C-6pb!5_%ifnrAUS5Wr@ky8*1D0^pJaG)^FQ++kIk?hdiz^O%ZGl/NDfjg]nA6s^belM]-:.h@ahgq;ZWBlDx3Omvr]g2mHgV)u8,$f!noXQ.6GtAjv1b#f+}IBKapWNzdp2;JO]L8MM.@AZXA]H^#OXG1/PjTtHgTFwoNg0G9/^M(6Q_k4:^9lXF(ld{ahgq;ZWBiyx3Omvr]g2mHgV+DjXj$/%[dH[i6c,g+t3b#Y}pmAIP#;8J*1bqCQi4BBTw1bvx)De.(huh?=9HyHgTFwoNg0Gp0:?P6Q_k4:^9lXdp7oL.xwB$-6oEF-@QLzoMscJ,r+I^+x0j*)]?2(n;g{A8,$f!noXQ.6Gxu0v1b#f+}IBKapYMWdp2;JO]L8MN1n5;H#ZI,7q)eEE-dPe4u]@OI66GM-SU{%za[XpE[e@H$[LK}w61$n39b+R*A-zgPm{DSqP5YpTK2Ror]3J94{o!cFP(=:p$Tt1j@S1Q?N[R4za#NFv%nOX_I?0zXcwk*zk1gufj=U{(iicbzTj;ng{db=p0rL5(G-^jfpJvu.m?]k)HC:u*(kskD5zrWWb7OxHXPe,Fq4yKv1dN[DJJvYrtL:5fVk9PUOkmF9jiEV;uS!lzR!(MPtNS_nrS+XGt_WyaSdl*?@j^[x_0p(TWe3?A-$YA+vFZkLC$;mOwNprbLJ.s/IKz}XBI!e8S+G,E]4yb!Dv6@%+D?e:F)=5Q{-jz^P{s#T:{Az[}*GY^%/%Vz0Mg:]PsaH4V+daeVoxH(U_:}Gh}P{4:bEWggA5M2RQR]oHJk9$)hS^ai.YmGwNbf.m0]h[?$hA[A/[Fyp1ylb/W*1[Dv4HlQZEi(NQ}aY%sx@-{4Ip3uj(xUgNo^IHUjlAG^Qch}X^gxJ}95(Qu-CnY(EpoF$xj^B4_h=G)/ux^Na$TR5_HC1,?;nTx-ca0g{XnFrfBvuESE98Uvx=8zfJ*3um0ttW9NF}FHif5@-J[*DCr]!#1._IV2sgl]$lQ%4)28Gl7G:PkisSUCP*a{.oE3BLQ3$Sz3_bc^)77@RW_KAB%5XylSvsXQ%sL7]UWZ4:1Bq$aG/h4RnBDE7_e-[IX]EI69E+sCh?4ch30k[e1Z]gZ?jvg22EA^v;R7+:EMBY4nUbnH)#gjX1*aPfCI#%H,[spMNVXtJDr%h9POdZrX)SBTd1s+$PgggUW.Rt2N(.ZR]Q!bT.8R}t4cx8a2%.U}YSyNv0M/9?7fMh*Oz/1u52#AN+4r:6BqHldz298/PMSB7S0EcDkxc*g+(oMgA0P]8kMJ#3MA5riLUli7R@W_4g^gujb5aWyut4B3-Vwjh+EhWgtD6BE83=/DvVNFw[_#?F4uG[O#lX+:?5NE=Rj%umO^E:cKZWEW]^z)c@6M!d.#?_:[ugxPXPrwI;{4go*bJ[vkWvO]$vB_[coy,Tr]AWOlG/fM.i0x1h7iBKgaFOt1Ja*N$e+%C=6WI-lLuZyIUGI8ydNzhBmmS]0a4rKvv1X,-w1SxMP+[G?ppPj8Ft}MXpBWMD_5n1ShIG;Tuo5Lr(fNDgZ=INAR17)c(cC#=7-gmIJiHB8n)*{8+UT_kMF^qAEI.4!!I@V/.e*H3)OsKS$=SKyAw;Pu}A^ghV*xJouAkarEVPf/3b,91LmWQI=2;9@}eQQFAkB39=gy+!8kmscCUT;$b(*e)ss9QbsZOhad@({(v+Vntw50ReHglBmp^)+=d7%hv?3fxDa/=mFei_v6?m*Q-2?1k?v*RFCig]2I5FMaj8U3ccazWrR?%kI0ff%v-i;v=JJ%D(Le:J/NfTi$Hs7xVReAur4A+,@P5k:UTbA};8FJG{G1rH26k8p1Qs-SKYE,k;/(n*9)?jT%vg!*nK1uelpjg]X2b^nLsuSYnvpY+{:pQz5+I#Vu.XUMLyEP!,+/oW?WjLzlpvqk9RCSQ/DyjHX@MxGnhFUV)I!X:ES#rRBKp)/*g$!hboSwXv;:=,L4j#)rH.Y5uA{YG-T5PHi7a;g8w])vXykbU;bVSX181-!FEMC3:{A;m7i?2cx*8nAIwXOK8vTjOpO_pi[qbkm9;dd[T#.%s36Yn-1NLbP@YIDacnQYn]N1-[PRl7ZT:3=[py)RNEGRK#9/X0C-)O=Nuk3SThoe#S?IJk4JqoN,7Xb2}VlCF871C,/ueoECQ^cRziuPP(nKX#g8=5y4$wk;h%c2h8(%W1lh-.wK+TGvh^6tZZTUgGs*y[uem+D@wMp2RvJs@]FDTDOWAJ8+{2Hy=f7bT)/6U-WxoB7%y@#rU0L1@VL?kowNz}RTU2IOEQa[+(%gX(knPCvvFJ2k;^QI?!fT.F8f)f$t@d,pSg]HFbK;;/cw@=$$g%7Jiai;;.hnPvJ0},]-#v^d*dh6WpR9ZzvFo7cAIkRZp=BKF,YZJ4!a64W(t2U$$JOy,Ve9^6u3l(CoW9_^UW;lYcWG@%-Q3D]=)GM!UuEm/A2}c+={x$f(pSLw7S.o{](Z6!^^.B+4#WMM_Jm,Oxcf]^+v}%:[lGp-^!+KnXO}NFCnreI1vJ0{U12F)jNt{(2cW7TDal9DxCsr5FVoGBL6;Og;K?uM.2j)}1V=A9B:ZrZ)7(rq1NPo,:ha7MFq$7S/?xztX1e?OM,==97tI,(3sxF8:XvU9@VSym%a21FXiuE8.@2-}HOKKT05AF(^H0^@$;?0SfC;,^q_,.vrQoSMJu49knI-sp0sPg:.IX]16TIaDxu9Gl/rEx_5[o9UDm%Si/AD=$)tI%9H9K3j2f}s/8QJgMTlQ#jZ?I9ejNIxKwA9]/vcGLdnNVI%U^Oz:Yuj0_r.P{:2;(;Lm$#ke,vVNIC@{OEbEbuOPocxuxk/*3sH,^}6WJF*@$PyvD.]%T.Hiwd-dz)M[Ry-J3PW9VyTwD.We_RiQN3@fXIAel$y6]sBYWC3.g%#,tH7(O$X08.lWMKb^K*6/*M+^t6yPe0*aA7h^#gOv4IcF$^I%a67$f(flHh^6l%X!sn^{+is7txbOM2U8X:.a.%*/ESDsLm.Rb+#5A@TX{64DNT55icvUuzTCCz3EGLJJ57Va%%)[6bX(j-W9{XL6s:H?mMaIa@Lnfx2}-b($?zNkN10b{7^D$xyeI-VT/()t9tXShq)xsoN@@2UF_:y4TO:4_wLNSMjb5r=%7Dk?$o,92$,NL0Z.$c;J2RfjRCKX?oC8[=@Z=B_4m[E:hXJ*3Y#Hm6Z^;t(JqXH{@q9l_y6T+N?mRnTacRZI,q1a81=?HjFQ^1X!!#]m7Ty@{!k}DN%9=^=.?J6Bn$xI%l:A*GSO=UT7fcALnC)EM]ytel[82E.^t4VK!s/TIX.ylJTIu1$6R)y=RbV-33[;7!9?K-;ji;uwLYXh4fskL}xGPSAf-Lu52!HNxponAkT{^;oc$;ee,/_KI,ov!;T#Qsuy6?O_0Z%7a-5CSJ_RoWdo}M(g%egMrU%HzoOgH/6GbK(,ZBZ*):}!SZs8PJni_$nvJ3sgfRf}WNyw,xO_=;%Pli6r$*y-N@lE^:XA}_p$ISk_IYdUJLf!_@GM?I)Elr4Gtc(6;zGFw-6KbLt_8tj@Fo.EIoX/X6D@.UZMj7?vnw7gyh%7[PFH+dKpWfa*$iw/mAF$23pm!SUY)HRB_?qs=,#h;GS@_dk2*+@Aw7OY=-IP@)=k(14kbJ;C$%zTw-R*9N.:4d/w:6B(ESss-;f8%PwPa.U2*;mK[xsHc#}ioR]:dnu/aGfs!00_T:l2G4zBt.VbzaM0JE@[cfl)6)=VIfu}P]PlVyB(5o},*vLxujJW0@C86q]Uv)5[T/kRp@dbSN$*8z,}#={aX62M.}.+Oyj+}Wf291O+1/yk{O#N:7DLhkPI)fU5zPmHUHWy1/Q1CKzOA;62vL-1Hs8(_feLs7/.oi%4KGJj7Ro}8paQ/KGl6Zf)k+ea)_Ivnj_)I!/:,YbE9DGmAAF0t,vblk9pI,h[n=hNmN^N}37vydOt%_d:]$11IDM.h^?Eo^sE]YayeB_!7Bb}[#))GE(Rdkawij0au(C0*Re7BG)hZS*+G%fToic*bE@d*eEbdD[c71eef8o%}1y,/Gn2Mzvl%bVOYSp;*x?xEgDpiYKBI%b:s1=e{cOeC:n@Vn.x09m]s+!t:k{qp-(6N}@J2/7_mT@:XSbc^9_/N(j_rQis1tRwt)3ph^T@6)auIRZ2rB$i@%,[6AkUGN[W3_9/?kKV3+nzd=1/%3qTG8]jBa[zkL*HmHv@_DJU,^zmnk9.lC?f6qGE7I{l{WF6GU:6{Dr2kQhP-k=f32P$N@Ebjx#N-6uDBKv?^8o$zDr,}2Im-=d97RmyUTrJD^.IT(2waizZSw)dlpdis^/5T(%;9}24Q[w;52xyHMnrpe^6D0gmChoz36+8NIcGHYKIkY.P6!/nXKK#,Lne0QF4GMmMR50gj+Xej4Zrz40fJFgR,yGWpP:C4Sk-UR^bw%=5?DKdVvrcGbK#@mrRa.Ggo#]TNmHDEkNK=%};T[,HDx:3}OMMWO=mSE[Wevi4L+cg4NAhvyHdJNKp*tlQ4R5B:TzOb^o6S9]rbz4IruQYK@fdhVxmfe/hUAwP;uF4p*AqXzv_e;Md*oXcoHyXr0P4C!XuvF)g_@@l!1_3vTCg6i[^T$$E}WT+xd+b]Y{1PQ%AB[3Eui[!hp8otAaUNBUjblu9ztv816pW^ejO0pZJ=.ML6JXlGaq6fEY6F/!qhjx%smS-Wlj:#-%46o)ZRx;+-yP)ca#}w%*s9Y;.$d2E}%0/4G*u818vW!HoL:,[wGcR)%K,QyTAzBcOg;z9%hYZ?F}*P?w/$*jQ:o8qu*!CqypAD6}vYF5qZ]{j]j+:;.q)sC,W-w$_+?Qv0RKFFn8*^$Xf}PEBtMPCa@HHDeb;7!_R/N%Z7Jdiu?Yw^v?O1fy*Z=eq5HiNvHMzN$S.P7XBJ}ySXj!e5ocAwnkrb1+e}6RC}yv]a[o=#p8)9Xyi(G=%]yCt+d0cXRa+[W47wEwjhkzGUz86MO#b.TR;A%uVIVDJyK{vQ=lMWkF8#At0Bi$FSpgpZS][nz1(tW:/VaSFz)SpTc4J7h=n{WHK@{8M*k+bFiIZZX?oxx]3Cax.cr!den!;?ApZ0l7{Za_)U1rC81mpvm[H?=Ng8B*g9un_HgtCu+xbK@Q*V-z]8n:B!!Pr3-y-XNjvFW$y3UZFD#Uq/fs:ez*]md$(/%]_bvH69t:nUSBTm186XYyTKgXG4gW;dZoc:7%JbdKyvbN5@hg4s89i!yw0)_82ydJ,GOY1=.]WqM{)v6Jj;-TVa6Xs_5K,fP{Iy;]iAU:ccWO=St[a(KZFz[,D.W_dO=-k/v636#tS%-MC?dkqeKBS1xpf[QDqn$To?u5z^mumy?8FVMhGcP^vE3(lFz:u?Zcpanq[Y2$iE4,Pgm(qnbzv%];5g$@-XV9B4Kf=!d1_RA}e0eqipFwxBJoDGzS7mJzZ)r2E:^iQq4-4z;tGxd1kfk#}(lxu]%G(n}-o9t;[T9wW[l%tO-Nf5B#_CTPO{u=KS:Ha2vVI2dA87B*;kRps!uq=D+WcG:=M%;l/[)M?J_,V]gWiPsjs9[FPX9QA[m3PKtbd%r]@OnM]10!IE{5JKdDdKOQ0QAorDu0:x*W)iJIlz6VfwQLV.8wwCYvGcb4f/E(DS!?bZzGI$;xt]cs7REV8H${9_m%E2@fBqkAdmRwL4E9tsoEU9{B=E@38*:(%sT8oSavOw8dVBwk4/R7COi_[By0/vO2V%%($W*qJt/_9n$mj;)G:U@@v24ykOCeFXXogjtQl/14{z!9S#?wAHBdX[Voq%?Ft7.3lw0m;x+Yvv{2%nIkXoG]r=[E/p;,(.)l2VFg;$mDO:Ov%J^O{*Bdw7.#zZaKKGJ:;=H*Q4WVFS%uT5IL)nc2Pfl:4W#,?mKr_jQZYG$F]azi+X..{%)XRGrI2v:GP/Nb;vO/nV67JVCpKZ29V=j0MPi$w03d18$1RjW?k;2Q3T/wTXM;0pEA01Z^J/4]9rUt!/L?YEsg$F;IKb;}{Ec2k%v%$Niy{ze[aIJ3;twG7#GtlK[XTEm}bOSXmOQ/u-,?lPuVOj@.%](*yrY[ptw1QUn?e74TW;@LL!E4oeH5ODN3SBg]tk-v1,n^%S_H_%-8*:m^5+Uld.(joO%J?*pQdGu!*RDwyS^s?e-O]qbz)Xgk0(7g]D*amCm-sPuZklNue/G$P0%L,e;xN:VBtEIc?Tl#_[NiDLYV:pH8-M5#8AF5ED4S[jG^S!IU2uwg,555;lo_K$%FPPPJ6+o4pVsqK=D%+0-@[G5:gyaHq.:-Luper#0+mM[(r{:0aj!Ltc3kF)+33fdjjG3E+72lwGkidaDH9z@LdpMeag]FC-h#W(+/TjBue$20*ds4{4}sEuQzp##R0UoAdX7mMr8S0K^0)#dr3Ll:36MIKP6dkN^.P=(CKF8E88)Y?kv9@IMMFWZ1(vLb+J*g8xOY!+AdF6nY8%Yg%C$W}j{hELk1_u[sO/?@Z.Q?!sY*:6YFRU%(s;_QU5?HbnyYR)b!U:f@*;VabJWqwzUU0+Uuov2ebJ4y9zt^KAEfoYT{lM9)5hZ[VhVGtF;[R42yMWBvw7-!q1rQ68rs5BYCHi=@;NI4b[Q%VoG#AtSv56X9j6+app}J;NVKWhZGQHaxwfI}L;^-CR=4B79%a-$Xm,5QOb0SAduU*yjZW5sVh!Ho.z4oFy$/D[J=@JWf6u*DqI[tBTb}oLEkeuJ[qo3=Ct@HC%hwLNugr9?yn7,ayZdNOhq@5kP]7k/%*NOc6E^$Je=_7XidvJyYcLdcdklUwI2yyxt7z5m$jGua1D!)lbctUAmOtY81f:pPeilNIo!]m7eb+%R*rj%Ex_e--j;ig1f,pY;M4ic5/LePG5%7(vjg.Jp@GQ_Ccj+J6Kw;JUvMX!4O}_-6vu=0wv1pze5ns7%YHBhZRf5YxvC}HIf]QXkN1LWU5ZW?^w6$@B2PU*M=@Cy-,4!s/2SjCpF2cNWEIPsEs^Y7.0#%e#+xy1y_6mjr-Jx=%VReFq#m{NN,*(}[G-9ufYVa({C9,M4Gqx=1m^2BZMKGpJXC[Wz^v$:K^]=i7bg@G5x/*Dv(pV{+*^bGR!gorY[/@8C+($0V!N*#k%zKZd-Iw^nyRkNK8Sgvhd9SoaPxJRf)r*8?)f-{W]:/SwcSwxa=q}0rQUu?cX!E^HTBALXWR(T]cS8@CHr@-k^P{C1%h775@dOX[hRkaGoeYNQ5JqartW:u]TcfZ2Z%)gdRD0N//dLh88t.Sv7mIr(Y3KpF]XhyQuaQaLJa,pGyHZ1r-9B!(kK66zcKf)pe9zLy=P8iolZKvo=ZTR[e.(L2-0q=ryZzj5KeyY?=e:rK^b0AB,r;1GB?I1hJLRoUub0UHgb)ayRDax^/iHL[r2^+WrnJ,!K1[2UIj.@fXs/(W%/9mdD1282(%h8+o:h=-]F9*i0HX$W_D[pTf3mO}x5^LQV.C};8FUAyJCUZOA(vp+Q{bicpUTHTzMI7$tt%Y@:9;:#zCS98.kyO};=?2uol[4MZHQ?EeLrnb=P.U[@^0+cXYZhR^Y(3V.:83B9bc9.[6{,^qtf;cs(BlF*7u%/esFsM-ml6!e;bD!].rZ07wHr)k/P$)7]roJ5]/_Orm--i^)g920fw+1/V+ttQt26kA[jxr(gdKr:KB=V_8gdj@UQn/W;[u.2)!SzpVtrrdp/KL!+CYIfbn]EhHuE4]Rs/zgl83C.9,=f(a%Q[Jnu0K;;Z3j8HUXq!^,)w.hVCC?y^iZrXWo_1_F7(VY3y6Z@](;hG94x-?zD@VK_#)ID0,{-/CCu_4_YtzTe5mz^Bz_oNa}S9,{]flJ(b8MV}}/Fl@x%w#=HO,C8#[]F?.4nu0WW7_gI-3:o#-)_H*Q?5nmGfE0aF:NNR3L7xu.)PeTDr2k10X-Y4@V20(lfUx.7kXczf$H0ITeG*0[o9FPpdCq,GFe}dA^)KT=3ex2FO(+rlH=1(edu2(6Fd#+rM2Z+.dOM=Y;tUa*VLZN9QXpI??CP22:MRciJ:]mkVeSvZ,$V;+KMZq!7?n@l=v+9X[d+hB3ex2J0{spdhv6*SdB@7$]1l.*@VEy@/8yu.=3cBGVIL^ZD?gSh8MT.83g+-ocN:4PFlP*um@8-ugF86gIj.@qSfE4ApN9*_%!gh2X,C!Cr@T]BDxZgb%I%IU9J^GQ8gY)Y](mJ}_EzTEn3iE5J%oDaI.7DBVE:gm[Mbbz^(S9fEPw4+QhUEt)B3a*=OLrrGVT46VOJkJg!bk-NXS8+?xCej!swgY8AjjKeqqx$wI@jg#M1(Lzci?y%biB{FOx^.FE]IComr3/*[VqJI#T*vj508NPbBBnLB^QMNaI-?SeJHX)0-L*2K]s1mm!n4z(.6:UIr@2QrJNmUf!LXca8qCgEG8qQHBWzWw6j8P1uxyJR?rpMj4Rmzcwi5MM[;tBDE.Pv$7O1;=6gzNYTDQcOp$]5yL)UJ6KqT:VU#=;w*XgxelG^0Gc9EUWSNK5Bc-[k7Nnsqq]YpIHG*;kMemwI@T1@k7XUg$+W1EDM+vQ+5F{zYmKPYTH]0OGzm5*cQeW]OmYm99K,.%7?n7P2q)WyB27V;d/.A,55uGth8JXME7.h(n@A@gE61;vW7s,$h8JZW!pZNFNK:p_9_I4_!=4wAt#MG6Vun94]a6R%UjV9u4WJfdvhgg6zQCR^e;eZLD2eAhix(0=@LcjMUWb(UV^X4LD8ugy%J6#!W%#^C84=c4V4+]wI4Hwwd1c7hXXSa#L3v*YD9?CG?;uAQrfkY%j#E;7occq-IQ7TuIEBw-]E}KKENz3lFi#]JyiA5XK#e=qEL^J-B9m#+KfRk#%!5=;Qxa+WuE/QTo!]j%wDCTSz3Xe]-),FFKkqhZ)4gcmzcu8*^EkumFBcf$)rZTeUti//p=^Fc2Vp*w7whJah3]M^[3tZrd!yOU2mg7Sqs4baGdDgTw)U@s-2,O4qpS0]Neg#7+}Xu--{kz=AIWxj]L3y1o!JfF%.uzdk$7-**#7)Omb]DrqqiN^/,/-OkADl8j}(:=qUX]u9^u+dyY9X1-pf3L;SM]$cVV!5N#,]W]8HJFl-XF$-OxRR-PO!}=woDbf.,d%-Uo$!y#QM7K5N0H,{0bdxz{{/K@,IihDY,ZOx,Kg1-i$q.1-j}Y=iSr,UW}dUZ35E.up5l7e4tlN(^nIdgOsC=!D^LZ#-}@:kaepdRyS$yE2/u=pjmf-@y;_yM9UpfSC7ugXVA22H)V#$FGLf0ITOyNZ{?(d1d%X(*;1?z:iP7@LJeE^2kXkf5*eQ[e8/*gV#NO$HyMHA=g.+%/nOoGfYO#cyr#3@[6X#2E2ZM^xuJajEZW/]y_=.Gw#osN;:B5@$;vm6cnIBMv$ehIDUwobHjwGFg#4FP2PQ@smZ*.(t3k@-@iTH8oDyO$2/@{RB/-v9y_Aj=7lb*gJg=)l{QidqY7Rwo@xZ}NKR?DgVc5FCW8RmgW^aqGN#P+4LK2+$q.*]%*5eu*_vtq,T:4:T.R5GR})]$kY,B%pq0pAFw(eGHL4hgsu/H74d(jfQEjjgU2AZmcsxN+K5,TWfy*DrU3g%{fy,IQe(f-vdk$Rw:)i7C4jq4_hYbun0+].(eZJ_V-b_CS*AYi[=seHS*@hKfF8_PnGGB1GKa%.PA$v8oYoo@-OSnU3nopW):3Eh-dw,CwFW}l%MHBAxGS!]b-E^6v*Ky*f#DD?.F3Yy1n!x,+1GKgaYN/nk*T.X=GrI5w;b(czPk.[IQ]n(%[#E@ocG!9Lq]][0j15QK51S:BCgbG)gc1q+1JOx!=!DUXv(;{kU9j!]Nv7gEqe1+kz]Xj}^aQx-:}FPw8_w3K3C97g*m;$N5#VCCY2*dF![k}ewks4I[A+y)+Tuur6Hypt+nKD(BW5UiQal[rgb1yhn4V/c5MXLOliCc0*HM@*ZH7SWaqm4osj5LtU1Q;@%LHTcjKGG$sQax#W,s8+Mh/VcxX._)m@nS*3v,%%$-Nxi-I0mx8*bdO=*G!^UFPgwWiBn.Fn0yUJ#9,N);;tr+apKCtqS8+-PA-Y)5KvdP9i,Kx!L[A*3/3*behscY{gz$nKn=C^VwSk)-OtGY_,UXDHL)v%.!k:m_2Qym/sq@:;C8bR$(6Bu0)7Izq$Z3=PKgzS!S@s*(Wd3FX(*8Bo]rVF5DugRs1UjT(0/p8K;Fp3%X#g+l6{TAQ@[tgmJp3p=^K3^$.jTZ16v8z}.U;wnP7)Mftxi5j5jc/)%F6Bp([4cIkD#OV8xJ7Z@tZv7Pw}jj),wBaH9R;p8#r)2M:+16I+]W*+!gI_4^cv+YP!b-ruQjs?CJl2Rp@*haV#Ysmc^/MdKS@^(epmAXHUG@OK=Jo$u=:D^6I53IJ:Xb-0H=P@!Z]kJ_RF%0eE;fE%euQBWz@ioFAE;g6suVEKYGrJh3J,y:Ancwbz%lg]R=5@c?;vHU[/#yL^yKA{KwcPGn@A^,eU{4)BJD47^t3O._ms}BAUdZ;z4o3CfPZ?IGHAsy-eV?,qn7:/a_Fy:BeE,8yW%/{H^7z0UU[12e4JOt/rg=nFyco2^4GfxOV9+C[FwB#m=ZD@cmrkEQzjmN7_Fs.uQ3m}VqYUH.qYToc7Z}*39p,aH+7YFe;nNxPR)AHq!eFL8EXq]XX@;-jvH.VQ4loTC!Q@+[iJ1BdFp.N9$3%*=VqY+g!Q]JGlja1I-yW0h6w_u-F-hNbfN5Qkwp-]WpDZwuryclH5lrk=NVb?Gzkj-+-;,X-za/,i;iK(P;Ul$vdfwo$o-Htu=;ngHBAD1OjvQdpHqMVpcYrCQ!vYijQpyP=X[H02^XyxNGCHjKtwT)Dk44-4([Ubv6luFN9JbvV7H#JMQ$}kX,nwpK=as7lyJsA/-I,z((LJjpmc;{]tb=*OtRiE/Sq{Zl0uy:8fj/=(ByD!,Pn#_L$pNN{4l92.,o3/5ZQ*Npa@O#A7x5;Dn8,3jfBLZlf7)+SpSC#kCkssECl36n2qxnfcMkmN91DMPfGMNH%AXX6^-jv:*AJ7eNh#t[N?.5y?/PEg%J9P0I?,+BJ-@[fo].LnbHHIe2Q2FOMF.g9C^oXX66@V)QO^CvVQWe*Xuqb@4.C,z6fA8]$-Yo4p]J{lR%:S;r:=;mwx-k@VzOLQI;1zPO+!HWlhvA1]dR6iimfRnhnTF@l$rxf#nzO%Lrhj^O7e3DZC7MX$-V{3)sovBN)Y#Vt_:X2vRYG.mmG]+#nx_Q4+kgjljZ/Zu^EXU5R;Ja)gCKTYs!#Af3jFpO22U6Pes/0TBx,SN(iLu,^D({3z)ZM+MGls)Dp@vf8,xW,umaRCpo{WZ2hM;#ALPp).Z,cw+DjIrM12EE5804U*Z]tAGcqZke5qXYmJw/E)w:b(n70zb%[H@Mb^,]F/Gul9AGN8F3{xgvRaprUzd*l+t(#$^p,OdEY;BG15Cx%C7MG[mhZY8U?H2qE8=+2EY;B]D-PPO$ht(xh^/YQqC3D.Y,b@;qITj;R]1[[/G]PatxFtYvRs!qz+KBqqC3Q7wJssAI]F3:;k:}Q)4VZ^bveLP;_K{S5R:tfM^_Iw+jh*MEOGtzsxgO=tqa[+,G..vYQHUBCbG4{]EqNC=^KyjdEemxQ[+!r%o!%DIb8Z);6nVm.hIBCR(%*S08]O9JnjsW/sANd2mVxS4tI#jat=QZspuS?aM+TMbNFix,OF6f=hupZ9PR+9)K(p_p,8y8.eT-8PsQeNhnOtqa0i%+zFXMl)4VZ^E(S1eKNWko.1HA59IiXSRBR4sziM(fPgd*SKRNKHVsp4dOqTmq4losaU!hNzxM%Ta^$6NifqND,Mdt87m,-!0rnEU,pDFPj%uJE+VE$4%rebRyvfUXb%XNhVOhwlf4l!A-D.!]d]W:izOqSol^MA9+6/Jr1b4z?G[SgJA!qx@0:p(Z/3l7RubPaH;vwF5%1317]bPe!9hiz{Q2KXNbZC]8,.1HAL8o(XjqHBN.IqbJqYk/Ew?TVec0LdXHt2Kb.08]O#Rz6hXGxOj0GxK;1d{cn,es0tLUc!8RUWs$tc[pqP(MPvv^iAeDMd!Bva*!xrZgYUC:-lQIljYpz08]Pq=Y}M}YrW3rk?FY0*.hn*TI:-@]q:p.]C{4*6Qq$6]}La1KAB^vZEB?sE8;=*Z2^OUd@4###8$+VlllU%S?;v?c%5M?.-^$3d7JiFw5daEMb:[Ttt4!$A0;6uHt,.bZ6yopPf5wlYu%?k#.LGH%bCSdLf[KcN@XZdj8@@2[$^0;jK%tx*V=r]R^cy^0LG$yZGjjq](*-_jK%t#*Um+{w(-]-0x%Zqd-=)}TD*gX65j(a]ivs::v!c0pJ]E#3(2=9+)/3p5TnI2SQ39X;Uiuqt4KY^3-m[_jM?S*7I]+9oeT5F%?%X}0x%YNRzschVf2ztB1=qno_QT=r]^_P?}]C@3k6lHYYYDcPr[,F@pkLM50c3^=dE@uRGG}AIC.m+G}=_Z#=;iToc*W65*YYaF6odNNVPG0J]Xz/rlQx@w}pWHk,}0no$]{8UB*:yr#2)9vtjZNsWC51$lje(H5#2zLXindU-.ssMNhEEoG8=:?l@j+DB*RoDjqK2J{Psl)8qrA-uM@K^9yLnnSqR?fiWefM90A83{(PIy:J0d[VSr/G#d28l/nYLl{y-{Idq0Os}QS_v){j0Mq1/Dri2w{JeAgF+p2R*OeTLQyiJKr#c7SnZFFCpJy#_My):Dw1i,cI^6/:h$1e?QU-zd;lwZ!E@!NCD1Diblo@[qH**0[*?5]px.PVZ6x[sWjAubFJ]n+Ga[xH;sM^elu;-2m2WsmIb8{j-$)M2qzU+?v:SD6z]GD$nU8}SJ,PsfBK^R7@=wLP0W;-xIa]v)0!dIS$K1Kj2+I/%(vyRYAav9ual/lHBlu=:$n.Ly50pJ#3N)9k9rXAF?@=*L}.EImC4rK@8%ogcCE@z[S2aQB.uj)_:*+x%+%4Ej2}J;6cqhzD?l9mu4VLuxqaX@(1!C:onhXAuj=$nI$(-!+!o324e%CNSRp)Tpziay2#+-tO5Dij2nTqD%mj-Pf5Z-Gge-GpGdAfD-eJN3fsMBO#0j86obkW-eFR7{]2T;,#::SM1N=;gn)A?C/r4[4#PkurfY8ISiv]G%+I}pE1Y0-):2K?l8Y%IDldSRCl;K5HA].pT_pA0%I@-)wfN)3xjsJS53HgWRAkg44^M14Ls^2p,GbSBPB_v)6AvC4tx4XJYCTkR9GE}^Ucl$j0VO%eV*N,I819$:woaHyCY.2]cNPd3P3VtG?+:oI-{U+n7}-KH!=LGQX)EaC={qX.f:XR?vxkrhCX%Lvq@.-4zmMbKtzcNP{*#rI6Cd_PqL$C8o12G]tHbx8jC},L)C/5mH0R]+g$-HU/]0I7[uoY;g?5hcl!pRxApY.hG,wqxk!6?J84D7Kyxcy6r5}s[4uH5VK^?Fl[.wb7,jlMR=}[J^P*PVXgJ_zhiCaCp-E@%YPR9AnKpzDxVnW[[pWVOH4uu7g96_v[4f:=dV1SBS}}%:L^p0:1fxo(!PB}laR;;+6ba=8K!GkAS7NJMJ;yg3Q^izXLS0OTl,7*kNj[Rq5NMq.J;gNdsgY5r4hjO.TI.8Dz26VR^?SKyK!6JCz45p+6.2F;M#8H5LniP]Gr*USt!!=lH4^KQt.3-N00EX)Pqc)X:PI!vbuo?sO_+O/I+!JG!RS%(2?orgqxEs/Bt4T.6T@7ym/uIv9!7ew:Rjwpl{v1,@}!k5sxdVjmP0W-b[k=qT8o5NMU@r;j]2nyx5Lsk)T0hpl@*hp,Hkc(L8MjKcfBz1Qe_qC*@]r{]?J4m_ETc/b(bZNaRuAp45+;rPWMmED*;w0K%5}MTDEsiK@qJVG[9ufQ_E;{KJ2Wj5}dU,TDe^gB%*B+b-e=tY2@SobQGc^S2t7FU^mYr71R{Dq,,0^wVhT;Hnj#Q9c*:aX$:0Ujzb5WWG*Z0i5g3($_(C1/nQVq;Ri_7=(e,Iy{2xNsg+LV22aHUrK%Z:Tt$3k;q.21,x)um5:lU+fTb:!SY8DUsfJb6^Y6vNtf^IBT/,8X@d);;0YWbfA{TBZ!c%x^lp)-MF(3R3R$^c$4,_Rr+8l/WICemAyK!1:ij:m*@nRqdY/Ro5?}G{?[w=XOik446KT/-mb;1[eDMPW}lyWYu4Jv[/V)6-5yaIh93YB[l={nk).AP0.k}5y?gjMGD.i:Kl=X(^Oc3KCjMx*^2.1r%g1=rk.Ed(Ksb/)dYETow;K+%)@g))r5P,8z_S]GGL00B;[N:%KzKoTl=6VseO[tg;dAUk*c%+9Trl)Z@c!du06xHNC)K5KTH[*+5$cgFC%rN[6v$$kFUQ@t+FbK.uaqu.cOTkh]v4v$-8oWZm$VZ;UXd/YOezHpRZv[W{:4a*PJp+#QxpI$i1Z8j+,wm}U7L-^;G]0T/[K4F9MZX1,0I79gyAberrC__Kb]Lqqndz[)s5fHw#aFqAip!{i?${60q]}?I/W#K5FvO*PR8/cyTq5KUXd}M,/KVpM(s{0Ic(QSgV5dL-HD0Lf?x7wh+*EUbEL4??SM*^x)%G,(FUhNE{00;/RNBILAl)RM^KkE!-6)FoH5#=gTn*%dZ.H2B84SVy%HoITmZXLVa^nU9p[DB/{8E:7h5g:WBC{?8,Wry{rTeM$uiuPzg]sPDH]?AjM2W-+a/]nH*0IBCt(}C6r],i%rCp$%ZA_QRop]g9k7Hz@7=O9IIo)xFELqU6qE!rttw40rxJr$5P9{3#1ZPDIii{q%xXqN-h*/Z%230t%uv[%[migq/1^m)-_]z2enpR]5$Ury1!ACPt(3fg[PXg[a?[7hIg]T+(gLqU7DE!rDw)O%;f=OH%Oa42YRwne,!7VS2tXio;E;kkF)Ew+SsW^Y.)DcTKy@sGZcdyOsH3vAJboub[gNQVyv=WMM8XKc{*.{mTWkd7K=DM#zlqzuY)[72Rj/X02!Z@e!#]RmdCsl-UgYCReP(Ee9ue/_*rdjvFZEnWNl2{j!Fpm_(A,DE4xX]cbjA1qz[3C@(e2b#6gwbyQQq/sfyzOZ!d9%tBhf#!:!+Zzt#pSc)]f2=%vKX9h}GSGZ@;DqtfO#3H6@Hrs5SKr{sqWx2#]P$O8AMLDFuLsRHmae[VS/T!8nr_(#](+o8^}T!kV)HqCai.ytp!xRFwbwh-eg_m(dg/D*9d*Gr8:)1HrE4$S;PY*Npn0{+=cI{)wC?AW;C({tb2jtc51JoxFwQuunMXkL._?k)XFl?.X#Q@L,CS.6X1*iSf9Rmzoz:^/p!vt8YhUNgXI:o!2buPA^HzFXzVLz8q)smH]$DXYeTiXe;zIzlg6;.=dmX!chu[_?XpY^WfzFql;s_8qJiQHb@!@fbzU+9YLovOtfX-K*;s=t*?9#k8Yx#P.pfjmu@[I]0[lQUK7?MHqe7L5}:KhjDg6cmzhy9.[$%B359KC-9oquz#[w[#*)fbe7,2C03*pghB;OEqP-m)VF/XCUAm;au5XH}:D=.bUvv#!ChTfB7q*rMP}]Uk@,g/CX$;LZ-1A8WndP:C?tp0!hd6sTV8T;a8L#?B7]i/f]dPW[ue@_8+=-z9$9P}Y}Ed,gM_8C1X3x%#*B%GJN@5=l34K)*uY]g]BW*(FVAR^cq!dZ{}ur?V],_I(6[[3r?Hr#M%Cv8jIddA91]393cs;Ss;iet$2$-cJ28P}GTU^bE!7GsISXGpKHHuAZ9R;OcN!,pSiD;Q=9K4=e][ir=wBbH%$s@=RMG=_PW4fAU@i[5TT}CFknDV5.ADzpeT/P}G8NeTVNxL.Y9);woO)UIx]((edP3f5uS%]}H^h*UN@6J/io?:9oh-v,Y*WpnAZ$]rvKX8tPyE]XhGg2SN3abM:=r(eeZzpRM{!pn9Wo[0O8U[ES}1z4i:Hebxf{ei@U)C$6-u]=EpyISc5uX4C%ua$EJopgQPW^T;gmoX]:rl]^gW$KJTf?B@Sa;_DKQdd=HyvGtq=sGfAL^)jT%fA(pV@*XPLaISvfCce(Te!uNHXB)*VajyOjQ}jcLTlMFH;JK=rKV(YW(biRGY5xmUYj4}da_futz]1)K@n3G;!9slsRDamH]d7[$(V?/a%DD)sU,i4^%jOEX:RLMfyBkzr;RkPYP4ypKWvl,/p!#y;;i@@A._:vIIAitJ7gS(A^GsaTfbnLdEc5wN!Jn%@:Z%Km6X$]:WW7KJjCrzDAZrD)ULXUS^QPBk*l?T2Ij+nf*%0bPxz1#,HJMMF%rz$SDU-R^WUi^Vt;v4bCO(V{#=fy.ZDe-+3QG5gz}TMPWF9t_hfL-^lX+a{Ey5Q8^#XC]MR=zF9A3Z4yw[yjV;0hHnbpVH7U52Sf0t2(;Jo}Oxz*A,QuT?4,_edebE2*=yTRtS58du;mvVD_HJRTnwYB;lu)^8$TfcxNLmU/J.5hMkZvLGnbCSut=RZ.2[W[vw(d0J#KKK=x^T_L)sDA*dKjeHYdt2A;#P*@OBcSs!:deH9$ZO@HM%!9B0IHvKuKvht4SnwI?3np0]7Wsbo@$nXQ,/1ft?/B.;Sq?4m}W}-smoUVbD.Xi(eb1ns.{.]RsTGwe$l!5V?;t?HrT5FDX9LrbM/dF*qi{8t?;Yp;R(lm_Mric$R}l:-FA-oYf${LroN(k:UWpOj1ufNa7]j/$x9y5W)C)Q]{U+@P2z3gv?A{KUD57ol_Ajvp5.DIV/Z0G,UQv;*3O+n*^vVTJ=%_-aYtpoEZLq:y_I_Gon0jE4xaG_!T2FNNWQ*f3([6+xPLkX$X2irvQ:;o5%OOE=%x+-d2!=F6]tk{Pg{dErHNx(DSMW$Mt)JvW0hxlo2St%P4g-!%Hl;tXm9njH1miS.FnwGIm9Bq4#g^9wD2N2g@NXWS{liI#0n@0@{;rN$.(/O(-o7uniWh;%k^c@z6p!G*)Dc?v)X0c@Ljd)J=+Q{cd.HDJ+!rGT3YPX9b#=NLQO2Ps0{:qi]dl$lmu#^vDwqsg!KS]T74d]5BY,UlvFYCf2E2!5-R0rqhhLU,^Bg4R!Svzk/$$%Z7tmM4Zhvvm$UGuRi3t0o^lEZ?;U,68PS$_J(nsfJ_FT.z(B${m!uS#c25(?rIp2%T2xSxdN}H[/Sh$zn1A:Wag)cVEGxlzj*w_5aY4;Qmva1#+(%dQWBzc8Wu7-)d$zY3:?!/,Zv+5fTcFQr.)t-{^^hI}WuUJtSZbwpiMWI.YWB:DkCl?FRI=XHHSmcQ.DcUIYlp_z.aRa7^e$yfdUCEG+]zB0@^IgPv[nK*BAQZ5R_4uLK*hmMgJhR=wP+EekKE#cDMW?Y,2LtvMBdxxX+I*rD=BZ$Jw78%D:rfNJMb%@M_WUHmRbMr$]l*x5Qm}]VIH;%YGCytwcTMW!Qrdc63YD@DD)S[a#s}R#iya:AJKK86u)@{d$T:%l^Y)vGu^_=UqAoO%G]06zX7P4]]Z?4/ITr{ZE,#k_6jw?4tRWXF]54H2!W}6o5kd@?R7AG/_24](icBP_L3faXgQvRGG8IAHhKYm+WoC[s;4];CPzhB1MvHeBD{ds5i,klb.0Ptx#9TkS{L0xu0gn-AC6T}XW=PT:JxpPOxZ,[1$k8[uG!:D8vOi*U3=C#f=?q4Lt3[e0mqfu$lkId8^WFo*8h3svo)(l83uQgZ{O{)c}{8KdRQwVzY5bYUjh8$a_#wqZ-9Z!Di4a/=peWF+k@hNJRZV$#b-4LU!LO@Ue9V6#8%-Wh[B7l,^+H/V0oKx,+/,0n#}f)MmK%}3@X;bz?(I@5wt-oHXqKSD=CjtEQ7%{W[a@Cnb(FY3;Gdu0PeibaOvZ0CZ6mYePM1mZq1OgdD7#SOxc[Xtk$Auzwuu32K#y5g!jg}%p30XPF;8g6I%}dRzsWB(-%cFhYc?2g=q6qNo1*.gcD%OULpyaOXnLN.KgYT7L;DDPnAjA,[a_m7N+s6)({YgZ#n2K(rgft8iecl.n*L=U[Br)rUu4]qcdAZ*r3ERXQ_c2![yPdL?3%mHf_p0H{A,[w}^?8w(4G=4xV,fMOVS1JI?7a-Nf]^7+FT}eTy4cdvRF?_1bA;RvB3uah:{Sf?{8GGV/-rIoeovX;9B8EMJ8k0:#:wQ[(2xepH!I/CCfy1bg)v=2Ei6wmw^rPtM=O.AP8Kf)Clx$]zjW4+cIL#j+G%2,9SI?hn_=JO01iM}[]8dzzYgN6d,@]e]EgM*dzB_HyTTJZG]-kKE;d_NBeu55t;EcBn%CDBAkPJ.:%pEFH)^dn53T-x(V!YxEE18_.mfhHYA??y%244_DUhMw^KiDA}KykoR6-$onp2exS9J8c9pB^CYe100keQ)AFK$*+a-#Bq:PFNSRCWu=JoB8L*Se3m$-Kbl+oAmE=.V*zUkWR[Ze7-,$q{c{Qn_9%,B@JQ}lVcN%%f^iWxTx.Qomd32tKJdmG9;)0reecUB:8_6W(cVEn=wB}Y7uRto3wOGGb7-0_XoL7go*=SC6qk{xWGatKlrAz9.ydPy$;$%vFF/lSG^zyT2wX0oHFQo1Ls6jCgQ2mjeNV9d,ms;}IxJX}t$Fv6SV__dX=[z?j2BcE_wT9e)ogqKAgUi:5sy%+vzHaR@E]4CGZV0O)r)et^;P9M@el4Tg;DL,ZfgN1F-k?]I-^^g$pGWuUpnLFQMw#x?xo*I]+BKObGx;T)LAQu6e,aqBr4K@i8H6{.vnXMhcC$/K!,7mC!Za3ki.E0F]x#,4W{ePYzMN1-Lj{iWn]cRz$78zhHwRAZQ=WB:Y]fU,yJ$riPh?tP8Ep@Et^#qegp[b{@w1B.t[tIE+svVRJ006N9:gKJ(5nn?!/3F0iYb9^Pn!}B:e7nsZByZ{n(4,xXHJ[wZY)r9:Gmr%r(Q1TJR^1u;Io]Pd8,#?Jc.^wGi@nessytqJXf=uqr.g}YANkeM];j!G7?cSE.xspWa]T{pFDGhH9wy]d++g@Ooh6d7#+i(gV[U-DGTW3*zH-BuE]pWPP,+(4UcbbcE;VD]F4SRT9JqiH]7H1CRQ(^E$)KsfTv]%.Yr=WQi3UkBJR7qrjPj5FdlxL04_[{Rd5.VO2nYfnfj+8vDNMu(gc91[nUb!L1X3,YWHhqcrAn+b9OVwSPd1y0(=OSjr:)wO?;Ls3[GLqDVVc/un70]tFUs;KnmurU7959*,J#U]sEm]L1eF(q}Nh]mmrkSCIu3N$G9p/+dfE3BLz:pmk3gMT4+Ety=e]pUQHO*^(v3k5nZ,wtGl^}whZ7:+WmwC.7yqoNX7V:5}J17:2H^HYRr8@#/Qnmp?fR)4daovysVSF+I9i80[Az)aFnU7Jne-tCG+Qvdsxflt_GaOU9?mNhl0KQZ(Ns$Tezm8h0Fc)TPWn8+ovz982-?-uDCljo%HECta:GKMJw0vHJ1zp=VQ!hl2Fj4SWqJDz{2vf=,jqcC4+.Tp_QZijxuskAVLso=qvOc4o^*$V1NjkPFl-q0GHBnbM#-+*_!0]ZO]H57VAgSzd,$%_G%XIY,q$t9diikL)GKhb7lp:T45(u4zepYGz{_c4Vg[c3hQY?-n-L}[g:s%Oy3J)]xu]xt[)@s-ng1*7fU1E3,oR]W[3zj0/6cpK612IC:0@,nx*n8Y8UcRmX?UP3J$.]v#!UnT#Q$VtRed@VN}0^n@Ap#)g=qQ2cy#cJB:$xx:]O]GOQc3I;@Um)hUv#05onjV5w$TeXua^Agujs$gEbA30p%Rx]NYBGODlrZ$[n[E0LzO9;WHUdw6GoEq3kITwA?_R),1GUT(,G,v=?EdbzD$u,[[LVca8ywyu$3Z8[IgAGg)zW2:wb;f@ThxUD^Js{F4Taa$Po:uYEGNy8S[@BU:}OW@NrXoKV$Sm(moozf7$2jVY,[;0KnmjK..5wy*kux=BPRu@:jgAo6q^]e(ik@^RRlnz^9IlEV:nLYhRM!kc3T++P!)Xd0,2v6QrlYH^#FgRt6H,f4KI?3jxaI3kF%.],Hh73mwu3,KonO6)eGw$:ufcfrdDOfWWEXb[aqVrw8)s/{:%Xu$*sT;K-bPROQzn/d?(zii2r,KG]TQ-=vGnLS)COm7@=b(6XYgA3hYZrX*i?9):toOd.UH8)6+S,N4?A8CcDer!l#/{.qJZmP+-tPjbHkxkZ3x+Qz/1z#BkU9ek%BJS!Eh_;8YIR=hDNlg:O[gt;uYKK,FLQ.9,iRwA]{(4[gPu,O;jpjRy9Yejt{fn.Bk^IqILPmaX}/L{Ujc[Ez?4hu=GLc;cRyZfTJ:Sg.jkJMfbEYM$$)+PCS/;s=uEg8lnv.Wjr:9rN%+sCLNx3,f?BQvK{^pOV1_PUj(/4[FpXBFrD3(G:k+F}mJ;7qIxOVUgtR[OwrHBLL?)DqEVW(5zutDCOK2xvZ#h{(C4wv2PAX@H%a)dI7}DHZrMJW2lO2T7+$)m!m:TvqW!i@^((ZE=ygr]J$I{?UvEtuj4gcC6NhmYyRomj;u_#4r^[fLG3q{L,WuwvPXjokqh*$q9H35EgTJW=cb*;oH,${R/Z^O*t^;JeQgIhn*+dJQevubAJ:[6^)*@)$O8;ZHDjBV;*cbYmg8I2_0j}/}U-j^$juY)?I8XyACWR*PS8_:XuISySoGK$Zy.LVi2J?[u{BpHur7,1G?LJ=?VQ1HYPbK9(gJ^FzsRpW7Zd_UiZe;4]]=(%68!fH)PbbA8Psc[H{i6%Vo80gs@o$@d7?%XZ3%W{pxR^.H$mcz46g+p;Ls}FJkqm:/ghOvkqf!5cnvCv3J4SFCmyRM2JiT]?T.dbAKP$U=gj]IO.TWHegqXH}o1v,PKFm^CT7d*$sfAo=0U[Vnb0ex=t%).KYLCHl-Q58PU.Y0BW1Yf*o%[ZrXvs#wum6]zlCWBuN:lCqX?J(gx.HMhduX)_XG(YgEz/ic!uGv{ABkUDsy:5c[J]0lv]gIwOvs-jhwgfWB$-M.D.6$F=OGeNSF-,KJgn4yFO]of0RgzOlbxkW.RxEF6g1..Nm7TE*^R9D/4l$=Y%d9@w(.0p6Kb@)o")
-vampyhani()
+dbk_initialize()
+dbk_useKernelmodeOpenProcess()
+dbk_useKernelmodeProcessMemoryAccess()
+dbk_writesIgnoreWriteProtection(true)
+getAutoAttachList().add("vampy々")
+getMainForm().Caption='vampy々'
+getApplication().Title='vampy々'
+--darkMode()
+--activateProtection()
+local TRACK_IPAD    = 0x3FCC464
+local GCupdateskip  = 0x104AE6
+local GCdownloader  = 0xDE4F8
+local HEADER_LIB_UE4     = "7F 45 4C 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 24 76 B5 07"                 		
+local HEADER_LIB_ANOGS   = "7F 45 4C 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 E0 36 3D 00"
+local HEADER_LIB_GCLOUD  = "7F 45 4C 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 E4 A0 37 00"
+ 
+function vampy_bypass()
+            pause()
+		    Get_Anogs()					
+            Get_Gcloud()
+            ClearOutput()
+ 
+         --//​🇦​🇳​🇴​🇬​🇸 
+            local ANOGS_Integer = readInteger(ANOGS + 0x3435A);
+            if ANOGS_Integer == 4213436437  then
+			  			  
+		      writeBytes(ANOGS+0x342EC , vampy("96 02"));
+              writeBytes(ANOGS+0x342EE , vampy("96 02")); 
+              writeBytes(ANOGS+0x342F0 , vampy("96 02"));
+              writeBytes(ANOGS+0x342F4 , vampy("96 02"));
+              writeBytes(ANOGS+0x342F6 , vampy("96 02"));
+              writeBytes(ANOGS+0x342F8 , vampy("96 02"));
+              writeBytes(ANOGS+0x342FA , vampy("96 02"));
+              writeBytes(ANOGS+0x34300 , vampy("96 02"));
+              writeBytes(ANOGS+0x34302 , vampy("96 02"));
+              writeBytes(ANOGS+0x34304 , vampy("96 02"));
+              writeBytes(ANOGS+0x34306 , vampy("96 02"));
+              writeBytes(ANOGS+0x34308 , vampy("96 02"));
+              writeBytes(ANOGS+0x3430C , vampy("96 02"));
+              writeBytes(ANOGS+0x3430E , vampy("96 02"));
+              writeBytes(ANOGS+0x34310 , vampy("96 02"));
+              writeBytes(ANOGS+0x34312 , vampy("96 02"));
+              writeBytes(ANOGS+0x34314 , vampy("96 02"));
+              writeBytes(ANOGS+0x34316 , vampy("96 02")); --23
+              writeBytes(ANOGS+0x34318 , vampy("96 02"));
+              writeBytes(ANOGS+0x3431A , vampy("96 02"));
+              writeBytes(ANOGS+0x3431C , vampy("96 02"));
+              writeBytes(ANOGS+0x34322 , vampy("96 02"));
+              writeBytes(ANOGS+0x3432A , vampy("96 02"));
+              writeBytes(ANOGS+0x3432C , vampy("96 02"));
+              writeBytes(ANOGS+0x3432E , vampy("96 02"));
+              writeBytes(ANOGS+0x3433E , vampy("96 02"));
+              writeBytes(ANOGS+0x34342 , vampy("96 02"));
+              writeBytes(ANOGS+0x34346 , vampy("96 02"));
+              writeBytes(ANOGS+0x3434E , vampy("96 02"));
+              writeBytes(ANOGS+0x34350 , vampy("96 02"));
+			  writeBytes(ANOGS+0x34816 , vampy("B3 E1")); --ret 0  //10 min  fix --34
+			   --//MemoryAntiBan
+              writeBytes(ANOGS+0x107528	, vampy("01 00 00 E3 0E F0 A0 E1")); --10 year fix
+              print(string.format("🇱​🇮​🇧​🇦​🇳​🇴​🇬​🇸​ 🇦​🇹​ 0x%X 🇫​🇺​🇨​🇰​🇪​🇩​", ANOGS))
+            end
+             
+         --//🇺​🇪​4 	
+            local UE4_Integer = readInteger(UE4 + TRACK_IPAD);
+            if UE4_Integer == 1135869952  then
+				
+				
+			  cheats()										
+              print(string.format('🇱​🇮​🇧​🇺​🇪​4​ 🇦​🇹​ 0x%X 🇫​🇺​🇨​🇰​🇪​🇩​', UE4))				  
+            end		
+	
+         --//🇬​🇨​🇱​🇴​🇺​🇩	
+            local GCLOUD_Integer = readInteger(GCLOUD + GCupdateskip);
+            if GCLOUD_Integer == 2969678091 then	
+	          utilityg()
+              print(string.format("🇱​🇮​🇧​🇬​🇨​🇱​🇴​🇺​🇩​​ 🇦​🇹​ 0x%X 🇫​🇺​🇨​🇰​🇪​🇩", GCLOUD))             
+            end  	
+		unpause()	
+    end
+ 
+function utilityg()
+ 
+            if checkbox_getState(GCskipChk)== 1  then	
+              writeBytes(GCLOUD+GCupdateskip, vampy("00 F0 8F BD"));
+			end
+            if checkbox_getState(GCdownChk)== 1  then	
+              writeBytes(GCLOUD+GCdownloader, vampy("5F E2"));
+			end
+end
+function cheats()
+ 
+            if checkbox_getState(MobilelobbyChk)== 1  then			
+			  writeBytes(ANOGS+0x34684 , vampy("7E E2")); --ret   //mobile lobby case 10
+			end
+						
+            if checkbox_getState(IpadViewChk)== 1  then			
+              writeBytes(UE4+TRACK_IPAD, vampy("00 80 9F 43")); --ipad	
+			end
+ 
+			
+            if checkbox_getState(UE4sideChk)== 1  then				
+	          writeBytes(UE4+0x1607270 , vampy("00 00 00 E3 0E F0 A0 E1"));--	security info
+	          writeBytes(UE4+0x18E726C , vampy("00 00 00 E3 0E F0 A0 E1"));--	player controler		
+	          writeBytes(UE4+0x25C7070 , vampy("00 00 00 E3 0E F0 A0 E1"));
+	          writeBytes(UE4+0x25C7028 , vampy("00 00 00 E3 0E F0 A0 E1"));
+	          writeBytes(UE4+0x179313C , vampy("00 00 00 E3 0E F0 A0 E1"));		  			
+        	end	
+end
+ 
+ 
+ 
+function vampy(strbytes)
+local retbyte = {}
+    for hex in string.gmatch(strbytes, "%S+") do
+      local size = #retbyte + 1
+      retbyte[size] = tonumber(hex, 16)
+    end
+return retbyte
+end
+ 
+ 
+function ClearOutput()
+GetLuaEngine().MenuItem5.doClick()
+end
+ 
+function getFK()
+shellExecute('https://t.me/bravo6ixx')
+end  	  
+ 
+function paz()
+pause()
+end
+ 
+function unpaz()
+unpause()
+end
+ 
+ 
+function StartProcess(sender)
+--ClearOutput()
+sleep(500)
+local ProcName = getRef(sender.Tag).EmuProcName
+StartRange =getRef(sender.Tag).EmuRangeS
+EndRange =getRef(sender.Tag).EmuRangeE
+UE4END =getRef(sender.Tag).EmuUE4END
+local p = io.popen('tasklist /fi "IMAGENAME eq '..ProcName..'.exe" /fi "MEMUSAGE gt 300000" /nh', 'r');
+local procInfo = p:read('*a');
+p:close();
+local pid = procInfo:match('%d+');
+piD = tonumber(pid);
+if(piD == nil)then
+messageDialog("🇵​🇱​🇪​🇦​🇸​🇪​ 🇷​🇪​🇸​🇹​🇦​🇷​🇹​ 🇹​🇭​🇪​ 🇬​🇦​🇲​🇪​",mtWarning,mbOK);
+else
+sleep(500)
+print(string.format("Game PID: %d", piD))
+openProcess(piD)
+--enableDRM(piD)
+pause()
+FormEmu.hide()
+GetUE4()
+end
+end
+ 
+function GetUE4() 	 
+UE4_Scan = createMemScan()
+UE4_Scan.firstScan(soExactValue, vtByteArray, nil, HEADER_LIB_UE4, nil, StartRange, EndRange, '', nil, nil , true, nil, nil, nil)
+UE4_Scan.waitTillDone()
+LIB_UE4 = createFoundList(UE4_Scan)
+LIB_UE4.initialize()
+ 
+					 UE4 = tonumber(LIB_UE4[0], 16)
+					  
+					                
+        local UE4_Integer = readInteger(UE4 + 0x20);
+ 
+         if UE4_Integer == 129332772 then
+									                 
+	                  print(string.format('🇱​🇮​🇧​🇺​🇪​4 🇫​🇴​🇺​🇳​🇩​🇪​🇩​ 🇦​🇹​ 0x%X', UE4))
+ 
+                     unpause()
+                 vampyvipp()
+						
+            	          else
+						  ClearOutput()
+                             unpause()
+	                   messageDialog("🇱​🇮​🇧​🇺​🇪​4 🇳​🇴​🇹​ 🇫​🇴​🇺​🇳​🇩​! 🇵​🇱​🇪​🇦​🇸​🇪​ 🇷​🇪​🇸​🇹​🇦​🇷​🇹​ 🇹​🇭​🇪​ 🇬​🇦​🇲​🇪​",mtWarning,mbOK);
+								
+		        FormEmu.show()
+ 	 return true
+   end 
+ end 
+ 
+ 
+function Get_Anogs()
+ANOGS_Scan = createMemScan()
+ANOGS_Scan.firstScan(soExactValue, vtByteArray, nil, HEADER_LIB_ANOGS, nil, StartRange, EndRange, '', nil, nil , true, nil, nil, nil)
+ANOGS_Scan.waitTillDone()
+LIB_ANOGS = createFoundList(ANOGS_Scan)
+LIB_ANOGS.initialize()  
+             			
+                      ANOGS = tonumber(LIB_ANOGS[0], 16)
+						   local ANOGS_Integer = readInteger(ANOGS + 0x20);
+ 
+         if ANOGS_Integer == 4011744 then
+		 
+	                  print(string.format('🇱​🇮​🇧​🇦​🇳​🇴​🇬​🇸​ 🇫​🇴​🇺​🇳​🇩​🇪​🇩​ 🇦​🇹​ 0x%X', ANOGS))
+ 
+                                                       else
+						
+		 print(string.format('🇱​🇮​🇧​🇦​🇳​🇴​🇬​🇸​ 🇳​🇴​🇹​ 🇫​🇴​🇺​🇳​🇩​​', ANOGS))
+                            return
+  end
+ end
+ 
+function Get_Gcloud()
+GCLOUD_Scan = createMemScan()
+GCLOUD_Scan.firstScan(soExactValue, vtByteArray, nil, HEADER_LIB_GCLOUD, nil, StartRange, EndRange, '', nil, nil , true, nil, nil, nil)
+GCLOUD_Scan.waitTillDone()
+LIB_GCLOUD = createFoundList(GCLOUD_Scan)
+LIB_GCLOUD.initialize()                 
+ 
+ 			      GCLOUD   = tonumber(LIB_GCLOUD[0], 16)
+				local GCLOUD_Integer = readInteger(GCLOUD + 0x20);
+         if GCLOUD_Integer == 3645668 then
+                      print(string.format('🇱​🇮​🇧​🇬​🇨​🇱​🇴​🇺​🇩​​ 🇫​🇴​🇺​🇳​🇩​🇪​🇩​ 🇦​🇹​ 0x%X', GCLOUD))
+					  
+                        else
+						        
+                   print(string.format('🇱​🇮​🇧​🇬​🇨​🇱​🇴​🇺​🇩​​ 🇳​🇴​🇹​ 🇫​🇴​🇺​🇳​🇩​', GCLOUD))
+                   return
+  end	
+ end
+ 
+ 
+function GetMagic()
+HIT_PART_Scan = createMemScan()
+HIT_PART_Scan.firstScan(soExactValue, vtByteArray, nil, HEADER_HIT_PART, nil, UE4, UE4END, '', nil, nil , true, nil, nil, nil)
+HIT_PART_Scan.waitTillDone()
+HIT_PART = createFoundList(HIT_PART_Scan)
+HIT_PART.initialize()											
+              			      HIT_PART = tonumber(HIT_PART[0], 16)
+				 HIT_PART_Integer = readInteger(HIT_PART);
+         if HIT_PART_Integer == 184 then			
+                        magicssStart()
+                     else
+         		messageDialog("🇧​🇦​🇸​🇪​ 🇦​🇩​🇩​🇷​🇪​🇸​🇸​ 🇳​🇴​🇹​ 🇫​🇴​🇺​🇳​🇩​!",mtWarning,mbOK);
+        return
+  end
+end 
+ 
+ 
+function resetinternet()
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'NetReset.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."NetReset.bat"
+ local vampyfile = shellExecute(vampy_name)
+ 
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'macreset.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."macreset.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+ 
+function opgloop()
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'Gameloop.exe'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'Active.sav'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'UserCustom.ini'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(1500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."Gameloop.exe"
+ local vampyfile = shellExecute(vampy_name)
+end
+ 
+function fixlag()
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'fixlag.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."fixlag.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+ 
+function safeExit()   ---exit emu
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'exitemu.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."exitemu.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+ 
+ function resetgameloopid()   ---global reset id
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'idreseter.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."idreseter.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+ 
+function openpubgtw()
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'opentw.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."opentw.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+ 
+function openpubgglobal()
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'opengl.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."opengl.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+ 
+function openpubgkr()
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'openkr.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."openkr.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+ 
+function openpubgvn()
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'openvn.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."openvn.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+function openpubgbgmi()
+local path = os.getenv("windir") .. "\\Temp\"
+FILE = 'openind.bat'
+findTableFile(FILE).saveToFile(path..'\\'..FILE)
+sleep(500)
+ local vampy = os.getenv("windir") .. "\\Temp\"
+ local vampy_name = vampy.."openind.bat"
+ local vampyfile = shellExecute(vampy_name)
+end
+--windows manager
+-- lock()//
+function DragIt0()
+ Formlock.DragNow()
+end
+function formMinimize0()
+ Formlock.WindowState = 'wsMinimized'
+end
+function formMaximize0()
+ if x == 0 then
+ Formlock.WindowState = 'wsMaximized'
+ x = 1
+ else
+ Formlock.WindowState = 'wsNormal'
+ local x = 0
+ end
+end
+function formClose0()
+Formlock.close()
+closeCE()
+ return caFree
+end
+--vampyvip()//
+function DragIt()
+ FormEmu.DragNow()
+end
+function formMinimize()
+ FormEmu.WindowState = 'wsMinimized'
+end
+function formMaximize()
+ if x == 0 then
+ FormEmu.WindowState = 'wsMaximized'
+ x = 1
+ else
+ FormEmu.WindowState = 'wsNormal'
+ local x = 0
+ end
+end
+function formClose()
+FormEmu.close()
+os.exit()
+closeCE()
+ return caFree
+end
+--vampy()// 
+function DragIt1()
+ FormMenu.DragNow()
+end
+function formMinimize1()
+ FormMenu.WindowState = 'wsMinimized'
+end
+function formMaximize1()
+ if x == 0 then
+ FormMenu.WindowState = 'wsMaximized'
+ x = 1
+ else
+ FormMenu.WindowState = 'wsNormal'
+ local x = 0
+ end
+end
+function formClose1()
+FormMenu.close()
+os.exit()
+closeCE()
+ return caFree
+end
+--goskin()//
+function DragIt2()
+ FormSkinHack.DragNow()
+end
+function formMinimize2()
+ FormSkinHack.WindowState = 'wsMinimized'
+end
+function formMaximize2()
+ if x == 0 then
+ FormSkinHack.WindowState = 'wsMaximized'
+ x = 1
+ else
+ FormSkinHack.WindowState = 'wsNormal'
+ local x = 0
+ end
+end
+function formClose2()
+FormSkinHack.close()
+os.exit()
+closeCE()
+ return caFree
+end
+ 
+function gomainm()
+FormMenu.show()
+FormSkinHack.close()
+end
+function goemus()
+FormMenu.close()
+FormEmu.show()
+end
+ 
+function vampyvip()
+local x = 0
+FormEmu = createForm(true)
+FormEmu.Caption ='vampy々'
+FormEmu.Width = 1024
+FormEmu.Height = 576
+FormEmu.Position = poScreenCenter
+FormEmu.Color =0x190c1f
+FormEmu.Font.Color= 255
+FormEmu.BorderStyle=bsNone
+FormEmu.onMouseDown = DragIt
+FormEmu.fixDPI()
+ 
+fTitle = createLabel(FormEmu)
+fTitle.setPosition(100,0)
+fTitle.Font.Color = '215'
+fTitle.Font.Size = 15
+fTitle.Font.Name = 'Verdana'
+fTitle.Caption = 'T.ME/BRAVO6IXX'
+fTitle.Anchors = '[akTop,akLeft]'
+ 
+img_BtnMin = createLabel(FormEmu)
+img_BtnMin.setSize(55,55)
+img_BtnMin.setPosition(1000,4)
+img_BtnMin.Stretch = true
+img_BtnMin.Transparent = true
+img_BtnMin.Cursor = -21
+img_BtnMin.Anchors = '[akTop,akRight]'
+img_BtnMin.onClick = formMinimize
+img_BtnMin.Caption = '='
+ 
+img_BtnMax = createLabel(FormEmu)
+img_BtnMax.setSize(55,55)
+img_BtnMax.setPosition(1010,4)
+img_BtnMax.Stretch = true
+img_BtnMax.Transparent = true
+img_BtnMax.Cursor = -21
+img_BtnMax.Anchors = '[akTop,akRight]'
+img_BtnMax.onClick = formMaximize
+img_BtnMax.Caption = 'O'
+ 
+img_BtnClose = createLabel(FormEmu)
+img_BtnClose.setSize(55,55)
+img_BtnClose.setPosition(1020,4)
+img_BtnClose.Stretch = true
+img_BtnClose.Transparent = true
+img_BtnClose.Cursor = -21
+img_BtnClose.Anchors = '[akTop,akRight]'
+img_BtnClose.onClick = formClose
+img_BtnClose.Caption = 'X'
+ 
+GameloopSel = createLabel(FormEmu)
+GameloopSel.Left = 3
+GameloopSel.Top = 230
+GameloopSel.Width = 75
+GameloopSel.Height = 25
+GameloopSel.Caption = 'Gameloop'
+GameloopSel = createButton(FormEmu)
+GameloopParamData={}
+GameloopParamData.EmuProcName = "aow_exe"
+GameloopParamData.EmuRangeS = 0x39999999
+GameloopParamData.EmuRangeE = 0x59999999
+GameloopParamData.EmuUE4END = 0xA0000000
+GameloopSel.Tag=createRef(GameloopParamData)
+GameloopSel.Left = 100
+GameloopSel.Top = 230
+GameloopSel.Width = 15
+GameloopSel.Height = 15
+GameloopSel.onClick = StartProcess
+GameloopSel.Color =255
+ 
+SmartGaGaSel = createLabel(FormEmu)
+SmartGaGaSel.Left = 3
+SmartGaGaSel.Top = 250
+SmartGaGaSel.Caption = 'SmartGaGa'
+SmartGaGaSel = createButton(FormEmu)
+SmartGaGaParamData={}
+SmartGaGaParamData.EmuProcName = "AndroidProcess"
+SmartGaGaParamData.EmuRangeS = 0x70000000
+SmartGaGaParamData.EmuRangeE = 0x90000000
+SmartGaGaParamData.EmuUE4END = 0xA0000000
+SmartGaGaSel.Tag=createRef(SmartGaGaParamData)
+SmartGaGaSel.Left = 100
+SmartGaGaSel.Top = 250
+SmartGaGaSel.Width = 15
+SmartGaGaSel.Height = 15
+SmartGaGaSel.onClick = StartProcess
+ 
+LdPlayerSel = createLabel(FormEmu)
+LdPlayerSel.Left = 3
+LdPlayerSel.Top = 270
+LdPlayerSel.Caption = 'Ld Player4'
+LdPlayerSel = createButton(FormEmu)
+LdPlayerParamData={}
+LdPlayerParamData.EmuProcName = "LdVBoxHeadless"
+LdPlayerParamData.EmuRangeS = 0x0000000000000000
+LdPlayerParamData.EmuRangeE = 0x00007fffffffffff
+LdPlayerParamData.EmuUE4END = 0x00007fffffffffff
+LdPlayerSel.Tag=createRef(LdPlayerParamData)
+LdPlayerSel.Left = 100
+LdPlayerSel.Top = 270
+LdPlayerSel.Width = 15
+LdPlayerSel.Height = 15
+LdPlayerSel.onClick = StartProcess
+ 
+LdPlayer3Sel = createLabel(FormEmu)
+LdPlayer3Sel.Left = 3
+LdPlayer3Sel.Top = 290
+LdPlayer3Sel.Caption = 'Ld Player3'
+LdPlayer3Sel = createButton(FormEmu)
+LdPlayer3ParamData={}
+LdPlayer3ParamData.EmuProcName = "LdBoxHeadless"
+LdPlayer3ParamData.EmuRangeS = 0x0000000000000000
+LdPlayer3ParamData.EmuRangeE = 0x00007fffffffffff
+LdPlayer3ParamData.EmuUE4END = 0x00007fffffffffff
+LdPlayer3Sel.Tag=createRef(LdPlayer3ParamData)
+LdPlayer3Sel.Left = 100
+LdPlayer3Sel.Top = 290
+LdPlayer3Sel.Width = 15
+LdPlayer3Sel.Height = 15
+LdPlayer3Sel.onClick = StartProcess
+ 
+NoxSel = createLabel(FormEmu)
+NoxSel.Left = 3
+NoxSel.Top = 310
+NoxSel.Caption = 'NoX'
+NoxSel = createButton(FormEmu)
+NoxParamData={}
+NoxParamData.EmuProcName = "NoxVMHandle"
+NoxParamData.EmuRangeS = 0x0000000000000000
+NoxParamData.EmuRangeE = 0x00007fffffffffff
+NoxParamData.EmuUE4END = 0x00007fffffffffff
+NoxSel.Tag=createRef(NoxParamData)
+NoxSel.Left = 100
+NoxSel.Top = 310
+NoxSel.Width = 15
+NoxSel.Height = 15
+NoxSel.onClick = StartProcess
+ 
+MemuSel = createLabel(FormEmu)
+MemuSel.Left = 3
+MemuSel.Top = 330
+MemuSel.Caption = 'Memu'
+MemuSel = createButton(FormEmu)
+MemuParamData={}
+MemuParamData.EmuProcName = "MEmuHeadless"
+MemuParamData.EmuRangeS = 0x0000000000000000
+MemuParamData.EmuRangeE = 0x00007fffffffffff
+MemuParamData.EmuUE4END = 0x00007fffffffffff
+MemuSel.Tag=createRef(MemuParamData)
+MemuSel.Left = 100
+MemuSel.Top = 330
+MemuSel.Width = 15
+MemuSel.Height = 15
+MemuSel.onClick = StartProcess
+ 
+BluestacksSel = createLabel(FormEmu)
+BluestacksSel.Left = 3
+BluestacksSel.Top = 350
+BluestacksSel.Caption = 'Bluestacks'
+BluestacksSel = createButton(FormEmu)
+BluestacksParamData={}
+BluestacksParamData.EmuProcName = "HD-Player"
+BluestacksParamData.EmuRangeS = 0x0000000000000000
+BluestacksParamData.EmuRangeE = 0x00007fffffffffff
+BluestacksParamData.EmuUE4END = 0x00007fffffffffff
+BluestacksSel.Tag=createRef(BluestacksParamData)
+BluestacksSel.Left = 100
+BluestacksSel.Top = 350
+BluestacksSel.Width = 15
+BluestacksSel.Height = 15
+BluestacksSel.onClick = StartProcess
+ 
+info12 = createButton(FormEmu)
+info12.Left = 1000
+info12.Top = 250
+info12.Width = 20
+info12.Height = 20
+info12.onClick = fixlag
+info12.Caption ='!'
+ 
+info13 = createLabel(FormEmu)
+info13.Caption='FixLag'
+info13.Left = 850
+info13.Top = 250
+info13.Font.Size= 10
+info13.Font.Color= 255
+ 
+info12 = createButton(FormEmu)
+info12.Left = 1000
+info12.Top = 270
+info12.Width = 20
+info12.Height = 20
+info12.onClick = opgloop
+info12.Caption ='!'
+ 
+info13 = createLabel(FormEmu)
+info13.Caption='StartGameLoop'
+info13.Left = 850
+info13.Top = 270
+info13.Font.Color= 255
+ 
+ 
+info13 = createLabel(FormEmu)
+info13.Caption='Open Game'
+info13.Left = 850
+info13.Top = 290
+info13.Font.Size= 10
+info13.Font.Color= 255
+ 
+info12 = createButton(FormEmu)
+info12.Left = 1000
+info12.Top = 290
+info12.Width = 20
+info12.Height = 20
+info12.onClick = openpubgglobal
+info12.Caption ='GL'
+ 
+info12 = createButton(FormEmu)
+info12.Left = 980
+info12.Top = 290
+info12.Width = 20
+info12.Height = 20
+info12.onClick = openpubgtw
+info12.Caption ='TW'
+ 
+info12 = createButton(FormEmu)
+info12.Left = 960
+info12.Top = 290
+info12.Width = 20
+info12.Height = 20
+info12.onClick = openpubgvn
+info12.Caption ='VN'
+ 
+info12 = createButton(FormEmu)
+info12.Left = 940
+info12.Top = 290
+info12.Width = 20
+info12.Height = 20
+info12.onClick = openpubgkr
+info12.Caption ='KR'
+ 
+info12 = createButton(FormEmu)
+info12.Left = 920
+info12.Top = 290
+info12.Width = 20
+info12.Height = 20
+info12.onClick = openpubgbgmi
+info12.Caption ='IN'
+ 
+ 
+info13 = createLabel(FormEmu)
+info13.Caption='Device_ID'
+info13.Left = 850
+info13.Top = 310
+info13.Font.Color= 255
+ 
+info12 = createButton(FormEmu)
+info12.Left = 1000
+info12.Top = 310
+info12.Width = 20
+info12.Height = 20
+info12.onClick = resetgameloopid
+info12.Caption ='!'
+ 
+info13 = createLabel(FormEmu)
+info13.Caption='Device_IP'
+info13.Left = 850
+info13.Top = 330
+info13.Font.Size= 10
+info13.Font.Color= 255
+ 
+info12 = createButton(FormEmu)
+info12.Left = 1000
+info12.Top = 330
+info12.Width = 20
+info12.Height = 20
+info12.onClick = resetinternet
+info12.Caption ='!'
+ 
+ 
+ 
+info12 = createButton(FormEmu)
+info12.Left = 1000
+info12.Top = 350
+info12.Width = 20
+info12.Height = 20
+info12.onClick = safeExit
+info12.Caption ='!'
+ 
+info13 = createLabel(FormEmu)
+info13.Caption='safeExit'
+info13.Left = 850
+info13.Top = 350
+info13.Font.Size= 10
+info13.Font.Color= 255
+ 
+function attachBackground(wc)
+  local p = createPicture()
+  local int=getInternet()
+local logostr=int.getURL("https://s6.uupload.ir/files/9o1wji_k1q0.jpg")
+int.destroy()
+local ss=createStringStream(logostr)
+  p.loadFromStream(ss)
+  wc.OnPaint = function(sender)
+    local c = sender.getCanvas()
+    local bitmap = p.getBitmap()
+    c.draw(0,0,bitmap)
+  end
+end
+attachBackground(FormEmu,[[bff.JPG]])
+end
+ 
+function vampyvipp()
+local x = 0
+FormMenu = createForm(true)
+FormMenu.Caption ='vampy々'
+FormMenu.Width = 1024
+FormMenu.Height = 576
+FormMenu.Position = poScreenCenter
+FormMenu.Color =0x190c1f
+FormMenu.BorderStyle=bsNone
+FormMenu.onMouseDown = DragIt1
+FormMenu.fixDPI()
+attachBackground(FormMenu,[[bff.JPG]])
+ 
+dg9 = createLabel(FormMenu)
+dg9.Caption='T.ME/BRAVO6IXX'
+dg9.Left = 0
+dg9.Top = -1
+dg9.Font.Size= 19
+dg9.Font.Color=255
+dg9.onClick = getFK
+ 
+dg7 = createLabel(FormMenu)
+dg7.Caption='ρłαч šмαят! ανøıđ Reρøят'
+dg7.Left = 0
+dg7.Top = 30
+dg7.Font.Color=255
+ 
+ 
+ 
+img_BtnMin = createLabel(FormMenu)
+img_BtnMin.setSize(22,22)
+img_BtnMin.setPosition(1000,4)
+img_BtnMin.Stretch = true
+img_BtnMin.Transparent = true
+img_BtnMin.Cursor = -21
+img_BtnMin.Anchors = '[akTop,akRight]'
+img_BtnMin.onClick = formMinimize1
+img_BtnMin.Caption = '='
+img_BtnMin.Font.Color=0xff0000
+ 
+img_BtnMax = createLabel(FormMenu)
+img_BtnMax.setSize(22,22)
+img_BtnMax.setPosition(1010,4)
+img_BtnMax.Stretch = true
+img_BtnMax.Transparent = true
+img_BtnMax.Cursor = -21
+img_BtnMax.Anchors = '[akTop,akRight]'
+img_BtnMax.onClick = formMaximize1
+img_BtnMax.Caption = 'O'
+img_BtnMax.Font.Color=0xff0000
+ 
+img_BtnClose = createLabel(FormMenu)
+img_BtnClose.setSize(22,22)
+img_BtnClose.setPosition(1020,4)
+img_BtnClose.Stretch = true
+img_BtnClose.Transparent = true
+img_BtnClose.Cursor = -21
+img_BtnClose.Anchors = '[akTop,akRight]'
+img_BtnClose.onClick = formClose1
+img_BtnClose.Caption = 'X'
+img_BtnClose.Font.Color=255
+ 
+chbf = createButton(FormMenu)
+chbf.Left = 972
+chbf.Top = 190
+chbf.Width = 52
+chbf.Height = 20
+chbf.onClick = paz
+chbf.Caption ='☠'
+ 
+chbf = createButton(FormMenu)
+chbf.Left = 920
+chbf.Top = 190
+chbf.Width = 52
+chbf.Height = 20
+chbf.onClick = unpaz
+chbf.Caption ='▶'
+ 
+chl = createLabel(FormMenu)
+chl.Caption='Emu Selection'
+chl.Left = 940
+chl.Top = 40
+chl.Font.Size= 10
+chl.Font.Color=0xa503fc
+ 
+anbf = createButton(FormMenu)
+anbf.Left = 920
+anbf.Top = 40
+anbf.Width = 20
+anbf.Height = 20
+anbf.onClick = goemus
+anbf.Caption ='☻'
+ 
+chl = createLabel(FormMenu)
+chl.Caption='ᴇхᴇᴄᴜᴛᴇ oɴ ʟᴏɢo'
+chl.Left = 0
+chl.Top = 44
+chl.Font.Color= 255
+ 
+chbf = createButton(FormMenu)
+chbf.Left = 0
+chbf.Top = 59
+chbf.Width = 90
+chbf.Height = 70
+chbf.onClick = vampy_bypass
+chbf.Caption ='BYPASS'
+ 
+ 
+IpadViewChk = createCheckBox(FormMenu);
+IpadViewChk.Left = 170
+IpadViewChk.Top = 57
+IpadViewChk.Focused = false
+IpadViewChk.focus  = false
+IpadViewChk.state  = 1
+IpadViewlb = createLabel(FormMenu)
+IpadViewlb.Caption = 'IpadView'
+IpadViewlb.Left = IpadViewChk.Left+17
+IpadViewlb.Top = IpadViewChk.Top+2
+IpadViewlb.Font.Color = 0xfcdb03
+ 
+UE4sideChk = createCheckBox(FormMenu);
+UE4sideChk.Left = 170
+UE4sideChk.Top = 72
+UE4sideChk.Focused = false
+UE4sideChk.focus  = false
+UE4sideChk.state  = 1
+UE4sidelb = createLabel(FormMenu)
+UE4sidelb.Caption = 'UE4side'
+UE4sidelb.Left = UE4sideChk.Left+17
+UE4sidelb.Top = UE4sideChk.Top+2
+UE4sidelb.Font.Color = 0xfcdb03
+ 
+GCdownChk = createCheckBox(FormMenu);
+GCdownChk.Left = 170
+GCdownChk.Top = 87
+GCdownChk.Focused = false
+GCdownChk.focus  = false
+GCdownChk.state  = 0
+GCdownlb = createLabel(FormMenu)
+GCdownlb.Caption = 'Map downloader'
+GCdownlb.Left = GCdownChk.Left+17
+GCdownlb.Top = GCdownChk.Top+2
+GCdownlb.Font.Color = 0xfcdb03
+ 
+GCskipChk = createCheckBox(FormMenu);
+GCskipChk.Left = 170
+GCskipChk.Top = 102
+GCskipChk.Focused = false
+GCskipChk.focus  = false
+GCskipChk.state  = 1
+GCskiplb = createLabel(FormMenu)
+GCskiplb.Caption = 'Update skip'
+GCskiplb.Left = GCskipChk.Left+17
+GCskiplb.Top = GCskipChk.Top+2
+GCskiplb.Font.Color = 0xfcdb03
+ 
+MobilelobbyChk = createCheckBox(FormMenu);
+MobilelobbyChk.Left = 170
+MobilelobbyChk.Top = 117
+MobilelobbyChk.Focused = false
+MobilelobbyChk.focus  = false
+MobilelobbyChk.state  = 1
+Mobilelobbylb = createLabel(FormMenu)
+Mobilelobbylb.Caption = 'MobileLobby'
+Mobilelobbylb.Left = MobilelobbyChk.Left+17
+Mobilelobbylb.Top = MobilelobbyChk.Top+2
+Mobilelobbylb.Font.Color = 0xfcdb03
+ 
+end
+ 
+ vampyvip()
