@@ -85,7 +85,7 @@ function cheats()
               writeBytes(UE4+0x2714788  , vampystr("00 00 A0 E3 0E F0 A0 E1")); --emulator
               writeBytes(UE4+0x2CDC53C  , vampystr("00 00 A0 E3 0E F0 A0 E1")); --emulator
               --writeBytes(ANOGS+0x43214  , vampystr("78 E0")); --emulator
-              writeBytes(ANOGS+0x5ACC6  , vampystr("74 E0")); --2 month fix	
+              --writeBytes(ANOGS+0x5ACC6  , vampystr("74 E0")); --2 month fix	
               writeBytes(ANOGS+0x43192 , vampystr("00 20 70 47")); 		
 			end
 						
