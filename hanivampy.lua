@@ -25,39 +25,35 @@ function vampy_bypass()
             local ANOGS_Integer = readInteger(ANOGS + 0x3435A);
             if ANOGS_Integer == 4213436437  then
 			  			  
-		      writeBytes(ANOGS+0x342EC , vampy("96 02"));
-              writeBytes(ANOGS+0x342EE , vampy("96 02")); 
-              writeBytes(ANOGS+0x342F0 , vampy("96 02"));
-              writeBytes(ANOGS+0x342F4 , vampy("96 02"));
-              writeBytes(ANOGS+0x342F6 , vampy("96 02"));
-              writeBytes(ANOGS+0x342F8 , vampy("96 02"));
-              writeBytes(ANOGS+0x342FA , vampy("96 02"));
-              writeBytes(ANOGS+0x34300 , vampy("96 02"));
-              writeBytes(ANOGS+0x34302 , vampy("96 02"));
-              writeBytes(ANOGS+0x34304 , vampy("96 02"));
-              writeBytes(ANOGS+0x34306 , vampy("96 02"));
-              writeBytes(ANOGS+0x34308 , vampy("96 02"));
-              writeBytes(ANOGS+0x3430C , vampy("96 02"));
-              writeBytes(ANOGS+0x3430E , vampy("96 02"));
-              writeBytes(ANOGS+0x34310 , vampy("96 02"));
-              writeBytes(ANOGS+0x34312 , vampy("96 02"));
-              writeBytes(ANOGS+0x34314 , vampy("96 02"));
-              writeBytes(ANOGS+0x34316 , vampy("96 02")); --23
-              writeBytes(ANOGS+0x34318 , vampy("96 02"));
-              writeBytes(ANOGS+0x3431A , vampy("96 02"));
-              writeBytes(ANOGS+0x3431C , vampy("96 02"));
-              writeBytes(ANOGS+0x34322 , vampy("96 02"));
-              writeBytes(ANOGS+0x3432A , vampy("96 02"));
-              writeBytes(ANOGS+0x3432C , vampy("96 02"));
-              writeBytes(ANOGS+0x3432E , vampy("96 02"));
-              writeBytes(ANOGS+0x3433E , vampy("96 02"));
-              writeBytes(ANOGS+0x34342 , vampy("96 02"));
-              writeBytes(ANOGS+0x34346 , vampy("96 02"));
-              writeBytes(ANOGS+0x3434E , vampy("96 02"));
-              writeBytes(ANOGS+0x34350 , vampy("96 02"));
-			  writeBytes(ANOGS+0x34816 , vampy("B3 E1")); --ret 0  //10 min  fix --34
-			   --//MemoryAntiBan
-              writeBytes(ANOGS+0x107528	, vampy("01 00 00 E3 0E F0 A0 E1")); --10 year fix
+              writeBytes(ANOGS+0x28A494, vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x272012, vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x2721E8, vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x272A6E, vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x272A86, vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x33A34 , vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x34254 , vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x33868 , vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x33A70 , vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x33C14 , vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x336A8 , vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x271EDC, vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x271FBC, vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x43192 , vampystr("00 20 70 47")); 
+              writeBytes(ANOGS+0x347A6 , vampystr("0C F0 A9 FE")); 
+              writeBytes(ANOGS+0x347AA , vampystr("0D F0 85 F9")); 
+              writeBytes(ANOGS+0x347AE , vampystr("E7 E1")); 
+              writeBytes(ANOGS+0x3432E , vampystr("4C 04")); 
+              writeBytes(ANOGS+0x34A12 , vampystr("0C F0 73 FD")); 
+              writeBytes(ANOGS+0x34A16 , vampystr("0D F0 4F F8")); 
+              writeBytes(ANOGS+0x34494 , vampystr("33 F0 46 F8")); 
+              writeBytes(ANOGS+0x3449A , vampystr("06 F0 3D F8")); 
+              writeBytes(ANOGS+0x3484E , vampystr("0C F0 55 FE")); 
+              writeBytes(ANOGS+0x3485C , vampystr("0D F0 2C B9")); 
+		
+              writeBytes(UE4+0x2714788  , vampystr("00 00 A0 E3 0E F0 A0 E1")); --emulator
+              writeBytes(UE4+0x2CDC53C  , vampystr("00 00 A0 E3 0E F0 A0 E1")); --emulator
+              --writeBytes(ANOGS+0x43214  , vampystr("78 E0")); --emulator
+              writeBytes(ANOGS+0x5ACC6  , vampystr("74 E0")); --2 month fix	
               print(string.format("🇱​🇮​🇧​🇦​🇳​🇴​🇬​🇸​ 🇦​🇹​ 0x%X 🇫​🇺​🇨​🇰​🇪​🇩​", ANOGS))
             end
              
@@ -100,11 +96,101 @@ function cheats()
  
 			
             if checkbox_getState(UE4sideChk)== 1  then				
-	          writeBytes(UE4+0x1607270 , vampy("00 00 00 E3 0E F0 A0 E1"));--	security info
-	          writeBytes(UE4+0x18E726C , vampy("00 00 00 E3 0E F0 A0 E1"));--	player controler		
-	          writeBytes(UE4+0x25C7070 , vampy("00 00 00 E3 0E F0 A0 E1"));
-	          writeBytes(UE4+0x25C7028 , vampy("00 00 00 E3 0E F0 A0 E1"));
-	          writeBytes(UE4+0x179313C , vampy("00 00 00 E3 0E F0 A0 E1"));		  			
+	
+              writeBytes(UE4+0x18E8858 , vampystr("0E F0 A0 E1"));		
+              writeBytes(UE4+0x18E7594 , vampystr("0E F0 A0 E1"));	
+              writeBytes(UE4+0x179313C , vampystr("0E F0 A0 E1"));	
+	          writeBytes(UE4+0x1607270 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x18E726C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x25C7070 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x25C7028 , vampystr("0E F0 A0 E1"));		  			  			  			  
+			  writeBytes(UE4+0x1242C50 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1242DF0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1243744 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x12439A8 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1243D38 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1243E44 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x12441A4 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x12444A8 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1244854 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1244A2C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x12453E8 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1270C5C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1284BBC , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1284D5C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1284EE4 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x128524C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1285B88 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1286B68 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x128B6E0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x128C178 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x128C914 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x128CE00 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DCA90 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DDA80 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DDB8C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DDC90 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DDE0C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DE1F8 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DE398 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DE78C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DEFD8 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15DFF40 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E0320 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E0E54 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E3D5C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E40C0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E5288 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E5400 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E61CC , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E6974 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E6A98 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E73EC , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E83B0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E8794 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E8A38 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E8CB0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E8F00 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E90D0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15E91DC , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15EB158 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x15EC0E4 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BB42C8 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BB4740 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BB486C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1EC4330 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1F30A64 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1F3F94C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1F401F0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1F40840 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1FEFDC0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2000FCC , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2001360 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2001760 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2001808 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x20018B8 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2001E60 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x20023D0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x20028F4 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2002EF0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2003458 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2003624 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x2003804 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x20101D0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1794664 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x17943E4 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x17A58A4 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1600ECC , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1601170 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1601448 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1602238 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1605074 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BBDA90 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BBE8D0 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BBED0C , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BBFD38 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BC0110 , vampystr("0E F0 A0 E1"));
+	          writeBytes(UE4+0x1BC15D4 , vampystr("0E F0 A0 E1"));		 	  			
         	end	
 end
  
