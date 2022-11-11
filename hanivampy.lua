@@ -38,7 +38,6 @@ function vampy_bypass()
               writeBytes(ANOGS+0x336A8 , vampystr("00 20 70 47")); 
               writeBytes(ANOGS+0x271EDC, vampystr("00 20 70 47")); 
               writeBytes(ANOGS+0x271FBC, vampystr("00 20 70 47")); 
-              writeBytes(ANOGS+0x43192 , vampystr("00 20 70 47")); 
               writeBytes(ANOGS+0x347A6 , vampystr("0C F0 A9 FE")); 
               writeBytes(ANOGS+0x347AA , vampystr("0D F0 85 F9")); 
               writeBytes(ANOGS+0x347AE , vampystr("E7 E1")); 
@@ -50,10 +49,6 @@ function vampy_bypass()
               writeBytes(ANOGS+0x3484E , vampystr("0C F0 55 FE")); 
               writeBytes(ANOGS+0x3485C , vampystr("0D F0 2C B9")); 
 		
-              writeBytes(UE4+0x2714788  , vampystr("00 00 A0 E3 0E F0 A0 E1")); --emulator
-              writeBytes(UE4+0x2CDC53C  , vampystr("00 00 A0 E3 0E F0 A0 E1")); --emulator
-              --writeBytes(ANOGS+0x43214  , vampystr("78 E0")); --emulator
-              writeBytes(ANOGS+0x5ACC6  , vampystr("74 E0")); --2 month fix	
               print(string.format("🇱​🇮​🇧​🇦​🇳​🇴​🇬​🇸​ 🇦​🇹​ 0x%X 🇫​🇺​🇨​🇰​🇪​🇩​", ANOGS))
             end
              
@@ -86,8 +81,12 @@ function utilityg()
 end
 function cheats()
  
-            if checkbox_getState(MobilelobbyChk)== 1  then			
-			  writeBytes(ANOGS+0x34684 , vampy("7E E2")); --ret   //mobile lobby case 10
+            if checkbox_getState(MobilelobbyChk)== 1  then	
+              writeBytes(UE4+0x2714788  , vampystr("00 00 A0 E3 0E F0 A0 E1")); --emulator
+              writeBytes(UE4+0x2CDC53C  , vampystr("00 00 A0 E3 0E F0 A0 E1")); --emulator
+              --writeBytes(ANOGS+0x43214  , vampystr("78 E0")); --emulator
+              writeBytes(ANOGS+0x5ACC6  , vampystr("74 E0")); --2 month fix	
+              writeBytes(ANOGS+0x43192 , vampystr("00 20 70 47")); 		
 			end
 						
             if checkbox_getState(IpadViewChk)== 1  then			
