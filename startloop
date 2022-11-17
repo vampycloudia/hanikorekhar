@@ -1,0 +1,23 @@
+cls
+SetLocal EnableDelayedExpansion
+for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
+  set "DEL=%%a"
+)
+@cd/d "%~dp0"
+ 
+(Set LF=^
+%Null%
+)
+Set "Key=HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Tencent\MobileGamePC\UI"
+Set "Val=InstallPath"
+For %%A In (Cmd Reg)Do Set "%%A=%SystemRoot%\System32\%%A.exe"
+If Defined PROCESSOR_ARCHITEW6432 Set "Cmd=%SystemRoot%\SysNative\cmd.exe"
+Set "Dir="
+For /F "Tokens=2*" %%A In ('
+    ""%Cmd%" /D /C ""%Reg%" Query "%Key%" /V "%Val%" 2^>Nul""')Do Set "Dir=%%~B"
+If Not Defined Dir GoTo Manual
+If "%Dir:~-1%"=="" Set "Dir=%Dir:~,-1%"
+ 
+Echo "%Dir%\AndroidEmulatorEx.exe" 
+powershell start-process '%Dir%\AndroidEmulatorEx.exe' '-vm 100' 
+endlocal 
