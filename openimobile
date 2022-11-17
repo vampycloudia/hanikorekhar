@@ -1,0 +1,7 @@
+adb kill-server
+adb devices
+adb.exe push C:\\Windows\\temp\\Active.sav /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav
+adb.exe push C:\\Windows\\temp\\Active.sav /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/cached.sav
+adb.exe push C:\\Windows\\temp\\UserCustom.ini /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini
+adb.exe push C:\\Windows\\temp\\UserCustom.ini /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/EnjoyCJZC.ini
+adb shell am start -n com.pubg.imobile/com.epicgames.ue4.SplashActivity filter
