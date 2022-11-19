@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="42">
-  <CheatEntries/>
-  <UserdefinedSymbols/>
-  <LuaScript>--
 
 dbk_initialize()
 dbk_useKernelmodeOpenProcess()
@@ -905,5 +900,3 @@ end
 
  vampyvip()
 
-</LuaScript>
-</CheatTable>
