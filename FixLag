@@ -1,4 +1,10 @@
 
 adb kill-server
 adb devices
-adb shell pm uninstall -k --user 0  com.android.vending
+adb shell pm disable-user --user 0 com.android.vending
+adb shell pm disable-user --user 0 com.google.android.webview
+adb shell pm disable-user --user 0 com.google.android.gms
+adb shell pm disable-user --user 0 com.google.android.gsf
+adb shell pm disable-user --user 0 com.google.android.gsf.login
+adb shell pm disable-user --user 0 com.google.android.play.games
+adb shell pm disable-user --user 0 com.facebook.katana
