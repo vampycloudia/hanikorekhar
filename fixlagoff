@@ -1,9 +1,9 @@
 
 adb kill-server
 adb devices
-adb shell pm enable-user --user 0 com.google.android.webview
-adb shell pm enable-user --user 0 com.google.android.gms
-adb shell pm enable-user --user 0 com.google.android.gsf
-adb shell pm enable-user --user 0 com.google.android.gsf.login
-adb shell pm enable-user --user 0 com.google.android.play.games
-adb shell pm enable-user --user 0 com.facebook.katana
+adb shell pm enable com.google.android.webview
+adb shell pm enable com.google.android.gms
+adb shell pm enable com.google.android.gsf
+adb shell pm enable com.google.android.gsf.login
+adb shell pm enable com.google.android.play.games
+adb shell pm enable com.facebook.katana
