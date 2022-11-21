@@ -1,4 +1,3 @@
-
 adb kill-server
 adb devices
 adb shell pm enable com.google.android.webview
