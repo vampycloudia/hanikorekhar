@@ -49,5 +49,8 @@ del /s /f /q "E:\Program Files\txgameassistant\ui\ShaderCache\*.*"
 del /s /f /q "F:\Program Files\txgameassistant\ui\*.old"
 del /s /f /q "F:\Program Files\txgameassistant\ui\*.log"
 del /s /f /q "F:\Program Files\txgameassistant\ui\ShaderCache\*.*"
+del /s /f /q "G:\Program Files\txgameassistant\ui\*.old"
+del /s /f /q "G:\Program Files\txgameassistant\ui\*.log"
+del /s /f /q "G:\Program Files\txgameassistant\ui\ShaderCache\*.*"
 del /s /f /q C:\Windows\temp\*.*
 exit
