@@ -129,6 +129,7 @@ adb shell rm -rf /data/media/0/Android/.system_android_l2 > nul 2>&1
 adb shell rm -rf /data/media/0/Android/data/.um > nul 2>&1
 adb shell rm -rf /data/media/0/Android/obj > nul 2>&1
 adb shell rm -rf /data/media/0/Android/data/com.tencent.ig > nul 2>&1 
+adb shell rm -rf /data/media/0/Android/data/com.tencent.ams > nul 2>&1 
 adb shell rm -rf /data/media/0/.backup > nul 2>&1
 adb shell rm -rf /data/media/0/backups > nul 2>&1
 adb shell rm -rf /data/media/0/.backups > nul 2>&1
@@ -146,6 +147,7 @@ adb shell rm -rf /data/media/0/Download > nul 2>&1
 adb shell rm -rf /data/media/0/music > nul 2>&1
 adb shell rm -rf /data/media/0/pictures > nul 2>&1
 adb shell rm -rf /data/media/0/dcim > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ams > nul 2>&1 
 adb shell touch /data/media/0/centauri > nul 2>&1
 adb shell touch /data/media/0/CentauriOversea > nul 2>&1
 adb shell touch /data/media/0/SysQS > nul 2>&1
