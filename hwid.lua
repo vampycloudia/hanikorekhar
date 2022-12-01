@@ -9,7 +9,7 @@ end
 functions DDFEDAFAA()
 if hwid==DDFEDAFAA then   vampy_bypass() 
 else 
-writeToClipboard(Text)
+writeToClipboard(hardwareid)
 showMessage("please register as vip member baby ///send me your hwid copyed to your clipboard  ///@bravo6ixx")
   end
 end
