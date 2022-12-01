@@ -1,7 +1,7 @@
 
 function DDFEDAFAA()
  local trainer_verifier = hardwareid
-  if trainer_verifier ~= DDFEDAFAA then
+  if trainer_verifier = DDFEDAFAA then
           
 speak("fuck your mother")
 writeToClipboard(hardwareid)
