@@ -1,7 +1,9 @@
-local Text="0321651064"
+local result="0321651064"
 local res="0321651064"
- local trainer_verifier = Text
-  if trainer_verifier ~= res then
+ password = all_trim(result)
+ passscanner = string.gsub(password,'%A+','')
+ local trainer_verifier = res
+  if trainer_verifier ~= passscanner then
  vampylockVIP()
    return caFree
   else
