@@ -4,6 +4,28 @@ function all_trim(s)
 end
 
 
+-- lock()
+function DiragItlock()
+ vampylock.DragNow()
+end
+function formMinimizelock()
+ vampylock.WindowState = 'wsMinimized'
+end
+function formMaximizelock()
+ if x == 0 then
+ vampylock.WindowState = 'wsMaximized'
+ x = 1
+ else
+ vampylock.WindowState = 'wsNormal'
+ local x = 0
+ end
+end
+function formCloselock()
+vampylock.close()
+closeCE()
+ return caFree
+end
+
 function  vampylockVIP()
 
         local x = 0
