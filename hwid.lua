@@ -1,6 +1,6 @@
 
 function DDFEDAFAA()
- hwid1 = all_trim(hwid)
+ hwid1 = all_trim(hardwareid)
  hwid = string.gsub(hwid1,'%A+','')
  local hardwareid_verifier = hardwareid
   if hardwareid_verifier ~= hwid then
