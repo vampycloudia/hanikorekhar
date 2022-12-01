@@ -1,3 +1,8 @@
+
+function all_trim(s)
+  return s:match"^%s*(.*)":match"(.-)%s*$"
+end     
+
         local x = 0
         vampylock = createForm(true)
         vampylock.Width = 240
