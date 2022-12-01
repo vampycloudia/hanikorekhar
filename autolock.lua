@@ -1,3 +1,8 @@
+
+function all_trim(s)
+  return s:match"^%s*(.*)":match"(.-)%s*$"
+end
+
 local result="vampylockon"
 local res="vampylockon"
  password = all_trim(result)
