@@ -1,6 +1,6 @@
 
 function DDFEDAFAA()
-if hwid==DDFEDAFAA then
+if hardwareid==DDFEDAFAA then
 
 speak("fuck you")
     --vampy_bypass()
