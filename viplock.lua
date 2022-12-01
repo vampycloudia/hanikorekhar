@@ -76,9 +76,12 @@ local vampytimer = createTimer(vampylock)
         vampytimer.OnTimer=function()
 
 
+
  result="0454155515001"
+ password = all_trim(result)
+ passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = vampyinput.Text
-  if trainer_verifier ~= result then
+  if trainer_verifier ~= passscanner then
  vampytitle.caption="key invalid!!"
  vampytimer.Enabled=false
    showMessage("Sorry Hitler, I could not let you pass...")
