@@ -1,7 +1,7 @@
 
 function DDFEDAFAA()
- 
- res1 = all_trim(DDFEDAFAB)
+ res=DDFEDAFAB
+ res1 = all_trim(res)
  res2 = string.gsub(res1,'%A+','')
  local trainer_verifier = hardwareid
   if trainer_verifier ~= res2 then
