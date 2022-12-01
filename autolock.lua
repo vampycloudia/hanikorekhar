@@ -106,7 +106,7 @@ local vampytimer = createTimer(vampylock)
     return
 end
 end
-end
+
 vampyexcute.OnClick=function() vampytimer.Enabled=true end
 
 end
@@ -124,4 +124,3 @@ local res="vampylockon"
  vampyEmuVIP()
     return
 end
-
