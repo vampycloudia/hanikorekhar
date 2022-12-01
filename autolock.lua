@@ -1,5 +1,5 @@
-local result="0321651064"
-local res="0321651064"
+local result="vampylockon"
+local res="vampylockon"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = res
