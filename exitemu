@@ -1,7 +1,8 @@
-SETCONSOLE /hide
+TITLE vampy
+FOR /F %%A IN ('CMDOW ˆ| FIND "vampy"') DO CMDOW %%A /HID
 @echo off
 color c
-title vampy
+
 set /a _Debug=0
 ::======================================================================================
 :: Get Administrator Rights
