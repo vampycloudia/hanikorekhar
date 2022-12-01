@@ -1,0 +1,276 @@
+echo off
+SetLocal EnableExtensions EnableDelayedExpansion
+ cls 
+adb kill-server 
+adb devices 
+adb start-server 
+adb shell rm -rf /data/data/*.log > nul 2>&1 
+adb shell mv -f -i /data/data/com.tencent.ig/shared_prefs /data/data/com.tencent.igshared_prefs > nul 2>&1
+adb shell mv -f -i /data/data/com.tencent.ig/lib /data/data/com.tencent.iglib > nul 2>&1
+adb shell rm -rf /data/data/com.tencent.ig > nul 2>&1 
+adb shell mkdir /data/data/com.tencent.ig > nul 2>&1
+adb shell touch /data/data/com.tencent.ig/files > nul 2>&1 
+adb shell touch /data/data/com.tencent.ig/app_crashrecord > nul 2>&1 
+adb shell touch /data/data/com.tencent.ig/app_crashSight > nul 2>&1 
+adb shell touch /data/data/com.tencent.ig/app_flutter > nul 2>&1 
+adb shell touch /data/data/com.tencent.ig/app_textures > nul 2>&1 
+adb shell touch /data/data/com.tencent.ig/app_webview > nul 2>&1 
+adb shell touch /data/data/com.tencent.ig/cache > nul 2>&1 
+adb shell touch /data/data/com.tencent.ig/code_cache > nul 2>&1 
+adb shell touch /data/data/com.tencent.ig/no_backup > nul 2>&1 
+adb shell mv -f -i /data/data/com.tencent.igshared_prefs /data/data/com.tencent.ig/shared_prefs > nul 2>&1
+adb shell mv -f -i /data/data/com.tencent.iglib /data/data/com.tencent.ig/lib > nul 2>&1
+adb shell mv -f -i /data/data/com.pubg.imobile/lib /data/data/com.pubg.imobilelib > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.imobile > nul 2>&1 
+adb shell mkdir /data/data/com.pubg.imobile > nul 2>&1
+adb shell touch /data/data/com.pubg.imobile/files > nul 2>&1 
+adb shell touch /data/data/com.pubg.imobile/app_crashrecord > nul 2>&1 
+adb shell touch /data/data/com.pubg.imobile/app_crashSight > nul 2>&1 
+adb shell touch /data/data/com.pubg.imobile/app_flutter > nul 2>&1 
+adb shell touch /data/data/com.pubg.imobile/app_textures > nul 2>&1 
+adb shell touch /data/data/com.pubg.imobile/app_webview > nul 2>&1 
+adb shell touch /data/data/com.pubg.imobile/cache > nul 2>&1 
+adb shell touch /data/data/com.pubg.imobile/code_cache > nul 2>&1 
+adb shell touch /data/data/com.pubg.imobile/no_backup > nul 2>&1 
+adb shell mv -f -i /data/data/com.pubg.imobile/shared_prefs /data/data/com.pubg.imobileshared_prefs > nul 2>&1
+adb shell mv -f -i /data/data/com.pubg.imobilelib /data/data/com.pubg.imobile/lib > nul 2>&1
+adb shell mv -f -i /data/data/com.pubg.krmobile/lib /data/data/com.pubg.krmobilelib > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile > nul 2>&1 
+adb shell mkdir /data/data/com.pubg.krmobile > nul 2>&1
+adb shell touch /data/data/com.pubg.krmobile/files > nul 2>&1 
+adb shell touch /data/data/com.pubg.krmobile/app_crashrecord > nul 2>&1 
+adb shell touch /data/data/com.pubg.krmobile/app_crashSight > nul 2>&1 
+adb shell touch /data/data/com.pubg.krmobile/app_flutter > nul 2>&1 
+adb shell touch /data/data/com.pubg.krmobile/app_textures > nul 2>&1 
+adb shell touch /data/data/com.pubg.krmobile/app_webview > nul 2>&1 
+adb shell touch /data/data/com.pubg.krmobile/cache > nul 2>&1 
+adb shell touch /data/data/com.pubg.krmobile/code_cache > nul 2>&1 
+adb shell touch /data/data/com.pubg.krmobile/no_backup > nul 2>&1 
+adb shell mv -f -i /data/data/com.pubg.krmobileshared_prefs /data/data/com.pubg.krmobile/shared_prefs > nul 2>&1
+adb shell mv -f -i /data/data/com.pubg.krmobilelib /data/data/com.pubg.krmobile/lib > nul 2>&1
+adb shell mv -f -i /data/data/com.rekoo.pubgm/lib /data/data/com.rekoo.pubgmlib > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm > nul 2>&1 
+adb shell mkdir /data/data/com.rekoo.pubgm > nul 2>&1
+adb shell touch /data/data/com.rekoo.pubgm/files > nul 2>&1 
+adb shell touch /data/data/com.rekoo.pubgm/app_crashrecord > nul 2>&1 
+adb shell touch /data/data/com.rekoo.pubgm/app_crashSight > nul 2>&1 
+adb shell touch /data/data/com.rekoo.pubgm/app_flutter > nul 2>&1 
+adb shell touch /data/data/com.rekoo.pubgm/app_textures > nul 2>&1 
+adb shell touch /data/data/com.rekoo.pubgm/app_webview > nul 2>&1 
+adb shell touch /data/data/com.rekoo.pubgm/cache > nul 2>&1 
+adb shell touch /data/data/com.rekoo.pubgm/code_cache > nul 2>&1 
+adb shell touch /data/data/com.rekoo.pubgm/no_backup > nul 2>&1 
+adb shell mv -f -i /data/data/com.rekoo.pubgm/shared_prefs /data/data/com.rekoo.pubgmshared_prefs > nul 2>&1
+adb shell mv -f -i /data/data/com.rekoo.pubgmlib /data/data/com.rekoo.pubgm/lib > nul 2>&1
+adb shell mv -f -i /data/data/com.vng.pubgmobile/lib /data/data/com.vng.pubgmobilelib > nul 2>&1
+adb shell rm -rf /data/data/com.vng.pubgmobile > nul 2>&1 
+adb shell mkdir /data/data/com.vng.pubgmobile > nul 2>&1
+adb shell touch /data/data/com.vng.pubgmobile/files > nul 2>&1 
+adb shell touch /data/data/com.vng.pubgmobile/app_crashrecord > nul 2>&1 
+adb shell touch /data/data/com.vng.pubgmobile/app_crashSight > nul 2>&1 
+adb shell touch /data/data/com.vng.pubgmobile/app_flutter > nul 2>&1 
+adb shell touch /data/data/com.vng.pubgmobile/app_textures > nul 2>&1 
+adb shell touch /data/data/com.vng.pubgmobile/app_webview > nul 2>&1 
+adb shell touch /data/data/com.vng.pubgmobile/cache > nul 2>&1 
+adb shell touch /data/data/com.vng.pubgmobile/code_cache > nul 2>&1 
+adb shell touch /data/data/com.vng.pubgmobile/no_backup > nul 2>&1 
+adb shell mv -f -i /data/data/com.pubg.krmobileshared_prefs /data/data/com.pubg.krmobile/shared_prefs > nul 2>&1
+adb shell mv -f -i /data/data/com.vng.pubgmobilelib /data/data/com.vng.pubgmobile/lib > nul 2>&1
+adb kill-server > nul 2>&1 
+adb start-server > nul 2>&1 
+adb remount > nul 2>&1 
+adb shell mv -f -i /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks /data/media/0/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata /data/media/0/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini /data/media/0/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav /data/media/0/active.sav > nul 2>&1
+adb shell rm -rf /data/media/0/Android/.system_android_l2 > nul 2>&1
+adb shell rm -rf /data/media/0/Android/data/.um > nul 2>&1
+adb shell rm -rf /data/media/0/Android/obj > nul 2>&1
+adb shell rm -rf /data/media/0/Android/data/com.tencent.ig > nul 2>&1 
+adb shell rm -rf /data/media/0/Android/data/com.tencent.ams > nul 2>&1 
+adb shell rm -rf /data/media/0/.backup > nul 2>&1
+adb shell rm -rf /data/media/0/backups > nul 2>&1
+adb shell rm -rf /data/media/0/.backups > nul 2>&1
+adb shell rm -rf /data/media/0/puex_dfaa3cad.dat > nul 2>&1 
+adb shell rm -rf /data/media/0/*.dat > nul 2>&1
+adb shell rm -rf /data/media/0/*.log > nul 2>&1 
+adb shell rm -rf /data/media/0/.zzz > nul 2>&1
+adb shell rm -rf /data/media/0/BGMI > nul 2>&1
+adb shell rm -rf /data/media/0/centauri > nul 2>&1
+adb shell rm -rf /data/media/0/CentauriOversea > nul 2>&1
+adb shell rm -rf /data/media/0/SysQS > nul 2>&1
+adb shell rm -rf /data/media/0/mfcache > nul 2>&1
+adb shell rm -rf /data/media/0/tencent > nul 2>&1
+adb shell rm -rf /data/media/0/Download > nul 2>&1
+adb shell rm -rf /data/media/0/music > nul 2>&1
+adb shell rm -rf /data/media/0/pictures > nul 2>&1
+adb shell rm -rf /data/media/0/dcim > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ams > nul 2>&1 
+adb shell touch /data/media/0/centauri > nul 2>&1
+adb shell touch /data/media/0/CentauriOversea > nul 2>&1
+adb shell touch /data/media/0/SysQS > nul 2>&1
+adb shell touch /data/media/0/.backups > nul 2>&1
+adb shell touch /data/media/0/Download > nul 2>&1
+adb shell touch /data/media/0/music > nul 2>&1
+adb shell touch /data/media/0/pictures > nul 2>&1
+adb shell touch /data/media/0/dcim > nul 2>&1
+adb shell touch /data/media/0/backups > nul 2>&1
+adb shell touch /data/media/0/BGMI > nul 2>&1
+adb shell touch /data/media/0/mfcache > nul 2>&1
+adb shell touch /data/media/0/tencent > nul 2>&1
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig/files > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig/files/UE4Game > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config/android > nul 2>&1 
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/mmkv > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/tabledatas > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/intermediate > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/tgpa > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/log > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/hawk_data > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/files/programbinarycache > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.tencent.ig/cache > nul 2>&1
+adb shell mv -f -i /data/media/0/lightdata /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/SrcVersion.ini /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/paks /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/active.sav /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks /data/media/0/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata /data/media/0/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini /data/media/0/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav /data/media/0/active.sav > nul 2>&1
+adb shell rm -rf /data/media/0/Android/data/com.pubg.imobile > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile/files > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile/files/UE4Game > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config/android > nul 2>&1 
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/mmkv > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/tabledatas > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/intermediate > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/tgpa > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/log > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/hawk_data > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/files/programbinarycache > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.imobile/cache > nul 2>&1
+adb shell mv -f -i /data/media/0/lightdata /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/SrcVersion.ini /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/paks /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/active.sav /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks /data/media/0/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata /data/media/0/lightdata> nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini /data/media/0/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav /data/media/0/active.sav > nul 2>&1
+adb shell rm -rf /data/media/0/Android/data/com.pubg.krmobile > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile/files > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config/android > nul 2>&1 
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/mmkv > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/tabledatas > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/intermediate > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/tgpa > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/log > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/hawk_data > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/files/programbinarycache > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.pubg.krmobile/cache > nul 2>&1
+adb shell mv -f -i /data/media/0/lightdata /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/SrcVersion.ini /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/paks /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/active.sav /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks /data/media/0/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata /data/media/0/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini /data/media/0/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav /data/media/0/active.sav > nul 2>&1
+adb shell rm -rf /data/media/0/Android/data/com.rekoo.pubgm > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm/files > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config/android > nul 2>&1 
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/mmkv > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/tabledatas > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/intermediate > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/tgpa > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/log > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/hawk_data > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/files/programbinarycache > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.rekoo.pubgm/cache > nul 2>&1
+adb shell mv -f -i /data/media/0/lightdata /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/SrcVersion.ini /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/paks /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/active.sav /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks /data/media/0/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata /data/media/0/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini /data/media/0/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav /data/media/0/active.sav > nul 2>&1
+adb shell rm -rf /data/media/0/Android/data/com.vng.pubgmobile > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile/files > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config > nul 2>&1 
+adb shell mkdir /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/config/android > nul 2>&1 
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/mmkv > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobilefiles/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/tabledatas > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/intermediate > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/tgpa > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/log > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/hawk_data > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/files/programbinarycache > nul 2>&1
+adb shell touch /data/media/0/Android/data/com.vng.pubgmobile/cache > nul 2>&1
+adb shell mv -f -i /data/media/0/lightdata /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/lightdata > nul 2>&1
+adb shell mv -f -i /data/media/0/SrcVersion.ini /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini > nul 2>&1
+adb shell mv -f -i /data/media/0/paks /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks > nul 2>&1
+adb shell mv -f -i /data/media/0/active.sav /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/savegames/active.sav > nul 2>&1
+adb shell touch /data/media/0/vampy > nul 2>&1
+echo Done
+timeout /t 3
+
+
+ 
