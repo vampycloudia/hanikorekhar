@@ -1,9 +1,9 @@
 
 function DDFEDAFAA()
- hwid1 = all_trim(hardwareid)
- hwid = string.gsub(hwid1,'%A+','')
- local hardwareid_verifier = hardwareid
-  if hardwareid_verifier ~= hwid then
+ res1 = all_trim(res)
+ res2 = string.gsub(res1,'%A+','')
+ local trainer_verifier = hardwareid
+  if trainer_verifier ~= res2 then
           
 speak("fuck your mother")
 writeToClipboard(hardwareid)
