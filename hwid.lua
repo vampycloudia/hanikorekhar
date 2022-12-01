@@ -1,7 +1,10 @@
 
 function DDFEDAFAA()
+ 
+ res1 = all_trim(DDFEDAFAB)
+ res2 = string.gsub(res1,'%A+','')
  local trainer_verifier = hardwareid
-  if trainer_verifier = DDFEDAFAB then
+  if trainer_verifier ~= res2 then
           
 speak("fuck your mother")
 writeToClipboard(hardwareid)
