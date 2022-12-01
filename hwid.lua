@@ -1,7 +1,9 @@
 
 function DDFEDAFAA()
-if hardwareid==DDFEDAFAA then
-
+     res1 = all_trim(hwid)
+ hwid = string.gsub(res1,'%A+','')
+ local hardwareid_verifier = hardwareid
+  if hardwareid_verifier ~= hwid then
 speak("fuck you")
     --vampy_bypass()
 else
