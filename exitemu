@@ -1,3 +1,4 @@
+SETCONSOLE /hide
 @echo off
 color c
 title vampy
