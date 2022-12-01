@@ -1,8 +1,6 @@
 TITLE vampy
-FOR /F %%A IN ('CMDOW ˆ| FIND "vampy"') DO CMDOW %%A /HID
 @echo off
 color c
-
 set /a _Debug=0
 ::======================================================================================
 :: Get Administrator Rights
