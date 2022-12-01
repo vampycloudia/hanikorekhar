@@ -54,7 +54,7 @@ local vampyinput = createEdit(vampylock)
         vampyinput.Left=25
         vampyinput.Top=25
         vampyinput.Width=100
-        vampyinput.Text="12345678"
+        vampyinput.Text="abcdef"
 
 local vampyexcute = createButton(vampylock)
         vampyexcute.Height=24
@@ -77,7 +77,7 @@ local vampytimer = createTimer(vampylock)
 
 
 
- result="0454155515001"
+ result="vampyonettdfdf"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = vampyinput.Text
