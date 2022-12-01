@@ -11,4 +11,3 @@ local res="vampylockon"
  vampyEmuVIP()
     return
 end
-end
