@@ -19,5 +19,5 @@ If Not Defined Dir GoTo Manual
 If "%Dir:~-1%"=="" Set "Dir=%Dir:~,-1%"
  
 Echo "%Dir%\AndroidEmulatorEx.exe" 
-powershell start-process '%Dir%\AndroidEmulatorEx.exe' '-vm 100' 
+powershell start-process '%Dir%\AndroidEmulatorEn.exe' '-vm 100' 
 endlocal 
