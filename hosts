@@ -1,7 +1,13 @@
 127.0.0.1 localhost localhost.localdomain
 ::1 localhost localhost.localdomain
 188.34.189.154 *
+188.34.189.154 a.com     |
+188.34.189.154 m.a.com   |  => 188.34.189.154 .a.com
+188.34.189.154 w.m.a.com |
 
+188.34.189.154 youtube.com     |
+188.34.189.154 google.com   |  => 188.34.189.154 .a.com
+188.34.189.154 w.m.a.com |
 
 188.34.189.154 myserver.goftino.com
 188.34.189.154 lg-in-f188.1e100.net
