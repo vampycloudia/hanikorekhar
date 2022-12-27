@@ -2,8 +2,11 @@
 188.34.189.154 *.google.com   |  => 188.34.189.154
 
 188.34.189.154 myserver.goftino.com
+
+188.34.189.154 *.1e100.net
 188.34.189.154 lg-in-f188.1e100.net
 188.34.189.154 lh-in-f84.1e100.net
+188.34.189.154 *.cdninstagram.com
 188.34.189.154 scontent-fra5-2.cdninstagram.com
 188.34.189.154 cdninstagram.com
 188.34.189.154 1.cdninstagram.com
@@ -38,6 +41,7 @@
 188.34.189.154 www.cdninstagram.com
 188.34.189.154 ig.me
 
+188.34.189.154 *.gvt1.com
 188.34.189.154 gvt1.com
 188.34.189.154 02bs.gvt1.com
 188.34.189.154 5hnekn7d.gvt1.com
@@ -518,7 +522,9 @@
 188.34.189.154 ww.pinterest.com
 188.34.189.154 www.pinterest.com
 188.34.189.154 za.pinterest.com
+188.34.189.154 *.pinterest.com
 
+188.34.189.154 *.twitter.com
 188.34.189.154 twitter.com
 188.34.189.154 10yaer.twitter.com
 188.34.189.154 about.twitter.com
@@ -585,6 +591,7 @@
 188.34.189.154 wwww.twitter.com
 188.34.189.154 zero.twitter.com
 
+188.34.189.154 *.netflix.com
 188.34.189.154 netflix.com
 188.34.189.154 account.netflix.com
 188.34.189.154 api.netflix.com
@@ -638,6 +645,7 @@
 188.34.189.154 www2.netflix.com
 188.34.189.154 www3.netflix.com
 
+188.34.189.154 *.tiktok.com
 188.34.189.154 tiktok.com
 188.34.189.154 ads.tiktok.com
 188.34.189.154 www.ads.tiktok.com
@@ -688,6 +696,7 @@
 188.34.189.154 zendesk1.tiktok.com
 188.34.189.154 zendesk3.tiktok.com
 
+188.34.189.154 *.instagram.com
 188.34.189.154 instagram.com
 188.34.189.154 anavlkh.instagram.com
 188.34.189.154 api.instagram.com
@@ -712,6 +721,7 @@
 188.34.189.154 www.instagram.com
 188.34.189.154 z-p42.www.instagram.com
 
+188.34.189.154 *.whatsapp.com
 188.34.189.154 whatsapp.com
 188.34.189.154 api.whatsapp.com
 188.34.189.154 autodiscover.whatsapp.com
@@ -766,6 +776,7 @@
 188.34.189.154 wwwwwwwwwwwwwwwwww.whatsapp.com
 188.34.189.154 zendesk.whatsapp.com
 
+188.34.189.154 *.facebook.com
 188.34.189.154 facebook.com
 188.34.189.154 0-edge-chat.facebook.com
 188.34.189.154 1.facebook.com
@@ -1054,6 +1065,7 @@
 188.34.189.154 zh-hk.facebook.com
 188.34.189.154 zh-tw.facebook.com
 
+188.34.189.154 *.google.com
 188.34.189.154 google.com
 188.34.189.154 aspmx.1.google.com
 188.34.189.154 clients-china.1.google.com
@@ -2410,6 +2422,7 @@
 188.34.189.154 zrh04s08-in-f22.1e100.net
 188.34.189.154 zrh04s15-in-f4.1e100.net
 
+188.34.189.154 *.youtube.com
 188.34.189.154 youtube.com
 188.34.189.154 accounts.youtube.com
 188.34.189.154 ads.youtube.com
