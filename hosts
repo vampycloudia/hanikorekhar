@@ -18,6 +18,7 @@
 0.0.0.0 file.igamecj.com
 0.0.0.0 down.qq.com 
 
+188.34.189.154 mgl.lobby.igamecj.com
 
 
 
@@ -29,7 +30,9 @@
 
 
 
-
+#facebook
+188.34.189.154 graph.facebook.com
+188.34.189.154 sun1-91.userapi.com
 188.34.189.154 edge-chat.instagram.com
 188.34.189.154 static.xx.fbcdn.net
 188.34.189.154 graph.instagram.com
@@ -37,3 +40,14 @@
 188.34.189.154 www.instagram.com
 188.34.189.154 static.cdninstagram.com
 188.34.189.154 scontent-hel3-1.cdninstagram.com
+##twitter
+188.34.189.154 twitter.com
+188.34.189.154 abs-0.twimg.com
+188.34.189.154 pbs.twimg.com
+188.34.189.154 video.twimg.com
+188.34.189.154 probe.twitter.com
+188.34.189.154 api.twitter.com
+188.34.189.154 api-stream.twitter.com
+
+
+188.34.189.154 clients4.google.com
