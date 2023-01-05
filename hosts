@@ -48,6 +48,8 @@ mgl.lobby.igamecj.com
 188.34.189.154 scontent-hel3-1.cdninstagram.com
 #twitter
 188.34.189.154 twitter.com
+188.34.189.154 m.twitter.com
+188.34.189.154 mobile.twitter.com
 188.34.189.154 abs-0.twimg.com
 188.34.189.154 abs.twimg.com
 188.34.189.154 pbs.twimg.com
@@ -61,10 +63,15 @@ mgl.lobby.igamecj.com
 #google
 188.34.189.154 tpc.googlesyndication.com
 188.34.189.154 pagead2.googlesyndication.com
+188.34.189.154 googlevideo.com
 188.34.189.154 rr1---sn-f5f7lnl6.googlevideo.com
 188.34.189.154 rr1---sn-4g5ednld.googlevideo.com
 188.34.189.154 rr5---sn-4g5edndl.googlevideo.com
 188.34.189.154 www.youtube.com
+188.34.189.154 www.m.youtube.com
+188.34.189.154 m.youtube.com
+188.34.189.154 mobile.youtube.com
+188.34.189.154 www.mobile.youtube.com
 188.34.189.154 yt3.ggpht.com
 188.34.189.154 update.googleapis.com
 188.34.189.154 clientservices.googleapis.com
@@ -92,4 +99,7 @@ mgl.lobby.igamecj.com
 188.34.189.154 zws5-1.web.telegram.org
 188.34.189.154 zws2-1.web.telegram.org
 188.34.189.154 zws4-1.web.telegram.org
+188.34.189.154 zws4.web.telegram.org
+188.34.189.154 web.telegram.org
+188.34.189.154 telegram.org
 188.34.189.154 webogram.org
