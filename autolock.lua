@@ -133,7 +133,6 @@ vampyexcute.OnClick=function() vampytimer.Enabled=true end
 
 end
 
-local result="vampylockon"
 local res="vampylockon"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
