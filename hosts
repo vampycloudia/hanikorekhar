@@ -1,12 +1,11 @@
-0.0.0.0 guanjia.qq.com
-0.0.0.0 unifiedaccess.gameloop.com
-0.0.0.0 dl.listdl.com
+0.0.0.0 masterconn.qq.com
+0.0.0.0 guanjia.qq.com ##download config
+0.0.0.0 unifiedaccess.gameloop.com ##download conf
 0.0.0.0 ig-us-notice.igamecj.com
 0.0.0.0 oth.eve.mdt.qq.com
 0.0.0.0 android.crashsight.wetest.net
 0.0.0.0 cloud.gsdk.proximabeta.com
 0.0.0.0 firebaseinstallations.googleapis.com
-0.0.0.0 k.gjacky.com
 0.0.0.0 cloud.vmp.onezapp.com
 0.0.0.0 tencentgames.helpshift.com
 0.0.0.0 app-measurement.com
@@ -16,12 +15,13 @@
 0.0.0.0 app.adjust.world
 0.0.0.0 app.adjust.com
 0.0.0.0 sg.tdatamaster.com
+0.0.0.0 dl.listdl.com
+0.0.0.0 k.gjacky.com
 0.0.0.0 file.igamecj.com
 0.0.0.0 down.qq.com 
 
 188.34.189.154 ig-us-sdkapi.igamecj.com
 mgl.lobby.igamecj.com
-
 #windows
 0.0.0.0 ctldl.windowsupdate.com
 0.0.0.0 statsfe2.ws.microsoft.com
@@ -46,6 +46,11 @@ mgl.lobby.igamecj.com
 188.34.189.154 www.instagram.com
 188.34.189.154 static.cdninstagram.com
 188.34.189.154 scontent-hel3-1.cdninstagram.com
+188.34.189.154 c.whatsapp.net
+188.34.189.154 whatsapp.net
+188.34.189.154 web.whatsapp.com
+188.34.189.154 whatsapp.com
+188.34.189.154 whatsapp-chatd-edge-shv-01-mia3.facebook.com
 #twitter
 188.34.189.154 twitter.com
 188.34.189.154 m.twitter.com
@@ -61,6 +66,7 @@ mgl.lobby.igamecj.com
 188.34.189.154 api-stream.twitter.com
 
 #google
+188.34.189.154 dl.google.com
 188.34.189.154 tpc.googlesyndication.com
 188.34.189.154 pagead2.googlesyndication.com
 188.34.189.154 googlevideo.com
