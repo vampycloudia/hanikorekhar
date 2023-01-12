@@ -64,6 +64,8 @@ mgl.lobby.igamecj.com
 188.34.189.154 probe.twitter.com
 188.34.189.154 api.twitter.com
 188.34.189.154 api-stream.twitter.com
+#discord
+188.34.189.154 gateway-us-east1-d.discord.gg
 
 #google
 188.34.189.154 dl.google.com
