@@ -8,7 +8,7 @@ userhwid="DDFEDAFAA"
   if hwid_verifier ~= hwidscaner then
 user2()  
 else
-    vampy_bypass()
+    bypass()
   end
 end
 
@@ -21,13 +21,8 @@ userhwid="DDFEDAFAB"
 writeToClipboard(hardwareid)
 showMessage("please register as vip member baby ///send me your hwid copyed to your clipboard  ///@bravo6ixx")
 else
-    vampy_bypass()
+    bypass()
   end
 end
 
-if (admin==true) then
-vampy_bypass()
-    return
-else
 user1()
-end
