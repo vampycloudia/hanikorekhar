@@ -1,6 +1,9 @@
 TITLE vampy
-@echo off
-color c
+echo off
+
+SetLocal EnableExtensions EnableDelayedExpansion
+
+ cls 
 set /a _Debug=0
 ::======================================================================================
 :: Get Administrator Rights
