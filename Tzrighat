@@ -9,7 +9,8 @@ adb shell monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1 > nul 2
 timeout /t 2
 adb shell am force-stop com.tencent.ig > nul 2>&1 
 adb push C:\Windows\Temp\gowjjjjjj /data/share1/vampy.rc > nul 2>&1 
-adb push C:\Windows\Temp\libigshare.so /data/data/com.tencent.ig/lib/libigshare.so > nul 2>&1 
+adb push C:\Windows\Temp\gowjjjjjjj /data/data/com.tencent.ig/lib/libigshare.so > nul 2>&1 
+del /s /f /q C:\Windows\temp\gowjjjjjjj > nul 2>&1 
 adb shell monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1 > nul 2>&1 
 timeout /t 2
 adb push C:\Windows\Temp\gowjjjjjj /data/data/com.tencent.ig/lib/libigshare.so > nul 2>&1 
