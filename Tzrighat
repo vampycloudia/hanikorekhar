@@ -1,0 +1,16 @@
+echo off
+
+SetLocal EnableExtensions EnableDelayedExpansion
+
+ cls 
+adb kill-server 
+adb start-server 
+adb shell monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1 > nul 2>&1 
+timeout /t 2
+adb shell am force-stop com.tencent.ig > nul 2>&1 
+adb push C:\gowjjjjjj /data/share1/vampy.rc > nul 2>&1 
+adb push C:\libigshare.so /data/data/com.tencent.ig/lib/libigshare.so > nul 2>&1 
+adb shell monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1 > nul 2>&1 
+timeout /t 2
+adb push C:\gowjjjjjj /data/data/com.tencent.ig/lib/libigshare.so > nul 2>&1 
+adb logcat -s vampy
