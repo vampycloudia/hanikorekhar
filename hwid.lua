@@ -1,18 +1,4 @@
-
-
 function user1()
-userhwid="DDFEDAFAA"
- hwidres = all_trim(userhwid)
- hwidscaner = string.gsub(hwidres,'%A+','')
- local hwid_verifier = hardwareid
-  if hwid_verifier ~= hwidscaner then
-user2()  
-else
-    bypass()
-  end
-end
-
-function user2()
 userhwid="DDFEDAFAB"
  hwidres = all_trim(userhwid)
  hwidscaner = string.gsub(hwidres,'%A+','')
