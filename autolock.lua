@@ -107,7 +107,6 @@ local vampytimer = createTimer(vampylock)
 
 
 
- result="vampyprivate"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = vampyinput.Text
@@ -133,7 +132,7 @@ vampyexcute.OnClick=function() vampytimer.Enabled=true end
 
 end
 
-local res="vampylockon"
+local res="031310354535"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = res
