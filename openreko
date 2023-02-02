@@ -1,5 +1,3 @@
-adb kill-server
-adb devices
 adb.exe push C:\\Windows\\temp\\Active.sav /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav
 adb.exe push C:\\Windows\\temp\\Active.sav /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/cached.sav
 adb.exe push C:\\Windows\\temp\\UserCustom.ini /data/media/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini
