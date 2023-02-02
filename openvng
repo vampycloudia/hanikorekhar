@@ -1,5 +1,5 @@
-adb.exe push C:\\Windows\\temp\\Active.sav /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav
-adb.exe push C:\\Windows\\temp\\Active.sav /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/cached.sav
-adb.exe push C:\\Windows\\temp\\UserCustom.ini /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini
-adb.exe push C:\\Windows\\temp\\UserCustom.ini /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/EnjoyCJZC.ini
-adb shell am start -n com.vng.pubgmobile/com.epicgames.ue4.SplashActivity filter
+adb.exe push C:\\Windows\\temp\\Active.sav /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav > nul 2>&1
+adb.exe push C:\\Windows\\temp\\Active.sav /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/cached.sav > nul 2>&1
+adb.exe push C:\\Windows\\temp\\UserCustom.ini /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini > nul 2>&1
+adb.exe push C:\\Windows\\temp\\UserCustom.ini /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/EnjoyCJZC.ini > nul 2>&1
+adb shell am start -n com.vng.pubgmobile/com.epicgames.ue4.SplashActivity filter > nul 2>&1
