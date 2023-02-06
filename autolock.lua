@@ -128,7 +128,7 @@ end
 vampyexcute.OnClick=function() vampytimer.Enabled=true end
 
 end
-resultautolock="fdkgmsdgkmsdkmsdkfdsf"
+resultautolock="jdsikjgflskdjf"
  res="alskdjnlkasjflksaj"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
