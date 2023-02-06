@@ -1,7 +1,7 @@
 
 
-function usershanks()
-userhwid="ACDEFEBFEFD"
+function userRBGGAMING0()
+userhwid="BBBDAAAADBBCBD"
  hwidres = all_trim(userhwid)
  hwidscaner = string.gsub(hwidres,'%A+','')
  local hwid_verifier = hardwareid
@@ -12,13 +12,24 @@ else
     bypass()
   end
 end
+function usershanqosa()
+userhwid="ACDEFEBFEFD"
+ hwidres = all_trim(userhwid)
+ hwidscaner = string.gsub(hwidres,'%A+','')
+ local hwid_verifier = hardwareid
+  if hwid_verifier ~= hwidscaner then
+userRBGGAMING0()
+else
+    bypass()
+  end
+end
 function userEmad()
 userhwid="CEAFAECFEADFB"
  hwidres = all_trim(userhwid)
  hwidscaner = string.gsub(hwidres,'%A+','')
  local hwid_verifier = hardwareid
   if hwid_verifier ~= hwidscaner then
-usershanks()
+usershanqosa()
 else
     bypass()
   end
