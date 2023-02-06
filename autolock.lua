@@ -104,7 +104,7 @@ local vampytimer = createTimer(vampylock)
 
 
 
- password = all_trim(result)
+ password = all_trim(resultautolock)
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = vampyinput.Text
   if trainer_verifier ~= passscanner then
@@ -128,8 +128,8 @@ end
 vampyexcute.OnClick=function() vampytimer.Enabled=true end
 
 end
-
- res="fdkgmsdgkmsdkmsdkfdsf"
+resultautolock="fdkgmsdgkmsdkmsdkfdsf"
+ res="alskdjnlkasjflksaj"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = res
