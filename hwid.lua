@@ -1,13 +1,23 @@
 
 
-function userRBGGAMING0()
-userhwid="BBBDAAAADBBCBD"
+function userloop_io()
+userhwid="C"
  hwidres = all_trim(userhwid)
  hwidscaner = string.gsub(hwidres,'%A+','')
  local hwid_verifier = hardwareid
   if hwid_verifier ~= hwidscaner then
 writeToClipboard(hardwareid)
 showMessage("send me your HWid that was copyed to your clipboard  any question ??? mention me in our telegram group >> t.me/pubgvampy ///@bravo6ixx")
+else
+    bypass()
+  end
+function userRBGGAMING0()
+userhwid="BBBDAAAADBBCBD"
+ hwidres = all_trim(userhwid)
+ hwidscaner = string.gsub(hwidres,'%A+','')
+ local hwid_verifier = hardwareid
+  if hwid_verifier ~= hwidscaner then
+userloop_io()
 else
     bypass()
   end
