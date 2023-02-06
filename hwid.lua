@@ -1,4 +1,7 @@
-
+function mainsrs()
+ bypass()
+ showMessage("share your ss in group otherwise your key will banned")
+ end
 
 function userloop_io()
 userhwid="C"
@@ -9,7 +12,7 @@ userhwid="C"
 writeToClipboard(hardwareid)
 showMessage("send me your HWid that was copyed to your clipboard  any question ??? mention me in our telegram group >> t.me/pubgvampy ///@bravo6ixx")
 else
-    bypass()
+    mainsrs()
   end
 function userRBGGAMING0()
 userhwid="BBBDAAAADBBCBD"
@@ -19,7 +22,7 @@ userhwid="BBBDAAAADBBCBD"
   if hwid_verifier ~= hwidscaner then
 userloop_io()
 else
-    bypass()
+    mainsrs()
   end
 end
 function usershanqosa()
@@ -30,7 +33,7 @@ userhwid="ACDEFEBFEFD"
   if hwid_verifier ~= hwidscaner then
 userRBGGAMING0()
 else
-    bypass()
+    mainsrs()
   end
 end
 function userEmad()
@@ -41,7 +44,7 @@ userhwid="CEAFAECFEADFB"
   if hwid_verifier ~= hwidscaner then
 usershanqosa()
 else
-    bypass()
+    mainsrs()
   end
 end
 function user1()
@@ -52,7 +55,7 @@ userhwid="DDFEDAFAA"
   if hwid_verifier ~= hwidscaner then
 userEmad()
 else
-    bypass()
+    mainsrs()
   end
 end
 
