@@ -134,10 +134,11 @@ resultautolock="fdkgmsdgkmsdkmsdkfdsf"
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = res
   if trainer_verifier ~= passscanner then
+ hideAllCEWindows()
  vampylockVIP()
    return caFree
   else
  hideAllCEWindows()
- vampyEmuVIP()
-    return
+ vampylockVIP()
+   return caFree
 end
