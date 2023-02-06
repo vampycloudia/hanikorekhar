@@ -3,14 +3,28 @@ function mainsrs()
  showMessage("share your ss in group otherwise your key will banned")
  end
 
-function userloop_io()
-userhwid="C"
+
+
+function userzhanma13()
+userhwid="EDDDCCF"
  hwidres = all_trim(userhwid)
  hwidscaner = string.gsub(hwidres,'%A+','')
  local hwid_verifier = hardwareid
   if hwid_verifier ~= hwidscaner then
 writeToClipboard(hardwareid)
 showMessage("send me your HWid that was copyed to your clipboard  any question ??? mention me in our telegram group >> t.me/pubgvampy ///@bravo6ixx")
+else
+    mainsrs()
+  end
+ end
+
+function userloop_io()
+userhwid="C"
+ hwidres = all_trim(userhwid)
+ hwidscaner = string.gsub(hwidres,'%A+','')
+ local hwid_verifier = hardwareid
+  if hwid_verifier ~= hwidscaner then
+userzhanma13()
 else
     mainsrs()
   end
