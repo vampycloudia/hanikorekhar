@@ -4,6 +4,30 @@ function mainsrs()
  end
 
 
+function userASROCKOWNER()
+userhwid="ACA"
+ hwidres = all_trim(userhwid)
+ hwidscaner = string.gsub(hwidres,'%A+','')
+ local hwid_verifier = hardwareid
+  if hwid_verifier ~= hwidscaner then
+writeToClipboard(hardwareid)
+showMessage("send me your HWid that was copyed to your clipboard  any question ??? mention me in our telegram group >> t.me/pubgvampy ///@bravo6ixx")
+else
+    mainsrs()
+  end
+ end
+
+function userfox_hxd()
+userhwid="DCEEEBEDBDBDAF"
+ hwidres = all_trim(userhwid)
+ hwidscaner = string.gsub(hwidres,'%A+','')
+ local hwid_verifier = hardwareid
+  if hwid_verifier ~= hwidscaner then
+ userASROCKOWNER()
+else
+    mainsrs()
+  end
+ end
 
 function userzhanma13()
 userhwid="EDDDCCF"
@@ -11,8 +35,7 @@ userhwid="EDDDCCF"
  hwidscaner = string.gsub(hwidres,'%A+','')
  local hwid_verifier = hardwareid
   if hwid_verifier ~= hwidscaner then
-writeToClipboard(hardwareid)
-showMessage("send me your HWid that was copyed to your clipboard  any question ??? mention me in our telegram group >> t.me/pubgvampy ///@bravo6ixx")
+userfox_hxd()
 else
     mainsrs()
   end
