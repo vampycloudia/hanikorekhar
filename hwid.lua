@@ -4,14 +4,26 @@ function mainsrs()
  end
 
 
-function userASROCKOWNER()
-userhwid="ACA"
+function userLawand()
+userhwid="BDABEBACADE"
  hwidres = all_trim(userhwid)
  hwidscaner = string.gsub(hwidres,'%A+','')
  local hwid_verifier = hardwareid
   if hwid_verifier ~= hwidscaner then
 writeToClipboard(hardwareid)
 showMessage("send me your HWid that was copyed to your clipboard  any question ??? mention me in our telegram group >> t.me/pubgvampy ///@bravo6ixx")
+else
+    mainsrs()
+  end
+ end
+
+function userASROCKOWNER()
+userhwid="ACA"
+ hwidres = all_trim(userhwid)
+ hwidscaner = string.gsub(hwidres,'%A+','')
+ local hwid_verifier = hardwareid
+  if hwid_verifier ~= hwidscaner then
+userLawand()
 else
     mainsrs()
   end
