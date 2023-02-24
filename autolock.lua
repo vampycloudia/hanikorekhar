@@ -129,7 +129,7 @@ vampyexcute.OnClick=function() vampytimer.Enabled=true end
 
 end
 resultautolock="gnfdgndfg"
- res="fgjhlfgdjhlkfgjh"
+ res="fbhgfhfdgfdg"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = res
