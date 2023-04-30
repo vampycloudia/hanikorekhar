@@ -128,6 +128,22 @@ end
 vampyexcute.OnClick=function() vampytimer.Enabled=true end
 
 end
+
+
+
+local chrome = openProcess("chrome.exe")
+if chrome then
+local res = AOBScan("76 61 6D 70 79 6F 6E 65 74 77 6F 74 68 72 65 65")
+if res then 
+print("accepted")
+else
+messageDialog("please use chrome to get code",mtWarning,mbOK);
+os.exit()
+closeCE()
+end
+end
+
+ 
 resultautolock="vampyonetwothree"
  res="vampyauthison"
  password = all_trim(result)
