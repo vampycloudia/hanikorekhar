@@ -133,8 +133,8 @@ end
 
 
  
-resultautolock="vampyasfggfhdfg"
- res="vampyauthdgdgdgdg"
+resultautolock="MDHVIPabcdjfkhfkhf"
+ res="vampyauthasgafasfdas"
  password = all_trim(result)
  passscanner = string.gsub(password,'%A+','')
  local trainer_verifier = res
