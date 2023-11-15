@@ -1,4 +1,0 @@
-
-adb kill-server
-adb devices
-adb shell pm uninstall -k --user 0  com.android.vending
