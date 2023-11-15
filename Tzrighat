@@ -1,6 +1,0 @@
-echo off
-
-SetLocal EnableExtensions EnableDelayedExpansion
-
- cls 
-adb logcat -s vampy
