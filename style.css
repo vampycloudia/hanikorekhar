@@ -1,0 +1,150 @@
+/* فونت شخصی‌سازی شده */
+@font-face {
+    font-family: 'Vazir';
+    src: url('https://theme.blogfa.com/fonts/Vazir.woff2') format('woff2'),
+         url('https://theme.blogfa.com/fonts/Vazir.woff') format('woff'),
+         url('https://theme.blogfa.com/fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* تنظیمات کلی */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* برای جلوگیری از به هم ریختن ابعاد */
+}
+body {
+    background: #f9f9f9;
+    color: #333;
+    font-family: 'Vazir', Tahoma, Arial;
+    font-size: 10pt;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Wrapper و ساختار اصلی */
+#wrapper {
+    background: #fff;
+    width: 90%;
+    max-width: 850px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* هدر */
+#header {
+    background: #f5f5f5;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+#header h1, #header h1 a {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #6b4caf;
+    text-decoration: none;
+}
+#header h2 {
+    font-size: 10pt;
+    color: #9b9a9a;
+}
+
+/* محتوای اصلی */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+#content {
+    flex: 2 1 60%;
+    min-height: 300px;
+    text-align: right;
+}
+#sidebar {
+    flex: 1 1 35%;
+    padding: 10px;
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* پست‌ها */
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+.post:hover {
+    transform: translateY(-5px);
+}
+.post h1, .post h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #333;
+}
+.postcontent img, p, div, table {
+    max-width: 100%;
+    height: auto;
+}
+
+/* لینک‌ها */
+a {
+    color: #2177d0;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #4f9dee;
+}
+
+/* سایدبار */
+#sidebar .menu, #sidebar .box {
+    margin-bottom: 20px;
+}
+#sidebar h6 {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #dcdcdc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* فوتر و کپی‌رایت */
+#sidebar .copyright {
+    background: #e8e8e8;
+    padding: 10px;
+    font-size: 9pt;
+    color: #797979;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* ریسپانسیو */
+@media screen and (max-width: 850px) {
+    #wrapper {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    #container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    #content, #sidebar {
+        flex: 1 1 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    #header h1 {
+        font-size: 14pt;
+    }
+}
