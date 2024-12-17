@@ -1,150 +1,76 @@
-/* فونت شخصی‌سازی شده */
 @font-face {
-    font-family: 'Vazir';
-    src: url('https://theme.blogfa.com/fonts/Vazir.woff2') format('woff2'),
-         url('https://theme.blogfa.com/fonts/Vazir.woff') format('woff'),
-         url('https://theme.blogfa.com/fonts/Vazir.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Vazir';
+  src: url('https://theme.blogfa.com/fonts/Vazir.eot');
+  src: url('https://theme.blogfa.com/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('https://theme.blogfa.com/fonts/Vazir.woff') format('woff'),
+       url('https://theme.blogfa.com/fonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* تنظیمات کلی */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* برای جلوگیری از به هم ریختن ابعاد */
-}
-body {
-    background: #f9f9f9;
-    color: #333;
-    font-family: 'Vazir', Tahoma, Arial;
-    font-size: 10pt;
-    line-height: 1.8;
-    text-align: center;
-}
+* {	margin:0px auto;padding:0px;}  
+p {margin-top: 1em;margin-bottom: 1em;} 
+body {	margin: 0;	padding: 0;	background: #fff;text-align: center;font-family:Vazir, Tahoma;font-size:9pt;}
+#wrapper {text-align: center;background:#fff;min-height:550px;width:850px;min-width:850px;margin-top:10px;margin-bottom:10px;text-direction:rtl;direction:rtl;}
+#header{background:#fff;text-align: right;}
+#headerbox {border-bottom:1px #eff0f2 solid;}
+#header h1{	 font-size: 16pt; font-weight: bold;color:#6d6d6d;padding:40px 0px 8px 0px;line-height:150%;}
+#header h1 a{ font-size: 16pt; font-weight: bold;color:#6d6d6d;text-decoration:none;}
+#header h2{color:#9b9a9a;font-size: 9pt;font-weight: normal;line-height:150%;padding-bottom:10px;}
 
-/* Wrapper و ساختار اصلی */
-#wrapper {
-    background: #fff;
-    width: 90%;
-    max-width: 850px;
-    margin: 20px auto;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
+#container{margin-top:40px;margin-bottom:10px;}
 
-/* هدر */
-#header {
-    background: #f5f5f5;
-    padding: 20px;
-    border-bottom: 1px solid #eee;
-}
-#header h1, #header h1 a {
-    font-size: 18pt;
-    font-weight: bold;
-    color: #6b4caf;
-    text-decoration: none;
-}
-#header h2 {
-    font-size: 10pt;
-    color: #9b9a9a;
-}
+#content {float:right;width:600px;min-height:300px;margin:0px;padding:0px;text-align:right;overflow:hidden;}
+#sidebar {float:left;width:220px;margin:0px;padding:0px;overflow-x: hidden;}
+.clear{clear:both;margin:0px;padding:0px;}
 
-/* محتوای اصلی */
-#container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-}
-#content {
-    flex: 2 1 60%;
-    min-height: 300px;
-    text-align: right;
-}
-#sidebar {
-    flex: 1 1 35%;
-    padding: 10px;
-    background: #fafafa;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
+A:link{color: #2177d0;text-decoration:none;}
+A:visited  {color:#2177d0;text-decoration:none;}
+A:hover{color:#4f9dee;text-decoration:none;}
 
-/* پست‌ها */
-.post {
-    margin-bottom: 20px;
-    padding: 15px;
-    background: #fff;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s;
-}
-.post:hover {
-    transform: translateY(-5px);
-}
-.post h1, .post h2 {
-    font-size: 12pt;
-    font-weight: bold;
-    color: #333;
-}
-.postcontent img, p, div, table {
-    max-width: 100%;
-    height: auto;
-}
+#sidebar A:link{color: #424242;text-decoration:none;}
+#sidebar A:visited  {color:#424242;text-decoration:none;}
+#sidebar A:hover{color:#2177d0;text-decoration:none;}
 
-/* لینک‌ها */
-a {
-    color: #2177d0;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-a:hover {
-    color: #4f9dee;
-}
 
-/* سایدبار */
-#sidebar .menu, #sidebar .box {
-    margin-bottom: 20px;
-}
-#sidebar h6 {
-    font-size: 10pt;
-    font-weight: bold;
-    color: #333;
-    border-bottom: 2px solid #dcdcdc;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
+.post{padding-right:10px;padding-left:5px;text-align:right;line-height:150%;padding-bottom:15px;color:#3d3d3d;margin-bottom:15px;font-family:Vazir, Tahoma;font-size:10pt;}
+.post h1,h2{font-size:10pt;font-weight:bold;}
+.postbody{line-height:180%;padding-bottom:10px;padding-top:5px;}
+.postcontent{padding-right:5px;padding-left:5px;line-height:180%;}
+.postcontent img,p,div,table,td,tr,a,hr,span,ul,ol{max-width:100%;}
+.postinfo {font-size:8pt;color:#797979;padding-top:5px;}
+.posttags{padding-top:5px;line-height:150%;}
+.posttags span{color:#797979;}
 
-/* فوتر و کپی‌رایت */
-#sidebar .copyright {
-    background: #e8e8e8;
-    padding: 10px;
-    font-size: 9pt;
-    color: #797979;
-    border-radius: 5px;
-    text-align: center;
-}
 
-/* ریسپانسیو */
-@media screen and (max-width: 850px) {
-    #wrapper {
-        width: 100%;
-        border-radius: 0;
-        box-shadow: none;
-    }
-    #container {
-        flex-direction: column;
-        padding: 10px;
-    }
-    #content, #sidebar {
-        flex: 1 1 100%;
-        margin: 0;
-        padding: 10px;
-    }
-    #header h1 {
-        font-size: 14pt;
-    }
+.nextandprevious{line-height:150%;padding-bottom:15px;padding-right:10px;padding-left:5px;}
+.previouslink{float:right;}
+.nextlink{float:left;}
+
+
+#sidebar .profile{line-height:150%;text-align: justify;padding-bottom:10px;border-bottom:1px solid #F2F2F2;margin-bottom:10px;}
+#sidebar .profile img{margin:5px auto;border:0px;display:block;max-width:100%;text-align:center;}
+
+#sidebar .menu {padding-bottom:10px;text-align:right;line-height:200%;margin-bottom:10px;}
+#sidebar .menu ul{list-style-type: none;margin:0px;}
+
+
+#sidebar .box {padding-bottom:10px;text-align:right;line-height:200%;margin-bottom:10px;}
+#sidebar .box ul{list-style-type: none;margin:0px;}
+#sidebar .box h6{display:block; font-weight: bold;font-style:normal;border-bottom: 1px solid #eff0f2;padding-bottom:3px;margin-bottom:5px;}
+#sidebar .box ul i{color:gray;font-style:normal;font-size:8pt;display:inline-block;}
+
+#sidebar .custombox{text-align:center;line-height:200%;margin-top:20px;}
+
+#sidebar .copyright{background-color:#FAFAFA;padding:10px;text-align:center;line-height:200%;margin:10px 0px 10px 0px;}
+#sidebar h6{font-size:9pt;font-weight:bold;}
+
+@media screen and (max-width: 850px){
+	#wrapper {background-color:white;padding:0px;margin:0px;min-width:50px;}
+	#container{padding:0px 5px 5px 5px;}
+	#content{float:none;width:auto;max-width:100%;margin:0px;}
+	#sidebar{float:none;width:auto;max-width:100%;margin:0px;}
+    #headerbox {padding:5px;}
+    #header h1{	 font-size: 12pt; font-weight: bold;padding:10px 0px 10px 0px;line-height:150%;}
+    #header h1 a{font-size: 12pt; font-weight: bold;text-decoration:none;}
 }
