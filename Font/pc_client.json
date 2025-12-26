@@ -1,1 +1,445 @@
+{
+  "login": {
+    "en": "Login already?",
+    "ch": "已经登录了吗？",
+    "jp": "もうログインした？",
+    "ru": "Уже вошёл?"
+  },
+  "fetching_mrpcs": {
+    "en": "Getting MRPCS...",
+    "ch": "正在获取 MRPCS...",
+    "jp": "MRPCS を取得中...",
+    "ru": "Получение MRPCS..."
+  },
+  "establish_link": {
+    "en": "Connecting...",
+    "ch": "正在连接...",
+    "jp": "接続中...",
+    "ru": "Подключение..."
+  },
+  "deploy_auth": {
+    "en": "Checking you...",
+    "ch": "正在验证您...",
+    "jp": "認証中...",
+    "ru": "Проверка..."
+  },
+  "auth_success": {
+    "en": "You're in.",
+    "ch": "你已登录。",
+    "jp": "ログイン完了。",
+    "ru": "Вы вошли."
+  },
+  "server_error": {
+    "en": "Failed.",
+    "ch": "失败了。",
+    "jp": "失敗しました。",
+    "ru": "Не удалось."
+  },
+  "enter_key": {
+    "en": "Key, now.",
+    "ch": "现在输入密钥。",
+    "jp": "今すぐキーを入力。",
+    "ru": "Введите ключ."
+  },
+  "key_loaded": {
+    "en": "Key okay.",
+    "ch": "密钥已就绪。",
+    "jp": "キーOK。",
+    "ru": "Ключ принят."
+  },
+  "url_response_fail": {
+    "en": "No reply.",
+    "ch": "没有响应。",
+    "jp": "応答なし。",
+    "ru": "Нет ответа."
+  },
+  "url_open_fail": {
+    "en": "Blocked.",
+    "ch": "已被拦截。",
+    "jp": "ブロックされました。",
+    "ru": "Доступ заблокирован."
+  },
+  "internet_fail": {
+    "en": "No net.",
+    "ch": "没有网络。",
+    "jp": "ネットなし。",
+    "ru": "Нет сети."
+  },
+  "failed_prefix": {
+    "en": "Nice try.",
+    "ch": "不错的尝试。",
+    "jp": "いい試みだね。",
+    "ru": "Неплохая попытка."
+  },
+  "empty_key": {
+    "en": "No key.",
+    "ch": "没有密钥。",
+    "jp": "キーがありません。",
+    "ru": "Ключ не указан."
+  },
+  "checking_key": {
+    "en": "Verifying...",
+    "ch": "正在验证...",
+    "jp": "検証中...",
+    "ru": "Проверка ключа..."
+  },
+  "banned_login": {
+    "en": "Access denied due to violation of the rules.",
+    "ch": "由于违反规则，访问已被拒绝。",
+    "jp": "規約違反のため、アクセスは拒否されました。",
+    "ru": "Доступ запрещён из-за нарушения правил."
+  },
+  "expired_login": {
+    "en": "Your subscription has expired.",
+    "ch": "你的订阅已过期。",
+    "jp": "サブスクリプションの有効期限が切れました。",
+    "ru": "Срок действия вашей подписки истёк."
+  },
+  "load": {
+    "en": "Loading dish washer...",
+    "ch": "正在加载洗碗机...",
+    "jp": "食器洗い機をロード中...",
+    "ru": "Загрузка посудомойки..."
+  },
+  "wait_1": {
+    "en": "wait a minute.. ",
+    "ch": "稍等一下.. ",
+    "jp": "ちょっと待ってね.. ",
+    "ru": "Минутку.. "
+  },
+  "wait_2": {
+    "en": "wait a minute...",
+    "ch": "稍等一下...",
+    "jp": "ちょっと待ってね...",
+    "ru": "Минутку..."
+  },
 
+  "chat_tab": {
+    "en": "Chat",
+    "ch": "聊天",
+    "jp": "チャット",
+    "ru": "Чат"
+  },
+  "faq": {
+    "en": "FAQ",
+    "ch": "常见问题",
+    "jp": "よくある質問",
+    "ru": "Вопросы"
+  },
+  "terms": {
+    "en": "Terms",
+    "ch": "条款",
+    "jp": "利用規約",
+    "ru": "Условия"
+  },
+  "read_first": {
+    "en": "Read this first",
+    "ch": "请先阅读此内容",
+    "jp": "まずはこちらを読んでください",
+    "ru": "Сначала прочитайте это"
+  },
+  "agree_intro": {
+    "en": "By using this tool, you accept these terms.",
+    "ch": "使用此工具即表示你接受这些条款。",
+    "jp": "このツールを使用すると、これらの規約に同意したことになります。",
+    "ru": "Используя этот инструмент, вы принимаете эти условия."
+  },
+
+  "agree_bullets": {
+    "en": [
+      "You accept all risks.",
+      "No warranty or guarantee.",
+      "You are responsible for your actions.",
+      "Follow local laws and game rules.",
+      "No refunds. Access may be blocked.",
+      "Service may stop at any time.",
+      "If you disagree, do not use it."
+    ],
+    "ch": [
+      "你接受所有风险。",
+      "不提供任何担保或保证。",
+      "你对自己的行为负责。",
+      "请遵守当地法律和游戏规则。",
+      "不退款，访问可能会被封禁。",
+      "服务可能随时停止。",
+      "如果不同意，请不要使用。"
+    ],
+    "jp": [
+      "すべてのリスクを自分で負います。",
+      "いかなる保証もありません。",
+      "あなたの行動にはあなた自身が責任を負います。",
+      "現地の法律およびゲームの規約に従ってください。",
+      "返金はありません。アクセスがブロックされる場合があります。",
+      "サービスはいつでも停止する場合があります。",
+      "同意できない場合は利用しないでください。"
+    ],
+    "ru": [
+      "Вы принимаете на себя все риски.",
+      "Никаких гарантий и заверений не предоставляется.",
+      "Вы несёте полную ответственность за свои действия.",
+      "Соблюдайте местные законы и правила игры.",
+      "Возврат средств не производится, доступ может быть заблокирован.",
+      "Сервис может быть остановлен в любое время.",
+      "Если вы не согласны, не пользуйтесь этим инструментом."
+    ]
+  },
+
+  "how_to": {
+    "en": "How to use",
+    "ch": "使用方法",
+    "jp": "使い方",
+    "ru": "Как пользоваться"
+  },
+
+  "steps": {
+    "en": [
+      "Scan your PC with a good, updated antivirus.",
+      "Open your emulator (GameLoop, LD, MEmu, Nox, BlueStacks, etc.).",
+      "Wait until it fully boots to the home screen.",
+      "In this tool, pick your game version.",
+      "Click Inject if needed, then run the game by hand.",
+      "Check the log - it should say 'loader initialized'.",
+      "If not, check ADB connection, enable root/debug, restart emulator and retry."
+    ],
+    "ch": [
+      "请使用可靠且已更新的杀毒软件扫描你的电脑。",
+      "打开你的模拟器（GameLoop、LD、MEmu、Nox、BlueStacks 等）。",
+      "等待模拟器完全启动并进入首页。",
+      "在本工具中选择你的游戏版本。",
+      "如有需要点击 Inject，然后手动启动游戏。",
+      "检查日志，应显示“loader initialized”。",
+      "如果没有，请检查 ADB 连接，启用 root/调试，重启模拟器后重试。"
+    ],
+    "jp": [
+      "まずは最新版のウイルス対策ソフトでPCをスキャンします。",
+      "エミュレータ（GameLoop / LD / MEmu / Nox / BlueStacks など）を起動します。",
+      "ホーム画面まで完全に起動するまで待ちます。",
+      "このツールで自分のゲームバージョンを選びます。",
+      "必要なら Inject を押してから、ゲームを手動で起動します。",
+      "ログを確認し、「loader initialized」と表示されているかチェックします。",
+      "表示されない場合は、ADB 接続・root/デバッグ設定を確認し、エミュレータを再起動して再試行してください。"
+    ],
+    "ru": [
+      "Просканируйте свой ПК хорошим, обновлённым антивирусом.",
+      "Откройте эмулятор (GameLoop, LD, MEmu, Nox, BlueStacks и т. д.).",
+      "Дождитесь полной загрузки эмулятора до домашнего экрана.",
+      "В этом инструменте выберите версию своей игры.",
+      "При необходимости нажмите Inject, затем запустите игру вручную.",
+      "Проверьте лог — в нём должно быть сообщение 'loader initialized'.",
+      "Если нет, проверьте подключение ADB, включите root/отладку, перезапустите эмулятор и попробуйте снова."
+    ]
+  },
+
+  "chat_replying_to": {
+    "en": "Replying to %s at %s: %s",
+    "ch": "回复 %s 于 %s：%s",
+    "jp": "%s への返信（%s）: %s",
+    "ru": "Ответ для %s в %s: %s"
+  },
+  "send": {
+    "en": "Send",
+    "ch": "发送",
+    "jp": "送信",
+    "ru": "Отправить"
+  },
+  "main_page": {
+    "en": "Main Page",
+    "ch": "主页",
+    "jp": "メインページ",
+    "ru": "Главная страница"
+  },
+
+  "vipkey": {
+    "en": ["Bp & Hk", "Hk", "Bp", "PC"],
+    "ch": ["Bp & Hk", "Hk", "Bp", "PC"],
+    "jp": ["Bp & Hk", "Hk", "Bp", "PC"],
+    "ru": ["Bp и Hk", "Hk", "Bp", "PC"]
+  },
+  "hkkey": {
+    "en": ["Hk"],
+    "ch": ["Hk"],
+    "jp": ["Hk"],
+    "ru": ["Hk"]
+  },
+  "bpkey": {
+    "en": ["Bp"],
+    "ch": ["Bp"],
+    "jp": ["Bp"],
+    "ru": ["Bp"]
+  },
+  "pckey": {
+    "en": ["PC"],
+    "ch": ["PC"],
+    "jp": ["PC"],
+    "ru": ["PC"]
+  },
+
+  "vip_tip": {
+    "en": [
+      "Hack with bypass",
+      "Hack alone",
+      "Bypass alone",
+      "Hack and protection (PC lobby)"
+    ],
+    "ch": [
+      "外挂 + 过检测",
+      "仅外挂",
+      "仅过检测",
+      "外挂 + 防护（PC 大厅）"
+    ],
+    "jp": [
+      "ハック + バイパス",
+      "ハックのみ",
+      "バイパスのみ",
+      "ハック + 保護（PC ロビー）"
+    ],
+    "ru": [
+      "Чит с обходом защиты",
+      "Только чит",
+      "Только обход защиты",
+      "Чит и защита (PC-лобби)"
+    ]
+  },
+
+  "hk_only_tip": {
+    "en": "Hack alone",
+    "ch": "仅外挂",
+    "jp": "ハックのみ",
+    "ru": "Только чит"
+  },
+  "bp_only_tip": {
+    "en": "Bypass alone",
+    "ch": "仅过检测",
+    "jp": "バイパスのみ",
+    "ru": "Только обход защиты"
+  },
+  "pc_only_tip": {
+    "en": "Hack and protection (PC lobby)",
+    "ch": "外挂 + 防护（PC 大厅）",
+    "jp": "ハック + 保護（PC ロビー）",
+    "ru": "Чит и защита (PC-лобби)"
+  },
+
+  "channel_tip": {
+    "en": [
+      "Choose update channel: Release (default) or Dev (early features)."
+    ],
+    "ch": [
+      "选择更新通道：Release（默认）或 Dev（提前功能）。"
+    ],
+    "jp": [
+      "アップデートチャンネルを選択：Release（デフォルト）または Dev（先行機能）。"
+    ],
+    "ru": [
+      "Выберите канал обновлений: Release (по умолчанию) или Dev (ранние функции)."
+    ]
+  },
+
+  "the_channel": {
+    "en": ["Release", "Dev"],
+    "ch": ["正式版", "Dev"],
+    "jp": ["リリース", "Dev"],
+    "ru": ["Release", "Dev"]
+  },
+
+  "gmvr": {
+    "en": ["Global", "Vietnam", "Taiwan", "Korea", "India"],
+    "ch": ["国际服", "越南服", "台湾服", "韩国服", "印度服"],
+    "jp": ["グローバル", "ベトナム", "台湾", "韓国", "インド"],
+    "ru": ["Глобальная", "Вьетнам", "Тайвань", "Корея", "Индия"]
+  },
+
+  "release_tip": {
+    "en": "Slower access but more reliable",
+    "ch": "访问速度较慢，但更加稳定可靠。",
+    "jp": "やや遅いですが、より安定して信頼できます。",
+    "ru": "Доступ может быть медленнее, но надёжнее."
+  },
+  "dev_tip": {
+    "en": "Early access of everything (use at your own risk)",
+    "ch": "所有功能的提前体验（风险自负）。",
+    "jp": "すべてを先行利用できます（利用は自己責任）。",
+    "ru": "Ранний доступ ко всему (используйте на свой риск)."
+  },
+
+  "start_game_btn": {
+    "en": "Infect",
+    "ch": "注入",
+    "jp": "インジェクト",
+    "ru": "Инжект"
+  },
+  "reset_btn": {
+    "en": "reset",
+    "ch": "重置",
+    "jp": "リセット",
+    "ru": "Сброс"
+  },
+  "start_btn": {
+    "en": "Launch",
+    "ch": "启动",
+    "jp": "起動",
+    "ru": "Запуск"
+  },
+  "injectlib": {
+    "en": "Injecting Library",
+    "ch": "正在注入库...",
+    "jp": "ライブラリをインジェクト中...",
+    "ru": "Инжектируем библиотеку..."
+  },
+  "resetid": {
+    "en": "Resetting Android ID",
+    "ch": "正在重置 Android ID...",
+    "jp": "Android ID をリセット中...",
+    "ru": "Сброс Android ID..."
+  },
+  "gameloop_shutdown": {
+    "en": "Shutting down Gameloop",
+    "ch": "正在关闭 Gameloop...",
+    "jp": "Gameloop を終了中...",
+    "ru": "Остановка Gameloop..."
+  },
+  "gameloop_startup": {
+    "en": "Starting up Gameloop",
+    "ch": "正在启动 Gameloop...",
+    "jp": "Gameloop を起動中...",
+    "ru": "Запуск Gameloop..."
+  },
+  "shutdown_btn": {
+    "en": "Close",
+    "ch": "关闭",
+    "jp": "閉じる",
+    "ru": "Закрыть"
+  },
+
+  "time_days": {
+    "en": "d",
+    "ch": "天",
+    "jp": "日",
+    "ru": "д"
+  },
+  "time_hours": {
+    "en": "h",
+    "ch": "时",
+    "jp": "時",
+    "ru": "ч"
+  },
+  "time_minutes": {
+    "en": "m",
+    "ch": "分",
+    "jp": "分",
+    "ru": "м"
+  },
+  "time_seconds": {
+    "en": "s",
+    "ch": "秒",
+    "jp": "秒",
+    "ru": "с"
+  },
+
+  "region_eu": { "en": "EU" },
+  "region_me": { "en": "ME" },
+  "region_as": { "en": "AS" },
+  "region_kr": { "en": "KR" },
+  "region_sa": { "en": "SA" },
+  "region_na": { "en": "NA" }
+}
