@@ -1,4 +1,4 @@
-/* ===== Blogfa comments helper (سفارشی خودت) ===== */
+// ===== Blogfa comments helper (نسخه سبک شده) =====
 
 var __cmt_updated = false;
 
@@ -9,17 +9,16 @@ function updatecomments() {
     var url = "";
     var postid = 0;
 
-    // این دوتا رو از گلوبال می‌گیریم (از تو قالب ست شدن)
+    // این دوتا رو از گلوبال می‌گیریم (توی قالب ست شدن)
     if (typeof cmt_blogid !== "string" || cmt_blogid === "")
         return;
 
-    // اگر کپشن‌ها نیامده بودن، مقدار پیش‌فرض
     if (!Array.isArray(cmt_caption) || cmt_caption.length < 4) {
         cmt_caption = ["نظرات", "نظر بدهيد", "يک نظر", "نظر"];
     }
 
     try {
-        // فقط اگر BlogComments وجود دارد، مپش کن – ولی اگر نبود، بازم لینک را می‌سازیم
+        // BlogComments فقط وقتی هست که بلاگفا دیتا فرستاده باشه
         if (typeof window.BlogComments !== "undefined" &&
             window.BlogComments &&
             window.BlogComments.length) {
@@ -88,12 +87,13 @@ function getwindowwidth() {
     return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 }
 
-// دقیقاً شبیه theme.1.2.js: یکبار روی load، و یکبار با تأخیر
+// روی load هم یک بار تست کند، مثل نسخه اصلی
 if (window.addEventListener)
     window.addEventListener("load", updatecomments);
 else if (window.attachEvent)
     window.attachEvent("onload", updatecomments);
 
+// و با تاخیر دوباره
 setTimeout(function () {
     if (__cmt_updated === false) {
         try { updatecomments(); } catch (e) {}
