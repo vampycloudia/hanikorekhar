@@ -1,5 +1,4 @@
-// ===== Blogfa comments helper (custom) =====
-
+// ===== Blogfa comments helper (کپی شده از theme.1.2.js و سبک شده) =====
 var __cmt_updated = false;
 
 function updatecomments() {
@@ -50,9 +49,9 @@ function updatecomments() {
 
                 if (getwindowwidth() > 700) {
                     result =
-                        "<a href=\"javascript:void(0)\" onclick=\"window.open('" +
+                        "<a href=\"javascript:void(0)\" onclick=\"javascript:window.open('" +
                         url +
-                        "','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,width=500,height=500')\">" +
+                        "','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px')\">" +
                         result + " </a>";
                 } else {
                     result = "<a href=\"" + url + "\">" + result + " </a>";
@@ -72,7 +71,7 @@ function openlinks() {
     window.open(
         '/links',
         'blogfa_ld',
-        'status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,width=500,height=500'
+        'status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px'
     );
     return false;
 }
