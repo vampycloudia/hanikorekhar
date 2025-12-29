@@ -62,7 +62,7 @@ body:not(.nova-ready) {
         0 0 25px rgba(255, 146, 201, 0.15);
 }
 
-/* اگر مرورگر پشتیبانی کند: بلور فعال */
+/* بلور جایی که ساپورت بشه */
 @supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
     #content,
     #sidebar,
