@@ -1,54 +1,93 @@
-(function(w, d){
-  function safeUpdate(){
-    try{
-      if (typeof w.updatecomments === "function") w.updatecomments();
-    }catch(e){}
-  }
+// ===== Blogfa comments helper (custom) =====
 
-  // اگر openlinks نبود، یه نسخه سبک بده (برای safety)
-  if (typeof w.openlinks !== "function") {
-    w.openlinks = function(){
-      var ww = w.innerWidth || d.documentElement.clientWidth || d.body.clientWidth || 0;
-      if (ww < 700) return true;
-      w.open('/links','blogfa_ld','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,width=500,height=500');
-      return false;
-    };
-  }
+var __cmt_updated = false;
 
-  // روی load
-  if (w.addEventListener) w.addEventListener("load", safeUpdate);
-  else if (w.attachEvent) w.attachEvent("onload", safeUpdate);
+function updatecomments() {
+    var _cmts = [];
+    var cnt = 0;
+    var result = "";
+    var url = "";
+    var postid = 0;
 
-  // چند بار با تاخیر (برای وقتی BlogComments دیر میاد)
-  setTimeout(safeUpdate, 800);
-  setTimeout(safeUpdate, 1600);
-  setTimeout(safeUpdate, 5000);
+    if (typeof cmt_blogid !== "string" || cmt_blogid === "")
+        return;
 
-  // اگر DOM دیر آپدیت شد (بلاگفا/مرورگر)، دوباره آپدیت کن
-  var scheduled = false;
-  function schedule(){
-    if (scheduled) return;
-    scheduled = true;
-    setTimeout(function(){
-      scheduled = false;
-      safeUpdate();
-    }, 250);
-  }
+    if (!Array.isArray(cmt_caption) || cmt_caption.length < 4) {
+        cmt_caption = ["نظرات", "نظر بدهيد", "يک نظر", "نظر"];
+    }
 
-  try{
-    var obs = new MutationObserver(function(muts){
-      for (var i=0;i<muts.length;i++){
-        var m = muts[i];
-        if (!m.addedNodes) continue;
-        for (var j=0;j<m.addedNodes.length;j++){
-          var n = m.addedNodes[j];
-          if (!n || n.nodeType !== 1) continue;
-          // هرچی با comment-for اضافه شد یا داخلش داشت
-          if (n.getAttribute && n.getAttribute("comment-for")) { schedule(); return; }
-          if (n.querySelector && n.querySelector("[comment-for]")) { schedule(); return; }
+    try {
+        if (typeof window.BlogComments !== "undefined" &&
+            window.BlogComments &&
+            window.BlogComments.length) {
+
+            for (var c = 0; c < window.BlogComments.length; c += 2) {
+                _cmts["_" + window.BlogComments[c]] = window.BlogComments[c + 1];
+            }
         }
-      }
-    });
-    obs.observe(d.body, { childList:true, subtree:true });
-  }catch(e){}
-})(window, document);
+
+        var allelements = document.getElementsByTagName("*");
+        for (var i = 0; i < allelements.length; i++) {
+            postid = allelements[i].getAttribute("comment-for");
+            if (postid != null) {
+                postid = parseInt(postid, 10);
+
+                if (_cmts["_" + postid] != null)
+                    cnt = _cmts["_" + postid];
+                else
+                    cnt = -1;
+
+                if (cnt === -1)
+                    result = cmt_caption[0];
+                else if (cnt === 0)
+                    result = cmt_caption[1];
+                else if (cnt === 1)
+                    result = cmt_caption[2];
+                else if (cnt > 1)
+                    result = cnt + " " + cmt_caption[3];
+
+                url = "/comments/?blogid=" + cmt_blogid + "&postid=" + postid;
+
+                if (getwindowwidth() > 700) {
+                    result =
+                        "<a href=\"javascript:void(0)\" onclick=\"window.open('" +
+                        url +
+                        "','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,width=500,height=500')\">" +
+                        result + " </a>";
+                } else {
+                    result = "<a href=\"" + url + "\">" + result + " </a>";
+                }
+
+                allelements[i].innerHTML = result;
+            }
+        }
+    } catch (e) {}
+
+    __cmt_updated = true;
+}
+
+function openlinks() {
+    if (getwindowwidth() < 700)
+        return true;
+    window.open(
+        '/links',
+        'blogfa_ld',
+        'status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,width=500,height=500'
+    );
+    return false;
+}
+
+function getwindowwidth() {
+    return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+}
+
+if (window.addEventListener)
+    window.addEventListener("load", updatecomments);
+else if (window.attachEvent)
+    window.attachEvent("onload", updatecomments);
+
+setTimeout(function () {
+    if (__cmt_updated === false) {
+        try { updatecomments(); } catch (e) {}
+    }
+}, 6000);
