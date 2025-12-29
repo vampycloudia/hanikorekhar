@@ -47,7 +47,8 @@ body:not(.nova-ready) {
     clear: both;
 }
 
-/* ======= Glass panels (EVERY main box) ======= */
+/* ======= Glass panels (اصلی‌ها) ======= */
+/* شیشه‌ای خیلی شفاف، بگذار دختره از زیرش دیده بشه */
 
 #content,
 #sidebar,
@@ -60,20 +61,28 @@ body:not(.nova-ready) {
 .nextandprevious,
 .postinfo,
 .copyright {
-    background-color: rgba(0, 0, 0, 0.68) !important;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color: rgba(0, 0, 0, 0.30) !important; /* شفاف‌تر از قبل */
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow:
-        0 10px 30px rgba(0, 0, 0, 0.7),
-        0 0 25px rgba(255, 146, 201, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+        0 14px 40px rgba(0, 0, 0, 0.75),
+        0 0 28px rgba(255, 146, 201, 0.18);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
 }
 
-/* بعضی المان‌های داخلی شفاف بمونن که خودشون باکس جدید نسازن */
+/* المان‌های داخلی که نباید دوباره زمینه‌ی تیره بکشن */
+#wrapper,
+#headerbox,
+#header,
 .menu ul,
 .menu li,
-.menu li a {
+.menu li a,
+.post,
+.postbody,
+.postcontent,
+.box ul,
+.box li {
     background: transparent !important;
 }
 
@@ -83,7 +92,7 @@ body:not(.nova-ready) {
 .post,
 #sidebar,
 #content {
-    border-color: rgba(255, 255, 255, 0.15) !important;
+    border-color: rgba(255, 255, 255, 0.16) !important;
 }
 
 /* خطوط جداکننده لطیف بین پست‌ها */
@@ -104,7 +113,7 @@ a {
 a:hover {
     text-decoration: underline;
     color: #ffc6e5;
-    text-shadow: 0 0 5px rgba(255, 146, 201, 0.7);
+    text-shadow: 0 0 6px rgba(255, 146, 201, 0.8);
 }
 
 /* لینک‌های داخل متن پست کمی ملایم‌تر */
@@ -191,7 +200,7 @@ a:hover {
     max-width: 100%;
     border-radius: 50%;
     margin-bottom: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 /* ======= Menu ======= */
@@ -209,7 +218,7 @@ a:hover {
 .menu li a {
     display: block;
     padding: 6px 10px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 12px;
     color: #f0f0f0;
     border: 1px solid transparent;
@@ -217,8 +226,8 @@ a:hover {
 }
 
 .menu li a:hover {
-    background: rgba(255, 146, 201, 0.12);
-    border-color: rgba(255, 146, 201, 0.4);
+    background: rgba(255, 146, 201, 0.16);
+    border-color: rgba(255, 146, 201, 0.45);
     transform: translateY(-1px);
 }
 
@@ -233,7 +242,7 @@ a:hover {
     margin: 0 0 8px 0;
     font-size: 12px;
     color: #ffffff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
     padding-bottom: 4px;
 }
 
@@ -261,8 +270,8 @@ a:hover {
 .nextandprevious a {
     padding: 4px 8px;
     border-radius: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(0, 0, 0, 0.35);
 }
 
 /* ======= Copyright ======= */
@@ -270,15 +279,16 @@ a:hover {
 .copyright {
     text-align: center;
     font-size: 10px;
-    opacity: 0.6;
+    opacity: 0.7;
     margin-top: 12px;
 }
 
 .copyright a {
-    color: #999999;
+    color: #b0b0b0;
 }
 
 /* ======= Responsive (mobile & tablet) ======= */
+
 @media (max-width: 900px) {
     #container {
         width: 100%;
@@ -298,7 +308,7 @@ a:hover {
         max-width: 160px;
     }
 
-    /* روی موبایل: fixed رو بردار، سبک‌تر می‌شه */
+    /* روی موبایل: fixed رو بردار که زیاد اذیت نکنه */
     body {
         background-attachment: scroll;
     }
@@ -315,7 +325,7 @@ a:hover {
     .postinfo,
     .copyright {
         box-shadow:
-            0 6px 18px rgba(0, 0, 0, 0.6),
-            0 0 15px rgba(255, 146, 201, 0.12);
+            0 8px 24px rgba(0, 0, 0, 0.7),
+            0 0 18px rgba(255, 146, 201, 0.16);
     }
 }
