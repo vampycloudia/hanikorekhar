@@ -1,33 +1,27 @@
-/* ===== Global ===== */
+/* ======= Global layout ======= */
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     color: #fff;
     direction: rtl;
     font-family: tahoma, sans-serif;
     line-height: 1.7;
-    background-color: #000;
-    overflow-x: hidden;
 }
 
-/* لایه بک‌گراند: GIF متحرک */
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background-color: #000;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: var(--nova-bg); /* از جاوااسکریپت ست می‌شود */
-    z-index: -1;
+/* وقتی بک‌گراند گیف هنوز نیومده */
+body:not(.nova-ready) {
+    background-color: #050308;
 }
 
-/* ===== Layout desktop ===== */
+/* ======= main wrapper & columns (desktop) ======= */
 
 #container {
     width: 960px;
@@ -53,14 +47,14 @@ body::before {
     clear: both;
 }
 
-/* ===== Glass panels ===== */
+/* ======= Glass panels ======= */
 
 #content,
 #sidebar,
 .post,
 .box,
 .profile {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.68);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.14);
     box-shadow:
@@ -68,20 +62,21 @@ body::before {
         0 0 25px rgba(255, 146, 201, 0.15);
 }
 
-/* اگر مرورگر پشتیبانی کند، بلور فعال شود */
-@supports (backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px)) {
+/* اگر مرورگر پشتیبانی کند: بلور فعال */
+@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
     #content,
     #sidebar,
     .post,
     .box,
     .profile {
-        background-color: rgba(0, 0, 0, 0.50);
+        background-color: rgba(0, 0, 0, 0.46);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
     }
 }
 
-/* بلاگفا بک‌گراندهای اصلی‌ش رو نده تو مخ */
+/* ======= Remove default backgrounds ======= */
+
 #wrapper,
 #headerbox,
 #header,
@@ -96,7 +91,7 @@ body::before {
     border: none;
 }
 
-/* ===== Posts ===== */
+/* ======= Posts ======= */
 
 .post + .post {
     margin-top: 18px;
@@ -132,7 +127,19 @@ body::before {
     margin-top: 10px;
 }
 
-/* ===== Header ===== */
+/* ======= Tags ======= */
+
+.posttags span {
+    font-size: 11px;
+    color: #aaaaaa;
+}
+
+.posttags a {
+    font-size: 11px;
+    color: #ffb8de;
+}
+
+/* ======= Header ======= */
 
 #header h1 {
     margin: 10px 0 4px 0;
@@ -158,7 +165,7 @@ body::before {
     opacity: 0.8;
 }
 
-/* ===== Links ===== */
+/* ======= Links ======= */
 
 a {
     color: #ff92c9;
@@ -176,18 +183,7 @@ a:hover {
     color: #ffb0da;
 }
 
-/* Tags */
-.posttags span {
-    font-size: 11px;
-    color: #aaaaaa;
-}
-
-.posttags a {
-    font-size: 11px;
-    color: #ffb8de;
-}
-
-/* ===== Sidebar ===== */
+/* ======= Sidebar / profile ======= */
 
 .profile {
     text-align: center;
@@ -200,6 +196,8 @@ a:hover {
     margin-bottom: 8px;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+/* ======= Menu ======= */
 
 .menu ul {
     list-style: none;
@@ -226,6 +224,8 @@ a:hover {
     border-color: rgba(255, 146, 201, 0.4);
     transform: translateY(-1px);
 }
+
+/* ======= Boxes ======= */
 
 .box {
     margin-top: 12px;
@@ -254,7 +254,7 @@ a:hover {
     font-size: 11px;
 }
 
-/* ===== Next/Previous ===== */
+/* ======= Next / previous ======= */
 
 .nextandprevious {
     margin-top: 15px;
@@ -268,7 +268,7 @@ a:hover {
     background: rgba(0, 0, 0, 0.4);
 }
 
-/* ===== Footer ===== */
+/* ======= Footer ======= */
 
 .copyright {
     text-align: center;
@@ -281,7 +281,7 @@ a:hover {
     color: #999999;
 }
 
-/* ===== Responsive ===== */
+/* ======= Responsive ======= */
 
 @media (max-width: 900px) {
     #container {
@@ -302,8 +302,7 @@ a:hover {
         max-width: 160px;
     }
 
-    body::before {
-        /* روی گوشی background-attachment: fixed می‌تونه لگ بده */
+    body {
         background-attachment: scroll;
     }
 }
