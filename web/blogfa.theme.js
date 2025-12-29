@@ -1,10 +1,11 @@
 // ===== Blogfa comments helper moved to GitHub =====
 
-var cmt_caption = Array.isArray(cmt_caption)
-    ? cmt_caption
+// از مقدار قبلی استفاده کن اگه ست شده بود
+var cmt_caption = Array.isArray(window.cmt_caption)
+    ? window.cmt_caption
     : ["نظرات", "نظر بدهيد", "يک نظر", "نظر"];
 
-var cmt_blogid = typeof cmt_blogid === "string" ? cmt_blogid : "";
+var cmt_blogid = (typeof window.cmt_blogid === "string") ? window.cmt_blogid : "";
 var __cmt_updated = false;
 
 function updatecomments() {
@@ -18,10 +19,10 @@ function updatecomments() {
         return;
 
     try {
-        // فقط اگر BlogComments وجود داشته باشد، مپ را پر کن
-        if (typeof BlogComments !== "undefined" && BlogComments && BlogComments.length) {
-            for (var c = 0; c < BlogComments.length; c += 2) {
-                _cmts["_" + BlogComments[c]] = BlogComments[c + 1];
+        // فقط اگه BlogComments وجود داره، مپش کن – ولی اگه نبود، بازم لینک درست بساز
+        if (typeof window.BlogComments !== "undefined" && window.BlogComments && window.BlogComments.length) {
+            for (var c = 0; c < window.BlogComments.length; c += 2) {
+                _cmts["_" + window.BlogComments[c]] = window.BlogComments[c + 1];
             }
         }
 
@@ -36,27 +37,32 @@ function updatecomments() {
                 else
                     cnt = -1;
 
-                if (cnt === -1)       result = cmt_caption[0];          // "نظرات"
-                else if (cnt === 0)  result = cmt_caption[1];          // "نظر بدهيد"
-                else if (cnt === 1)  result = cmt_caption[2];          // "يک نظر"
-                else if (cnt > 1)    result = cnt + " " + cmt_caption[3]; // "X نظر"
+                if (cnt === -1)
+                    result = cmt_caption[0];                    // "نظرات"
+                else if (cnt === 0)
+                    result = cmt_caption[1];                    // "نظر بدهيد"
+                else if (cnt === 1)
+                    result = cmt_caption[2];                    // "يک نظر"
+                else if (cnt > 1)
+                    result = cnt + " " + cmt_caption[3];        // "X نظر"
 
                 url = "/comments/?blogid=" + cmt_blogid + "&postid=" + postid;
 
-                if (getwindowwidth() > 700)
+                if (getwindowwidth() > 700) {
                     result =
                         "<a href=\"javascript:void(0)\" onclick=\"javascript:window.open('" +
                         url +
                         "','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px')\">" +
                         result + " </a>";
-                else
+                } else {
                     result = "<a href=\"" + url + "\">" + result + " </a>";
+                }
 
                 allelements[i].innerHTML = result;
             }
         }
     } catch (e) {
-        // اگه هرچی خراب شد، صفحه منفجر نشه
+        // نذار صفحه بترکه
     }
 
     __cmt_updated = true;
