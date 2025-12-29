@@ -1,5 +1,9 @@
 /* ======= Global layout ======= */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000;
     background-repeat: no-repeat;
@@ -12,14 +16,38 @@ body {
     line-height: 1.7;
 }
 
-/* برای وقتی بک‌گراند گیف هنوز نیومده */
+/* وقتی بک‌گراند گیف هنوز نیومده */
 body:not(.nova-ready) {
     background-color: #050308;
 }
 
-/* اسکرول نرم‌تر */
-html {
-    scroll-behavior: smooth;
+/* ======= main wrapper & columns (desktop) ======= */
+
+#container {
+    width: 960px;          /* عرض کلی وسط صفحه */
+    margin: 0 auto;        /* وسط‌چین */
+    overflow: hidden;      /* برای جمع کردن float ها */
+}
+
+/* ستون اصلی پست‌ها */
+#content {
+    float: right;
+    width: 620px;          /* عرض محتوای اصلی */
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+/* ستون چپ (سایدبار) */
+#sidebar {
+    float: left;
+    width: 260px;          /* عرض سایدبار */
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+/* هر جایی که کلاس clear داره، دو ستون رو جمع کنه */
+.clear {
+    clear: both;
 }
 
 /* ======= Glass panels (main boxes) ======= */
@@ -39,19 +67,9 @@ html {
     -webkit-backdrop-filter: blur(10px);
 }
 
-/* فاصله‌ها کمی مرتب‌تر */
-#content {
-    padding: 12px;
-}
-
-#sidebar {
-    padding: 12px;
-}
-
 /* ======= Remove default backgrounds ======= */
 
 #wrapper,
-#container,
 #headerbox,
 #header,
 .menu,
@@ -73,7 +91,7 @@ html {
     border-color: rgba(255, 255, 255, 0.15) !important;
 }
 
-/* خطوط جداکننده لطیف */
+/* خطوط جداکننده لطیف بین پست‌ها */
 .post + .post {
     margin-top: 18px;
     border-top: 1px dashed rgba(255, 255, 255, 0.10);
@@ -263,4 +281,26 @@ a:hover {
 
 .copyright a {
     color: #999999;
+}
+
+/* ======= Responsive (mobile & tablet) ======= */
+
+@media (max-width: 900px) {
+    #container {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    #content,
+    #sidebar {
+        float: none;
+        width: 100%;
+        margin: 0 0 12px 0;
+    }
+
+    .profile img {
+        max-width: 160px;
+    }
 }
