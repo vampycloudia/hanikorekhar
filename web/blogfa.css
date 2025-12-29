@@ -16,6 +16,7 @@ body{
   overflow: hidden;
 }
 
+/* ستون اصلی پست‌ها */
 #content{
   float: right;
   width: 620px;
@@ -23,6 +24,7 @@ body{
   box-sizing: border-box;
 }
 
+/* ستون چپ (سایدبار) */
 #sidebar{
   float: left;
   width: 260px;
@@ -30,9 +32,10 @@ body{
   box-sizing: border-box;
 }
 
+/* برای جمع کردن float ها */
 .clear{ clear: both; }
 
-/* ======= Glass panels (REAL glass, not black) ======= */
+/* ======= Glass panels (G L A S S) ======= */
 #content,
 #sidebar,
 .post,
@@ -40,21 +43,19 @@ body{
 .profile,
 .custombox,
 .nextandprevious{
-  background-color: rgba(30, 12, 26, 0.22) !important; /* شفاف‌تر */
+  background-color: rgba(12, 6, 12, 0.26) !important; /* شفاف که بچه‌رقص معلوم شه 😼 */
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   box-shadow:
-    0 14px 45px rgba(0,0,0,0.55),
-    0 0 28px rgba(255,146,201,0.14);
-
+    0 14px 42px rgba(0,0,0,0.6),
+    0 0 26px rgba(255,146,201,0.18);
   backdrop-filter: blur(14px) saturate(1.35);
   -webkit-backdrop-filter: blur(14px) saturate(1.35);
-
-  position: relative;
 }
 
-/* ======= Remove default backgrounds ======= */
+/* ======= Remove default backgrounds (که جلوی GIF رو می‌گرفتن) ======= */
 #wrapper,
+#container,
 #headerbox,
 #header,
 .menu,
@@ -75,7 +76,7 @@ a{
 a:hover{
   text-decoration: underline;
   color:#ffc6e5;
-  text-shadow: 0 0 10px rgba(255,146,201,0.55);
+  text-shadow: 0 0 10px rgba(255,146,201,0.6);
 }
 .postcontent a{ color:#ffb0da; }
 
@@ -89,8 +90,9 @@ a:hover{
 #header h1 a{
   color:#ffffff;
   text-decoration:none;
-  text-shadow: 0 0 10px rgba(255,255,255,0.25),
-              0 0 24px rgba(255,146,201,0.35);
+  text-shadow:
+    0 0 10px rgba(255,255,255,0.25),
+    0 0 24px rgba(255,146,201,0.4);
 }
 #header h1 a:hover{ color:#ff92c9; }
 
@@ -105,28 +107,25 @@ a:hover{
 .post{
   padding: 10px 10px 8px;
 }
-
 .post + .post{
   margin-top: 18px;
-  border-top: 1px dashed rgba(255,255,255,0.10);
+  border-top: 1px dashed rgba(255,255,255,0.12);
   padding-top: 16px;
 }
-
 .post h2{
   margin: 0 0 8px 0;
   font-size: 16px;
 }
-.post h2 a{ color:#fff; }
+.post h2 a{ color:#ffffff; }
 .post h2 a:hover{ color:#ff92c9; }
 
 .postbody{
   font-size: 13px;
   color:#f3f3f3;
 }
-
 .postinfo{
   font-size: 11px;
-  color:#cfcfcf;
+  color:#cccccc;
   padding-top: 6px;
   border-top: 1px solid rgba(255,255,255,0.10);
   margin-top: 10px;
@@ -151,12 +150,18 @@ a:hover{
   max-width:100%;
   border-radius:50%;
   margin-bottom:8px;
-  border:1px solid rgba(255,255,255,0.22);
+  border:1px solid rgba(255,255,255,0.24);
 }
 
 /* ======= Menu ======= */
-.menu ul{ list-style:none; margin:0; padding:0; }
-.menu li{ margin-bottom: 4px; }
+.menu ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.menu li{
+  margin-bottom: 4px;
+}
 .menu li a{
   display:block;
   padding: 6px 10px;
@@ -168,11 +173,11 @@ a:hover{
 }
 .menu li a:hover{
   background: rgba(255,146,201,0.12);
-  border-color: rgba(255,146,201,0.35);
+  border-color: rgba(255,146,201,0.4);
   transform: translateY(-1px);
 }
 
-/* ======= Boxes ======= */
+/* ======= Boxes in sidebar ======= */
 .box{
   margin-top: 12px;
   padding: 10px;
@@ -180,15 +185,23 @@ a:hover{
 .box h6{
   margin: 0 0 8px 0;
   font-size: 12px;
-  color:#fff;
-  border-bottom: 1px solid rgba(255,255,255,0.12);
+  color:#ffffff;
+  border-bottom: 1px solid rgba(255,255,255,0.16);
   padding-bottom: 4px;
 }
-.box ul{ list-style:none; margin:0; padding:0; }
-.box li{ margin-bottom: 4px; }
-.box li a{ font-size: 11px; }
+.box ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.box li{
+  margin-bottom: 4px;
+}
+.box li a{
+  font-size: 11px;
+}
 
-/* ======= Next/Prev ======= */
+/* ======= Next / previous navigation ======= */
 .nextandprevious{
   margin-top: 15px;
   font-size: 11px;
@@ -197,20 +210,22 @@ a:hover{
 .nextandprevious a{
   padding: 4px 8px;
   border-radius: 8px;
-  border: 1px solid rgba(255,255,255,0.18);
-  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08);
 }
 
 /* ======= Copyright ======= */
 .copyright{
   text-align:center;
   font-size: 10px;
-  opacity: .65;
+  opacity: .7;
   margin-top: 12px;
 }
-.copyright a{ color:#bbbbbb; }
+.copyright a{
+  color:#bbbbbb;
+}
 
-/* ======= Responsive (mobile & tablet) ======= */
+/* ======= Responsive ======= */
 @media (max-width: 900px){
   #container{
     width:100%;
@@ -218,14 +233,13 @@ a:hover{
     padding: 0 10px;
     box-sizing:border-box;
   }
-
-  #content, #sidebar{
+  #content,
+  #sidebar{
     float:none;
     width:100%;
     margin:0 0 12px 0;
   }
 
-  /* موبایل: blur کمتر ولی هنوز glass */
   #content,
   #sidebar,
   .post,
@@ -233,11 +247,15 @@ a:hover{
   .profile,
   .custombox,
   .nextandprevious{
-    background-color: rgba(30, 12, 26, 0.18) !important;
-    backdrop-filter: blur(11px) saturate(1.25);
-    -webkit-backdrop-filter: blur(11px) saturate(1.25);
-    box-shadow: 0 10px 28px rgba(0,0,0,0.45), 0 0 18px rgba(255,146,201,0.12);
+    background-color: rgba(12,6,12,0.24) !important;
+    backdrop-filter: blur(11px) saturate(1.2);
+    -webkit-backdrop-filter: blur(11px) saturate(1.2);
+    box-shadow:
+      0 10px 32px rgba(0,0,0,0.55),
+      0 0 20px rgba(255,146,201,0.16);
   }
 
-  .profile img{ max-width: 160px; }
+  .profile img{
+    max-width:160px;
+  }
 }
