@@ -24,40 +24,43 @@ body:not(.nova-ready) {
 /* ======= main wrapper & columns (desktop) ======= */
 
 #container {
-    width: 960px;          /* عرض کلی وسط صفحه */
-    margin: 0 auto;        /* وسط‌چین */
-    overflow: hidden;      /* برای جمع کردن float ها */
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-/* ستون اصلی پست‌ها */
 #content {
     float: right;
-    width: 620px;          /* عرض محتوای اصلی */
+    width: 620px;
     padding: 12px;
     box-sizing: border-box;
 }
 
-/* ستون چپ (سایدبار) */
 #sidebar {
     float: left;
-    width: 260px;          /* عرض سایدبار */
+    width: 260px;
     padding: 12px;
     box-sizing: border-box;
 }
 
-/* هر جایی که کلاس clear داره، دو ستون رو جمع کنه */
 .clear {
     clear: both;
 }
 
-/* ======= Glass panels (main boxes) ======= */
+/* ======= Glass panels (EVERY main box) ======= */
 
 #content,
 #sidebar,
 .post,
 .box,
-.profile {
-    background-color: rgba(0, 0, 0, 0.72) !important; /* شیشه‌ای تیره */
+.profile,
+#headerbox,
+#header,
+.menu,
+.nextandprevious,
+.postinfo,
+.copyright {
+    background-color: rgba(0, 0, 0, 0.68) !important;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.12);
     box-shadow:
@@ -67,18 +70,10 @@ body:not(.nova-ready) {
     -webkit-backdrop-filter: blur(10px);
 }
 
-/* ======= Remove default backgrounds ======= */
-
-#wrapper,
-#headerbox,
-#header,
-.menu,
+/* بعضی المان‌های داخلی شفاف بمونن که خودشون باکس جدید نسازن */
 .menu ul,
 .menu li,
-.menu li a,
-.nextandprevious,
-.postinfo,
-.copyright {
+.menu li a {
     background: transparent !important;
 }
 
@@ -284,7 +279,6 @@ a:hover {
 }
 
 /* ======= Responsive (mobile & tablet) ======= */
-
 @media (max-width: 900px) {
     #container {
         width: 100%;
@@ -302,5 +296,26 @@ a:hover {
 
     .profile img {
         max-width: 160px;
+    }
+
+    /* روی موبایل: fixed رو بردار، سبک‌تر می‌شه */
+    body {
+        background-attachment: scroll;
+    }
+
+    #content,
+    #sidebar,
+    .post,
+    .box,
+    .profile,
+    #headerbox,
+    #header,
+    .menu,
+    .nextandprevious,
+    .postinfo,
+    .copyright {
+        box-shadow:
+            0 6px 18px rgba(0, 0, 0, 0.6),
+            0 0 15px rgba(255, 146, 201, 0.12);
     }
 }
