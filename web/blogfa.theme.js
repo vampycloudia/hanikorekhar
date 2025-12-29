@@ -1,4 +1,4 @@
-// ===== Blogfa comments helper moved to GitHub =====
+/* ===== Blogfa comments helper (سفارشی خودت) ===== */
 
 var __cmt_updated = false;
 
@@ -9,17 +9,17 @@ function updatecomments() {
     var url = "";
     var postid = 0;
 
-    // این دوتا رو از گلوبال می‌گیریم که تو قالب ستشون کردی
+    // این دوتا رو از گلوبال می‌گیریم (از تو قالب ست شدن)
     if (typeof cmt_blogid !== "string" || cmt_blogid === "")
         return;
 
-    // اگه کپشن‌ها نبودن، مقدار پیش‌فرض
+    // اگر کپشن‌ها نیامده بودن، مقدار پیش‌فرض
     if (!Array.isArray(cmt_caption) || cmt_caption.length < 4) {
         cmt_caption = ["نظرات", "نظر بدهيد", "يک نظر", "نظر"];
     }
 
     try {
-        // فقط اگه BlogComments وجود داره، مپش کن – ولی اگه نبود، بازم لینک رو می‌سازیم
+        // فقط اگر BlogComments وجود دارد، مپش کن – ولی اگر نبود، بازم لینک را می‌سازیم
         if (typeof window.BlogComments !== "undefined" &&
             window.BlogComments &&
             window.BlogComments.length) {
@@ -88,13 +88,12 @@ function getwindowwidth() {
     return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 }
 
-// === دقیقا مثل theme.1.2.js: خودش روی load صدا می‌زنه ===
+// دقیقاً شبیه theme.1.2.js: یکبار روی load، و یکبار با تأخیر
 if (window.addEventListener)
     window.addEventListener("load", updatecomments);
 else if (window.attachEvent)
     window.attachEvent("onload", updatecomments);
 
-// و یه بار دیگه هم با تأخیر، برای احتیاط
 setTimeout(function () {
     if (__cmt_updated === false) {
         try { updatecomments(); } catch (e) {}
