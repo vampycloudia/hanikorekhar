@@ -1,11 +1,5 @@
 // ===== Blogfa comments helper moved to GitHub =====
 
-// از مقدار قبلی استفاده کن اگه ست شده بود
-var cmt_caption = Array.isArray(window.cmt_caption)
-    ? window.cmt_caption
-    : ["نظرات", "نظر بدهيد", "يک نظر", "نظر"];
-
-var cmt_blogid = (typeof window.cmt_blogid === "string") ? window.cmt_blogid : "";
 var __cmt_updated = false;
 
 function updatecomments() {
@@ -15,12 +9,21 @@ function updatecomments() {
     var url = "";
     var postid = 0;
 
-    if (cmt_blogid === "")
+    // این دوتا رو از گلوبال می‌گیریم که تو قالب ستشون کردی
+    if (typeof cmt_blogid !== "string" || cmt_blogid === "")
         return;
 
+    // اگه کپشن‌ها نبودن، مقدار پیش‌فرض
+    if (!Array.isArray(cmt_caption) || cmt_caption.length < 4) {
+        cmt_caption = ["نظرات", "نظر بدهيد", "يک نظر", "نظر"];
+    }
+
     try {
-        // فقط اگه BlogComments وجود داره، مپش کن – ولی اگه نبود، بازم لینک درست بساز
-        if (typeof window.BlogComments !== "undefined" && window.BlogComments && window.BlogComments.length) {
+        // فقط اگه BlogComments وجود داره، مپش کن – ولی اگه نبود، بازم لینک رو می‌سازیم
+        if (typeof window.BlogComments !== "undefined" &&
+            window.BlogComments &&
+            window.BlogComments.length) {
+
             for (var c = 0; c < window.BlogComments.length; c += 2) {
                 _cmts["_" + window.BlogComments[c]] = window.BlogComments[c + 1];
             }
@@ -38,13 +41,13 @@ function updatecomments() {
                     cnt = -1;
 
                 if (cnt === -1)
-                    result = cmt_caption[0];                    // "نظرات"
+                    result = cmt_caption[0];          // "نظرات"
                 else if (cnt === 0)
-                    result = cmt_caption[1];                    // "نظر بدهيد"
+                    result = cmt_caption[1];          // "نظر بدهيد"
                 else if (cnt === 1)
-                    result = cmt_caption[2];                    // "يک نظر"
+                    result = cmt_caption[2];          // "يک نظر"
                 else if (cnt > 1)
-                    result = cnt + " " + cmt_caption[3];        // "X نظر"
+                    result = cnt + " " + cmt_caption[3];  // "X نظر"
 
                 url = "/comments/?blogid=" + cmt_blogid + "&postid=" + postid;
 
@@ -84,3 +87,16 @@ function openlinks() {
 function getwindowwidth() {
     return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 }
+
+// === دقیقا مثل theme.1.2.js: خودش روی load صدا می‌زنه ===
+if (window.addEventListener)
+    window.addEventListener("load", updatecomments);
+else if (window.attachEvent)
+    window.attachEvent("onload", updatecomments);
+
+// و یه بار دیگه هم با تأخیر، برای احتیاط
+setTimeout(function () {
+    if (__cmt_updated === false) {
+        try { updatecomments(); } catch (e) {}
+    }
+}, 6000);
