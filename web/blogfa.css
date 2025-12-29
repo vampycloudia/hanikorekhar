@@ -8,7 +8,7 @@ body {
     background-color: #000;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: scroll; /* برای موبایل سبک‌تر از fixed */
     background-size: cover;
     color: #fff;
     direction: rtl;
@@ -16,7 +16,7 @@ body {
     line-height: 1.7;
 }
 
-/* وقتی بک‌گراند گیف هنوز نیومده */
+/* وقتی بک‌گراند هنوز نیومده */
 body:not(.nova-ready) {
     background-color: #050308;
 }
@@ -29,6 +29,7 @@ body:not(.nova-ready) {
     overflow: hidden;
 }
 
+/* ستون اصلی پست‌ها */
 #content {
     float: right;
     width: 620px;
@@ -36,6 +37,7 @@ body:not(.nova-ready) {
     box-sizing: border-box;
 }
 
+/* ستون چپ (سایدبار) */
 #sidebar {
     float: left;
     width: 260px;
@@ -43,46 +45,41 @@ body:not(.nova-ready) {
     box-sizing: border-box;
 }
 
+/* جمع کردن float ها */
 .clear {
     clear: both;
 }
 
-/* ======= Glass panels (اصلی‌ها) ======= */
-/* شیشه‌ای خیلی شفاف، بگذار دختره از زیرش دیده بشه */
+/* ======= Glass panels (main boxes) ======= */
 
 #content,
 #sidebar,
 .post,
 .box,
 .profile,
-#headerbox,
-#header,
-.menu,
-.nextandprevious,
-.postinfo,
-.copyright {
-    background-color: rgba(0, 0, 0, 0.30) !important; /* شفاف‌تر از قبل */
-    border-radius: 14px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+.custombox,
+.nextandprevious {
+    background-color: rgba(0, 0, 0, 0.72) !important;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
     box-shadow:
-        0 14px 40px rgba(0, 0, 0, 0.75),
-        0 0 28px rgba(255, 146, 201, 0.18);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
+        0 10px 30px rgba(0, 0, 0, 0.7),
+        0 0 25px rgba(255, 146, 201, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
-/* المان‌های داخلی که نباید دوباره زمینه‌ی تیره بکشن */
+/* ======= Remove default backgrounds ======= */
+
 #wrapper,
 #headerbox,
 #header,
+.menu,
 .menu ul,
 .menu li,
 .menu li a,
-.post,
-.postbody,
-.postcontent,
-.box ul,
-.box li {
+.postinfo,
+.copyright {
     background: transparent !important;
 }
 
@@ -92,7 +89,7 @@ body:not(.nova-ready) {
 .post,
 #sidebar,
 #content {
-    border-color: rgba(255, 255, 255, 0.16) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
 }
 
 /* خطوط جداکننده لطیف بین پست‌ها */
@@ -113,7 +110,7 @@ a {
 a:hover {
     text-decoration: underline;
     color: #ffc6e5;
-    text-shadow: 0 0 6px rgba(255, 146, 201, 0.8);
+    text-shadow: 0 0 5px rgba(255, 146, 201, 0.7);
 }
 
 /* لینک‌های داخل متن پست کمی ملایم‌تر */
@@ -127,6 +124,7 @@ a:hover {
     margin: 10px 0 4px 0;
     font-size: 22px;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 #header h1 a {
@@ -145,6 +143,7 @@ a:hover {
     color: #cccccc;
     font-size: 11px;
     opacity: 0.8;
+    text-align: center;
 }
 
 /* ======= Posts ======= */
@@ -200,10 +199,14 @@ a:hover {
     max-width: 100%;
     border-radius: 50%;
     margin-bottom: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* ======= Menu ======= */
+
+.menu {
+    margin-top: 10px;
+}
 
 .menu ul {
     list-style: none;
@@ -218,7 +221,7 @@ a:hover {
 .menu li a {
     display: block;
     padding: 6px 10px;
-    border-radius: 8px;
+    border-radius: 6px;
     font-size: 12px;
     color: #f0f0f0;
     border: 1px solid transparent;
@@ -226,8 +229,8 @@ a:hover {
 }
 
 .menu li a:hover {
-    background: rgba(255, 146, 201, 0.16);
-    border-color: rgba(255, 146, 201, 0.45);
+    background: rgba(255, 146, 201, 0.12);
+    border-color: rgba(255, 146, 201, 0.4);
     transform: translateY(-1px);
 }
 
@@ -242,7 +245,7 @@ a:hover {
     margin: 0 0 8px 0;
     font-size: 12px;
     color: #ffffff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     padding-bottom: 4px;
 }
 
@@ -265,13 +268,7 @@ a:hover {
 .nextandprevious {
     margin-top: 15px;
     font-size: 11px;
-}
-
-.nextandprevious a {
-    padding: 4px 8px;
-    border-radius: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    background: rgba(0, 0, 0, 0.35);
+    padding: 6px 8px;
 }
 
 /* ======= Copyright ======= */
@@ -284,7 +281,7 @@ a:hover {
 }
 
 .copyright a {
-    color: #b0b0b0;
+    color: #bbbbbb;
 }
 
 /* ======= Responsive (mobile & tablet) ======= */
@@ -293,7 +290,7 @@ a:hover {
     #container {
         width: 100%;
         margin: 0;
-        padding: 0 10px;
+        padding: 0 6px;
         box-sizing: border-box;
     }
 
@@ -306,26 +303,5 @@ a:hover {
 
     .profile img {
         max-width: 160px;
-    }
-
-    /* روی موبایل: fixed رو بردار که زیاد اذیت نکنه */
-    body {
-        background-attachment: scroll;
-    }
-
-    #content,
-    #sidebar,
-    .post,
-    .box,
-    .profile,
-    #headerbox,
-    #header,
-    .menu,
-    .nextandprevious,
-    .postinfo,
-    .copyright {
-        box-shadow:
-            0 8px 24px rgba(0, 0, 0, 0.7),
-            0 0 18px rgba(255, 146, 201, 0.16);
     }
 }
