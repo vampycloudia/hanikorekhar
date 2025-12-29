@@ -1,6 +1,12 @@
+// ===== Blogfa comments helper moved to GitHub =====
+
+var cmt_caption = Array.isArray(cmt_caption)
+    ? cmt_caption
+    : ["نظرات", "نظر بدهيد", "يک نظر", "نظر"];
+
+var cmt_blogid = typeof cmt_blogid === "string" ? cmt_blogid : "";
 var __cmt_updated = false;
 
-// رفرش کردن متن لینک نظرات برای هر پست
 function updatecomments() {
     var _cmts = [];
     var cnt = 0;
@@ -8,15 +14,15 @@ function updatecomments() {
     var url = "";
     var postid = 0;
 
-    if (!window.cmt_blogid) return;
+    if (cmt_blogid === "")
+        return;
 
     try {
-        if (typeof BlogComments === "undefined" || !BlogComments.length) {
-            return;
-        }
-
-        for (var c = 0; c < BlogComments.length; c += 2) {
-            _cmts["_" + BlogComments[c]] = BlogComments[c + 1];
+        // فقط اگر BlogComments وجود داشته باشد، مپ را پر کن
+        if (typeof BlogComments !== "undefined" && BlogComments && BlogComments.length) {
+            for (var c = 0; c < BlogComments.length; c += 2) {
+                _cmts["_" + BlogComments[c]] = BlogComments[c + 1];
+            }
         }
 
         var allelements = document.getElementsByTagName("*");
@@ -30,10 +36,10 @@ function updatecomments() {
                 else
                     cnt = -1;
 
-                if (cnt == -1) result = cmt_caption[0];
-                else if (cnt == 0) result = cmt_caption[1];
-                else if (cnt == 1) result = cmt_caption[2];
-                else if (cnt > 1) result = cnt + " " + cmt_caption[3];
+                if (cnt === -1)       result = cmt_caption[0];          // "نظرات"
+                else if (cnt === 0)  result = cmt_caption[1];          // "نظر بدهيد"
+                else if (cnt === 1)  result = cmt_caption[2];          // "يک نظر"
+                else if (cnt > 1)    result = cnt + " " + cmt_caption[3]; // "X نظر"
 
                 url = "/comments/?blogid=" + cmt_blogid + "&postid=" + postid;
 
@@ -41,20 +47,22 @@ function updatecomments() {
                     result =
                         "<a href=\"javascript:void(0)\" onclick=\"javascript:window.open('" +
                         url +
-                        "','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px')\" >" +
+                        "','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px')\">" +
                         result + " </a>";
                 else
-                    result = "<a href=\"" + url + "\"  >" + result + " </a>";
+                    result = "<a href=\"" + url + "\">" + result + " </a>";
 
                 allelements[i].innerHTML = result;
             }
         }
-    } catch (e) {}
+    } catch (e) {
+        // اگه هرچی خراب شد، صفحه منفجر نشه
+    }
 
     __cmt_updated = true;
 }
 
-// باز کردن آرشیو پیوندها
+// باز کردن آرشیو پیوندهای روزانه
 function openlinks() {
     if (getwindowwidth() < 700)
         return true;
