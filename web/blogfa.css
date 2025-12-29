@@ -1,0 +1,70 @@
+/* ======= Global layout ======= */
+
+body {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    direction: rtl;
+    font-family: tahoma, sans-serif;
+}
+
+/* ======= Glass panels (main boxes) ======= */
+
+#content,
+#sidebar,
+.post,
+.box,
+.profile {
+    background-color: rgba(0, 0, 0, 0.7) !important;  /* شیشه‌ای تیره */
+}
+
+/* ======= Remove default backgrounds ======= */
+
+#wrapper,
+#container,
+#headerbox,
+#header,
+.menu,
+.menu ul,
+.menu li,
+.menu li a,
+.nextandprevious,
+.postinfo,
+.copyright {
+    background: transparent !important;
+}
+
+/* ======= Borders & lines soft style ======= */
+
+.box,
+.post,
+#sidebar,
+#content {
+    border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* ======= Links ======= */
+
+a {
+    color: #ff92c9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======= Header ======= */
+
+#header h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header h2 {
+    color: #cccccc;
+    font-size: 11px;
+}
