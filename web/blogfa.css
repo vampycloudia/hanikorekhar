@@ -1,56 +1,59 @@
-/* ======= Global ======= */
+/* ======= Global layout ======= */
 html { scroll-behavior: smooth; }
-body { line-height: 1.7; }
 
-/* ======= Layout ======= */
-#container {
+body{
+  background-color:#050308;
+  color:#fff;
+  direction: rtl;
+  font-family:tahoma, sans-serif;
+  line-height:1.7;
+}
+
+/* ======= main wrapper & columns (desktop) ======= */
+#container{
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 0 6px;
-  box-sizing: border-box;
 }
 
-#content {
+#content{
   float: right;
   width: 620px;
   padding: 12px;
   box-sizing: border-box;
 }
 
-#sidebar {
+#sidebar{
   float: left;
   width: 260px;
   padding: 12px;
   box-sizing: border-box;
 }
 
-.clear { clear: both; }
+.clear{ clear: both; }
 
-/* ======= GLASS (نه سیاهِ خفه) ======= */
-:root{
-  --glass-bg: rgba(22, 10, 22, 0.22);  /* شفاف‌تر تا بک‌گراند معلوم باشه */
-  --glass-br: rgba(255,255,255,0.16);
-  --glass-sh: 0 14px 45px rgba(0,0,0,0.55), 0 0 34px rgba(255,146,201,0.14);
-  --glass-blur: 14px;
-}
-
+/* ======= Glass panels (REAL glass, not black) ======= */
 #content,
 #sidebar,
 .post,
 .box,
 .profile,
 .custombox,
-.nextandprevious {
-  background: var(--glass-bg) !important;
+.nextandprevious{
+  background-color: rgba(30, 12, 26, 0.22) !important; /* شفاف‌تر */
   border-radius: 12px;
-  border: 1px solid var(--glass-br);
-  box-shadow: var(--glass-sh);
-  backdrop-filter: blur(var(--glass-blur)) saturate(1.35);
-  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.35);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    0 14px 45px rgba(0,0,0,0.55),
+    0 0 28px rgba(255,146,201,0.14);
+
+  backdrop-filter: blur(14px) saturate(1.35);
+  -webkit-backdrop-filter: blur(14px) saturate(1.35);
+
+  position: relative;
 }
 
-/* ======= Remove Blogfa defaults ======= */
+/* ======= Remove default backgrounds ======= */
 #wrapper,
 #headerbox,
 #header,
@@ -59,62 +62,96 @@ body { line-height: 1.7; }
 .menu li,
 .menu li a,
 .postinfo,
-.copyright {
+.copyright{
   background: transparent !important;
 }
 
 /* ======= Links ======= */
-a {
-  color: #ff92c9;
-  text-decoration: none;
+a{
+  color:#ff92c9;
+  text-decoration:none;
   transition: color .15s ease, text-shadow .15s ease;
 }
-a:hover {
-  color: #ffd1ea;
-  text-shadow: 0 0 10px rgba(255,146,201,0.55);
+a:hover{
   text-decoration: underline;
+  color:#ffc6e5;
+  text-shadow: 0 0 10px rgba(255,146,201,0.55);
 }
-.postcontent a { color: #ffb0da; }
+.postcontent a{ color:#ffb0da; }
 
 /* ======= Header ======= */
 #header h1{
-  margin: 10px 0 4px;
+  margin: 10px 0 4px 0;
   font-size: 22px;
+  letter-spacing: .5px;
   text-align:center;
 }
 #header h1 a{
-  color:#fff;
-  text-shadow: 0 0 10px rgba(255,255,255,.25), 0 0 24px rgba(255,146,201,.35);
+  color:#ffffff;
+  text-decoration:none;
+  text-shadow: 0 0 10px rgba(255,255,255,0.25),
+              0 0 24px rgba(255,146,201,0.35);
 }
+#header h1 a:hover{ color:#ff92c9; }
+
 #header h2{
+  color:#dddddd;
   font-size: 11px;
   opacity: .85;
   text-align:center;
-  color:#ddd;
 }
 
 /* ======= Posts ======= */
-.post{ padding: 10px 10px 8px; }
-.post h2{ margin: 0 0 8px; font-size: 16px; }
+.post{
+  padding: 10px 10px 8px;
+}
+
+.post + .post{
+  margin-top: 18px;
+  border-top: 1px dashed rgba(255,255,255,0.10);
+  padding-top: 16px;
+}
+
+.post h2{
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
 .post h2 a{ color:#fff; }
 .post h2 a:hover{ color:#ff92c9; }
 
-.postbody{ font-size: 13px; color:#f3f3f3; }
+.postbody{
+  font-size: 13px;
+  color:#f3f3f3;
+}
+
 .postinfo{
   font-size: 11px;
   color:#cfcfcf;
   padding-top: 6px;
-  border-top: 1px solid rgba(255,255,255,.10);
+  border-top: 1px solid rgba(255,255,255,0.10);
   margin-top: 10px;
 }
 
-/* ======= Sidebar ======= */
-.profile{ text-align:center; padding: 10px; }
+/* ======= Tags / meta ======= */
+.posttags span{
+  font-size: 11px;
+  color:#bbbbbb;
+}
+.posttags a{
+  font-size: 11px;
+  color:#ffb8de;
+}
+
+/* ======= Sidebar / profile ======= */
+.profile{
+  text-align:center;
+  padding: 10px;
+}
 .profile img{
-  max-width: 100%;
-  border-radius: 50%;
-  border: 1px solid rgba(255,255,255,.22);
-  margin-bottom: 8px;
+  max-width:100%;
+  border-radius:50%;
+  margin-bottom:8px;
+  border:1px solid rgba(255,255,255,0.22);
 }
 
 /* ======= Menu ======= */
@@ -126,7 +163,7 @@ a:hover {
   border-radius: 8px;
   font-size: 12px;
   color:#f0f0f0;
-  border: 1px solid transparent;
+  border:1px solid transparent;
   transition: background .15s ease, border-color .15s ease, transform .08s ease;
 }
 .menu li a:hover{
@@ -136,31 +173,71 @@ a:hover {
 }
 
 /* ======= Boxes ======= */
-.box{ margin-top: 12px; padding: 10px; }
+.box{
+  margin-top: 12px;
+  padding: 10px;
+}
 .box h6{
-  margin: 0 0 8px;
+  margin: 0 0 8px 0;
   font-size: 12px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid rgba(255,255,255,.12);
   color:#fff;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  padding-bottom: 4px;
 }
 .box ul{ list-style:none; margin:0; padding:0; }
 .box li{ margin-bottom: 4px; }
 .box li a{ font-size: 11px; }
 
-/* ======= Responsive ======= */
+/* ======= Next/Prev ======= */
+.nextandprevious{
+  margin-top: 15px;
+  font-size: 11px;
+  padding: 8px 10px;
+}
+.nextandprevious a{
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.06);
+}
+
+/* ======= Copyright ======= */
+.copyright{
+  text-align:center;
+  font-size: 10px;
+  opacity: .65;
+  margin-top: 12px;
+}
+.copyright a{ color:#bbbbbb; }
+
+/* ======= Responsive (mobile & tablet) ======= */
 @media (max-width: 900px){
-  #container{ width:100%; margin:0; }
+  #container{
+    width:100%;
+    margin:0;
+    padding: 0 10px;
+    box-sizing:border-box;
+  }
+
   #content, #sidebar{
     float:none;
     width:100%;
-    margin: 0 0 12px 0;
+    margin:0 0 12px 0;
   }
 
-  /* موبایل: blur کمتر برای سبک‌تر شدن ولی همچنان بلوری */
-  :root{
-    --glass-bg: rgba(22, 10, 22, 0.20);
-    --glass-blur: 11px;
-    --glass-sh: 0 10px 28px rgba(0,0,0,0.45), 0 0 22px rgba(255,146,201,0.12);
+  /* موبایل: blur کمتر ولی هنوز glass */
+  #content,
+  #sidebar,
+  .post,
+  .box,
+  .profile,
+  .custombox,
+  .nextandprevious{
+    background-color: rgba(30, 12, 26, 0.18) !important;
+    backdrop-filter: blur(11px) saturate(1.25);
+    -webkit-backdrop-filter: blur(11px) saturate(1.25);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.45), 0 0 18px rgba(255,146,201,0.12);
   }
+
+  .profile img{ max-width: 160px; }
 }
